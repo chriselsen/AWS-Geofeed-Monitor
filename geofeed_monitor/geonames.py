@@ -1,7 +1,7 @@
-"""City name normalization using GeoNames cities15000 dataset.
+"""City name normalization using GeoNames cities1000 dataset.
 
 Used to normalize city names before comparing geofeed claims against
-geolocation provider results (problem 2). Not used for UN/LOCODE validation.
+geolocation provider results, and for location name validation.
 
 Maps alternate/local names to a canonical English name per country, so that
 e.g. 'Al Manamah' and 'Manama' both normalize to 'manama' for BH,
@@ -15,8 +15,8 @@ import unicodedata
 import zipfile
 from pathlib import Path
 
-GEONAMES_URL = "https://download.geonames.org/export/dump/cities15000.zip"
-GEONAMES_FILE = Path("./data/geonames/cities15000.zip")
+GEONAMES_URL = "https://download.geonames.org/export/dump/cities1000.zip"
+GEONAMES_FILE = Path("./data/geonames/cities1000.zip")
 CACHE_TTL = 86400 * 30  # refresh monthly
 
 _lookup = None  # (country_code, norm_name) -> norm_canonical
@@ -42,7 +42,7 @@ def _load_geonames():
 
     GEONAMES_FILE.parent.mkdir(parents=True, exist_ok=True)
     if not GEONAMES_FILE.exists() or (time.time() - GEONAMES_FILE.stat().st_mtime) > CACHE_TTL:
-        print("Downloading GeoNames cities15000...", flush=True)
+        print("Downloading GeoNames cities1000...", flush=True)
         subprocess.run(
             ["curl", "-sS", "-L", "--progress-bar", "-o", str(GEONAMES_FILE), GEONAMES_URL],
             check=True,
@@ -50,7 +50,7 @@ def _load_geonames():
 
     _lookup = {**_MANUAL_OVERRIDES}
     with zipfile.ZipFile(GEONAMES_FILE) as zf:
-        with zf.open("cities15000.txt") as f:
+        with zf.open("cities1000.txt") as f:
             for line in f:
                 cols = line.decode("utf-8", errors="replace").rstrip("\n").split("\t")
                 if len(cols) < 9:

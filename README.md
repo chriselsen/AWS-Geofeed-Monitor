@@ -1,23 +1,23 @@
 # Geofeed Monitor
 
-Monitors the accuracy of [RFC 8805 geofeeds](https://datatracker.ietf.org/doc/html/rfc8805) by validating geolocation claims against third-party geolocation databases, routing tables, the UN/LOCODE location registry, and RIR whois data.
+Monitors the accuracy of [RFC 8805 geofeeds](https://datatracker.ietf.org/doc/html/rfc8805) by validating geolocation claims against third-party geolocation databases, routing tables, the GeoNames location registry, and RIR whois data.
 
 ## What it does
 
 1. Fetches geofeed CSVs — lists of IP prefixes with their claimed country, subdivision, and city.
 2. Looks up each prefix in multiple geolocation providers (MaxMind GeoLite2, IPinfo Lite, IP2Location Lite) and compares the results.
-3. Validates each location entry against the [UN/LOCODE 2024-2](https://service.unece.org/trade/locode/loc242csv.zip) registry — checking that the city exists, belongs to the claimed country, and is in the correct subdivision.
+3. Validates each location entry against the [GeoNames cities1000](https://download.geonames.org/export/dump/cities1000.zip) dataset — checking that the city exists and belongs to the claimed country.
 4. Checks each prefix for visibility in the global routing table using [RIPE RIS](https://www.ripe.net/analyse/internet-measurements/routing-information-service-ris) whois dumps.
 5. Checks each prefix for a registered geofeed URL in RIR whois (RFC 9092/9632) using the [geolocatemuch.com](https://geolocatemuch.com/) validated prefix list.
 6. Generates self-contained HTML reports with:
    - Global accuracy statistics (by prefix and by address count)
    - Per-location breakdown with expandable prefix details
-   - UN/LOCODE validation warnings per location
+   - Location name validation warnings per location
    - Routing visibility indicators per prefix (visible / not visible / too specific)
    - Geofeed in RIR indicators per prefix (matches / mismatches / not registered)
    - Search by prefix or IP address
    - Filter to show only inaccurate entries
-7. Generates a landing page (`index.html`) with per-feed summary cards showing prefix count, accuracy, routing, UN/LOCODE, and Geofeed in RIR stats.
+7. Generates a landing page (`index.html`) with per-feed summary cards showing prefix count, accuracy, routing, location name, and Geofeed in RIR stats.
 8. Sends Slack alerts on detected changes or issues (see [Alerting](#alerting)).
 
 ## Monitored Geofeeds
@@ -67,15 +67,20 @@ Provider credentials are optional — if unset, that provider is skipped. Report
 
 ## Validation
 
-### UN/LOCODE
+### Location Name Validation
 
-Each geofeed location entry is validated against the official [UN/LOCODE 2024-2](https://service.unece.org/trade/locode/loc242csv.zip) dataset. The following issues are flagged with a warning icon on the location row:
+Each geofeed location entry is validated against the [GeoNames cities1000](https://download.geonames.org/export/dump/cities1000.zip) dataset (places with population ≥ 1,000). The following issues are flagged with a warning icon on the location row:
 
-- City name not found anywhere in UN/LOCODE
-- City found but not in the claimed country (e.g. Hong Kong claimed as `CN` instead of `HK`)
-- City found in the correct country but wrong subdivision (e.g. Frankfurt am Main in `DE-RP` instead of `DE-HE`)
+- City name not found anywhere in GeoNames (e.g. typos like "Colombus", "Abdijan")
+- City found but not in the claimed country (e.g. Hong Kong claimed as `CN` instead of `HK`) — with a "known in" hint
 
-City name matching is diacritic- and case-insensitive, and handles parenthetical alternate names (e.g. `Helsinki (Helsingfors)` matches `Helsinki`) and alias entries (e.g. `Copenhagen = København` matches `Copenhagen`).
+City name matching is diacritic- and case-insensitive and leverages GeoNames alternate names, so that local/alternate spellings (e.g. "München" / "Munich", "Tel Aviv-Yafo" / "Tel Aviv") are recognised correctly.
+
+You can run location validation standalone (without loading geolocation databases) via:
+
+```bash
+python3 validate-locode.py
+```
 
 ### Routing Visibility
 
@@ -116,7 +121,7 @@ Slack alerts are sent via webhooks on a per-feed, per-alert-type basis. Each ale
 | `REMOVED_PREFIX` | Prefixes removed from an existing location | `feed`, `location`, `country`, `prefix_count`, `prefixes` |
 | `ACCURACY_DROP` | Country or city accuracy dropped ≥5pp or fell below 80% | `feed`, `location`, `metric`, `previous_pct`, `current_pct`, `drop_pp` |
 | `UNROUTED` | A previously routed prefix is no longer visible | `feed`, `prefix`, `proto` |
-| `LOCODE` | A new UN/LOCODE violation was introduced | `feed`, `prefix`, `location`, `issue` |
+| `LOCODE` | A new location name issue was introduced | `feed`, `prefix`, `location`, `issue` |
 
 ### Webhook configuration
 
@@ -138,7 +143,7 @@ Sanctioned countries default to the OFAC comprehensive list: `IR`, `CU`, `KP`, `
 
 ### State
 
-Alert state is stored in `state/<feed>.json` and committed to the repository by the GitHub Action after each run. This tracks known locations, prefixes, routing status, and LOCODE issues to detect changes between runs.
+Alert state is stored in `state/<feed>.json` and committed to the repository by the GitHub Action after each run. This tracks known locations, prefixes, routing status, and location name issues to detect changes between runs.
 
 ## License
 

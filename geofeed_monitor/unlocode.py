@@ -1,95 +1,42 @@
-"""UN/LOCODE validation for geofeed entries."""
+"""Geofeed location validation using GeoNames cities1000.
 
-import csv
+Checks that the city name in a geofeed entry is recognised as a real place
+in the claimed country. Flags:
+  - City not found anywhere in GeoNames
+  - City found in GeoNames but not in the claimed country
+"""
+
 import functools
-import io
-import re
-import unicodedata
-import zipfile
-from collections import defaultdict
-from urllib.request import urlopen
 
-LOCODE_URL = "https://service.unece.org/trade/locode/loc242csv.zip"
-LOCODE_PARTS = [
-    "2024-2 UNLOCODE CodeListPart1.csv",
-    "2024-2 UNLOCODE CodeListPart2.csv",
-    "2024-2 UNLOCODE CodeListPart3.csv",
-]
-
-_db = None  # (country, norm_city) -> set of subdivision codes
+import geofeed_monitor.geonames as _gn
 
 
-_ARABIC_ARTICLES = re.compile(r'^(al|ad|an|ar|as|at|az|ash|ath)\s+', re.IGNORECASE)
-
-
-def _normalize(s):
-    s = re.sub(r'\s*\(.*?\)', '', s)   # strip parenthetical suffixes e.g. "Helsinki (Helsingfors)"
-    s = re.sub(r'\s*=.*', '', s)       # strip "= alternate name" suffixes
-    s = re.sub(r',.*', '', s)          # strip ", qualifier" suffixes e.g. "Jakarta, Java"
-    s = unicodedata.normalize("NFD", s).encode("ascii", "ignore").decode().strip().lower()
-    s = _ARABIC_ARTICLES.sub('', s)    # strip Arabic definite article
-    return s
-
-
-def load_locode():
-    global _db
-    if _db is not None:
-        return
-    print("Loading UN/LOCODE data...")
-    data = urlopen(LOCODE_URL).read()
-    db = defaultdict(set)
-    with zipfile.ZipFile(io.BytesIO(data)) as zf:
-        for part in LOCODE_PARTS:
-            text = zf.read(part).decode("latin-1")
-            for row in csv.reader(io.StringIO(text)):
-                if len(row) < 6:
-                    continue
-                country = row[1].strip()
-                location = row[2].strip()
-                name = row[4].strip()   # NameWoDiacritics
-                subdiv = row[5].strip()
-                if not country or not name:
-                    continue
-                norm = _normalize(name)
-                db[(country, norm)].add(subdiv)
-                # Also index parenthetical alias e.g. "Brussel (Bruxelles)" -> also index "bruxelles"
-                m = re.search(r'\(([^)]+)\)', name)
-                if m:
-                    alias = _normalize(m.group(1))
-                    if alias and alias != norm:
-                        db[(country, alias)].add(subdiv)
-    _db = db
-    print(f"  Loaded {len(_db)} UN/LOCODE entries")
+def _all_countries_for_city(norm_city):
+    """Return set of country codes where this normalised city name is known."""
+    _gn._load_geonames()
+    return {c for (c, n) in _gn._lookup if n == norm_city}
 
 
 @functools.lru_cache(maxsize=None)
 def validate_locode(gf_country, gf_subdiv, gf_city):
     """
-    Validate a geofeed entry against UN/LOCODE.
+    Validate a geofeed city/country pair against GeoNames.
     Returns a tuple of issue strings, empty if all OK or city is blank.
     """
     if not gf_city:
         return ()
 
-    load_locode()
-    norm_city = _normalize(gf_city)
+    _gn._load_geonames()
+    norm_city = _gn._norm(gf_city)
 
-    all_countries_for_city = {c: subdivs for (c, n), subdivs in _db.items() if n == norm_city}
+    # Check if this city is known in the claimed country
+    if _gn._lookup.get((gf_country, norm_city)) is not None:
+        return ()
 
-    if not all_countries_for_city:
-        return (f'City "{gf_city}" not found in UN/LOCODE',)
+    # Not found in the claimed country — check if it exists elsewhere
+    known_in = {c for (c, n) in _gn._lookup if n == norm_city}
+    if known_in:
+        known_str = ", ".join(sorted(known_in))
+        return (f'Unrecognized city name "{gf_city}" in {gf_country} (known in: {known_str})',)
 
-    # City exists but not in the claimed country
-    if gf_country not in all_countries_for_city:
-        known = ", ".join(sorted(all_countries_for_city.keys()))
-        return (f'City "{gf_city}" not found in country {gf_country} (known in: {known})',)
-
-    # Subdivision mismatch
-    if gf_subdiv:
-        subdiv_code = gf_subdiv.split("-", 1)[-1] if "-" in gf_subdiv else gf_subdiv
-        known_with_subdiv = {s for s in all_countries_for_city[gf_country] if s}
-        if known_with_subdiv and subdiv_code not in known_with_subdiv:
-            known_fmt = ", ".join(f"{gf_country}-{s}" for s in sorted(known_with_subdiv))
-            return (f'City "{gf_city}" not found in region {gf_subdiv} (known in: {known_fmt})',)
-
-    return ()
+    return (f'Unrecognized city name "{gf_city}"',)

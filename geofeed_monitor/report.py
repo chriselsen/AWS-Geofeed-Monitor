@@ -303,7 +303,7 @@ def generate_html(results, stats, has_mm, has_ip, has_i2l, has_dbip=False, has_i
   <div style="display:flex;align-items:center;gap:8px">
     <input type="text" id="prefixSearch" placeholder="Search prefix or IP&hellip;" class="search-box">
     <button class="filter-btn" id="filterInaccurate" title="Show only inaccurate locations">{XBOX_SVG}</button>
-    <button class="filter-btn" id="filterLocode" title="Show only locations with UN/LOCODE issues">{WARN_SVG}</button>
+    <button class="filter-btn" id="filterLocode" title="Show only locations with location name issues">{WARN_SVG}</button>
     <button class="filter-btn" id="filterUnrouted" title="Show only locations with unrouted prefixes">{ROUTE_SVG}</button>
     {'<button class="filter-btn" id="filterRir" title="Show only locations with Geofeed in RIR">'+RDAP_OK_SVG+'</button>' if feed.get('check_rdap') else ''}
   </div>
@@ -734,7 +734,7 @@ def generate_index(feeds, feed_stats):
   <span>{total:,} prefixes</span>
   <span>Country: <b class="{country_cls}">{country_pct}</b> &nbsp; City: <b class="{city_cls}">{city_pct}</b></span>
   <span>Routing: <b class="{route_cls}">{routed:,} visible</b>{f' / <b class="{route_cls}">{unrouted:,} not visible{unrouted_pct}</b>' if unrouted else ''}{f' / {too_specific:,} too specific' if too_specific else ''}</span>
-  <span>UN/LOCODE: <b class="{locode_cls}">{locode_errors:,} issue{'s' if locode_errors != 1 else ''}</b>{rfc9092_str}</span>
+  <span>Location names: <b class="{locode_cls}">{locode_errors:,} issue{'s' if locode_errors != 1 else ''}</b>{rfc9092_str}</span>
 </div>"""
         cards.append(
             f'<a class="feed-card" href="{href}"><div class="feed-logo">{logo_html}</div>'
