@@ -44,21 +44,14 @@
       "country_pct": 100.0,
       "city_pct": 100.0
     },
-    "Mumbai, IN": {
-      "country": "IN",
-      "prefixes": [
-        "2602:fb2a:f8::/46"
-      ],
-      "country_pct": 100.0,
-      "city_pct": 100.0
-    },
     "San Francisco, US": {
       "country": "US",
       "prefixes": [
-        "2602:fb2a:c8::/46"
+        "2602:fb2a:c8::/46",
+        "2602:fb2a:fe::/48"
       ],
-      "country_pct": 100.0,
-      "city_pct": 100.0
+      "country_pct": 50.0,
+      "city_pct": 50.0
     }
   },
   "prefixes": [
@@ -70,7 +63,7 @@
     "2602:fb2a:c8::/46",
     "2602:fb2a:cc::/46",
     "2602:fb2a:d0::/46",
-    "2602:fb2a:f8::/46",
+    "2602:fb2a:fe::/48",
     "2602:fb2a:ff::/48",
     "2a06:e881:7300::/40"
   ],
@@ -84,8 +77,8 @@
     "2001:678:1e8::/48": true,
     "2602:fb2a::/40": true,
     "185.197.135.0/24": true,
-    "2602:fb2a:f8::/46": true,
-    "2602:fb2a:c8::/46": true
+    "2602:fb2a:c8::/46": true,
+    "2602:fb2a:fe::/48": true
   },
   "locode_issues": {}
 }
