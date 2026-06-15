@@ -50,8 +50,8 @@
         "2602:fb2a:c8::/46",
         "2602:fb2a:fe::/48"
       ],
-      "country_pct": 70.0,
-      "city_pct": 50.0
+      "country_pct": 80.0,
+      "city_pct": 66.66666666666666
     }
   },
   "prefixes": [
