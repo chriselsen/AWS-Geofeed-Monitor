@@ -9,6 +9,7 @@ from .config import (
     MAXMIND_FAVICON_FILE, IPINFO_FAVICON_FILE, IP2LOCATION_FAVICON_FILE, DBIP_FAVICON_FILE, IPLOCATE_FAVICON_FILE,
 )
 from .stats import compute_pct
+from .timestamps import format_relative_time
 
 
 def _pct_cls(pct):
@@ -67,6 +68,32 @@ def match_cell(val, provider_val, provider_start=False, is_city=False):
         return f'<td class="good{ps}"><span title="{tooltip}" style="cursor:help" class="icon-ok">{CHECK_SVG}</span></td>'
     tooltip = f'{provider_val or "(none)"} ✗ does not match geofeed {gf_label}'
     return f'<td class="bad{ps}"><span title="{tooltip}" style="cursor:help" class="icon-bad">{XBOX_SVG}</span></td>'
+
+
+def _provider_timestamp_html(provider_changed_at, geofeed_changed_at):
+    """Render provider timestamp as a small line below the match icon.
+
+    Returns an HTML fragment (br + small element) to append inside a td cell.
+    """
+    if provider_changed_at is None:
+        return '<br><small style="font-size:10px;color:#879596" title="N/A">N/A</small>'
+
+    rel_time = format_relative_time(provider_changed_at)
+    return f'<br><small style="font-size:10px;color:#879596" title="{provider_changed_at}">{rel_time}</small>'
+
+
+def match_cell_with_timestamp(val, provider_val, provider_changed_at, geofeed_changed_at, provider_start=False, is_city=False):
+    """Render a match cell with provider timestamp indicator below the match icon."""
+    ps = " provider-start" if provider_start else ""
+    ts_html = _provider_timestamp_html(provider_changed_at, geofeed_changed_at)
+    if val is None:
+        return f'<td class="na{ps}">N/A{ts_html}</td>'
+    gf_label = "city" if is_city else "country"
+    if val:
+        tooltip = f'{provider_val} ✓ matches geofeed {gf_label}'
+        return f'<td class="good{ps}"><span title="{tooltip}" style="cursor:help" class="icon-ok">{CHECK_SVG}</span>{ts_html}</td>'
+    tooltip = f'{provider_val or "(none)"} ✗ does not match geofeed {gf_label}'
+    return f'<td class="bad{ps}"><span title="{tooltip}" style="cursor:help" class="icon-bad">{XBOX_SVG}</span>{ts_html}</td>'
 
 WARN_SVG = '<svg width="14" height="14"><use href="#icon-warn"/></svg>'
 CHECK_SVG = '<svg width="14" height="14"><use href="#icon-check"/></svg>'
@@ -177,7 +204,7 @@ def _build_topbar_logo(feed):
     return topbar_logo, favicon_uri
 
 
-def generate_html(results, stats, has_mm, has_ip, has_i2l, has_dbip=False, has_iplocate=False, feed=None):
+def generate_html(results, stats, has_mm, has_ip, has_i2l, has_dbip=False, has_iplocate=False, feed=None, change_tracking=None):
     topbar_logo, favicon_uri = _build_topbar_logo(feed)
     title = feed["title"]
     topbar_title = feed.get("topbar_title", title)
@@ -363,6 +390,7 @@ def generate_html(results, stats, has_mm, has_ip, has_i2l, has_dbip=False, has_i
 <thead>
 <tr>
   <th rowspan="2">Location <span id="locCounter" class="header-counter"></span> <span id="prefixCounter" class="header-counter"></span></th>
+  {'<th rowspan="2" class="sub-hdr">Last Changed</th>' if change_tracking is not None else ''}
   {'<th colspan="2" class="provider-hdr"><img src="' + mm_fav + '" alt="">MaxMind</th>' if has_mm else ''}
   {'<th colspan="2" class="provider-hdr"><img src="' + ip_fav + '" alt="">IPinfo</th>' if has_ip else ''}
   {'<th colspan="2" class="provider-hdr"><img src="' + dbip_fav + '" alt="">DB-IP</th>' if has_dbip else ''}
@@ -414,6 +442,8 @@ def generate_html(results, stats, has_mm, has_ip, has_i2l, has_dbip=False, has_i
         has_rir = 1 if feed.get("check_rdap") and any(r[19] is not None for r in loc_results) else 0
         html.append(f'<tr class="loc-row" data-loc="{loc_idx}" data-has-bad="{int(has_bad)}" data-has-locode="{has_locode}" data-has-unrouted="{has_unrouted}" data-has-rir="{has_rir}">')
         html.append(f"  <td>{flag}{display_name} <span class='loc-count' data-loc-count='{loc_idx}' data-total='{len(loc_results)}'>({len(loc_results)})</span> {locode_icon}{route_icon}{rdap_loc_icon} {loc_filter}</td>")
+        if change_tracking is not None:
+            html.append('  <td></td>')
         if has_mm:
             html.append(f"  {pct_cell(mm_c_pct, True)}{pct_cell(mm_ci_pct)}")
         if has_ip:
@@ -447,16 +477,46 @@ def generate_html(results, stats, has_mm, has_ip, has_i2l, has_dbip=False, has_i
             prefix_routed = "0" if (not routed and not too_specific) else "1"
             html.append(f'<tr class="prefix-row" data-loc="{loc_idx}" data-perfect="{int(perfect)}" data-prefix="{prefix}" data-routed="{prefix_routed}" data-has-rir="{prefix_rir}">')
             html.append(f"  <td>{prefix} <small>({proto}) &mdash; geofeed: {gf_label}</small> {route_icon}{rdap_icon}</td>")
+            if change_tracking is not None:
+                ct_entry = change_tracking.get(prefix)
+                geofeed_changed_at = ct_entry.get("geofeed_changed_at") if ct_entry else None
+                if geofeed_changed_at:
+                    rel_time = format_relative_time(geofeed_changed_at)
+                    html.append(f'  <td class="na" title="{geofeed_changed_at}">{rel_time}</td>')
+                else:
+                    html.append('  <td class="na">N/A</td>')
+                # Get provider timestamps for ingestion indicators
+                ct_providers = ct_entry.get("providers", {}) if ct_entry else {}
             if has_mm:
-                html.append(f"  {match_cell(mm_c_m, mm_c, True)}{match_cell(mm_ci_m, mm_ci, is_city=True)}")
+                if change_tracking is not None:
+                    mm_changed = ct_providers.get("maxmind", {}).get("changed_at")
+                    html.append(f"  {match_cell_with_timestamp(mm_c_m, mm_c, mm_changed, geofeed_changed_at, True)}{match_cell_with_timestamp(mm_ci_m, mm_ci, mm_changed, geofeed_changed_at, is_city=True)}")
+                else:
+                    html.append(f"  {match_cell(mm_c_m, mm_c, True)}{match_cell(mm_ci_m, mm_ci, is_city=True)}")
             if has_ip:
-                html.append(f'  {match_cell(ip_c_m, ip_c, True)}<td class="na">N/A</td>')
+                if change_tracking is not None:
+                    ip_changed = ct_providers.get("ipinfo", {}).get("changed_at")
+                    html.append(f'  {match_cell_with_timestamp(ip_c_m, ip_c, ip_changed, geofeed_changed_at, True)}<td class="na">N/A</td>')
+                else:
+                    html.append(f'  {match_cell(ip_c_m, ip_c, True)}<td class="na">N/A</td>')
             if has_dbip:
-                html.append(f"  {match_cell(dbip_c_m, dbip_c, True)}{match_cell(dbip_ci_m, dbip_ci, is_city=True)}")
+                if change_tracking is not None:
+                    dbip_changed = ct_providers.get("dbip", {}).get("changed_at")
+                    html.append(f"  {match_cell_with_timestamp(dbip_c_m, dbip_c, dbip_changed, geofeed_changed_at, True)}{match_cell_with_timestamp(dbip_ci_m, dbip_ci, dbip_changed, geofeed_changed_at, is_city=True)}")
+                else:
+                    html.append(f"  {match_cell(dbip_c_m, dbip_c, True)}{match_cell(dbip_ci_m, dbip_ci, is_city=True)}")
             if has_i2l:
-                html.append(f"  {match_cell(i2l_c_m, i2l_c, True)}{match_cell(i2l_ci_m, i2l_ci, is_city=True)}")
+                if change_tracking is not None:
+                    i2l_changed = ct_providers.get("ip2location", {}).get("changed_at")
+                    html.append(f"  {match_cell_with_timestamp(i2l_c_m, i2l_c, i2l_changed, geofeed_changed_at, True)}{match_cell_with_timestamp(i2l_ci_m, i2l_ci, i2l_changed, geofeed_changed_at, is_city=True)}")
+                else:
+                    html.append(f"  {match_cell(i2l_c_m, i2l_c, True)}{match_cell(i2l_ci_m, i2l_ci, is_city=True)}")
             if has_iplocate:
-                html.append(f'  {match_cell(iplocate_c_m, iplocate_c, True)}<td class="na">N/A</td>')
+                if change_tracking is not None:
+                    iplocate_changed = ct_providers.get("iplocate", {}).get("changed_at")
+                    html.append(f'  {match_cell_with_timestamp(iplocate_c_m, iplocate_c, iplocate_changed, geofeed_changed_at, True)}<td class="na">N/A</td>')
+                else:
+                    html.append(f'  {match_cell(iplocate_c_m, iplocate_c, True)}<td class="na">N/A</td>')
             html.append("</tr>")
 
     html.append("</tbody>")
@@ -466,6 +526,8 @@ def generate_html(results, stats, has_mm, has_ip, has_i2l, has_dbip=False, has_i
 
     def _foot_row(label, mm_c_key, mm_ci_key, ip_c_key, i2l_c_key, i2l_ci_key, dbip_c_key=None, dbip_ci_key=None, iplocate_c_key=None):
         row = f"<tr>{_foot_label(label)}"
+        if change_tracking is not None:
+            row += '<td></td>'
         if has_mm:
             row += pct_cell(stats.get(mm_c_key), True) + pct_cell(stats.get(mm_ci_key))
         if has_ip:

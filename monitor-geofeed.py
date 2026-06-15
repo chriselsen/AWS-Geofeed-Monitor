@@ -13,6 +13,7 @@ from geofeed_monitor.matching import validate_prefixes
 from geofeed_monitor.stats import compute_stats
 from geofeed_monitor.report import generate_html, generate_index
 from geofeed_monitor.alerting import check_and_alert, alert_unreachable
+from geofeed_monitor.timestamps import compute_timestamps
 
 STATE_DIR = Path("./state")
 
@@ -65,14 +66,17 @@ def main():
         locations = group_by_location(geofeed)
         print("Validating prefixes...")
         results = validate_prefixes(locations, mm_reader, ip_reader, i2l_reader, dbip_reader, iplocate_reader, feed.get("check_rdap", False))
+        prev_change_tracking = prev_state.get("change_tracking", {}) if prev_state else {}
+        change_tracking = compute_timestamps(geofeed, results, prev_change_tracking)
         stats = compute_stats(results, has_mm, has_ip, has_i2l)
         feed_stats.append(stats)
         print("Checking alerts...")
         new_state = check_and_alert(feed, results, stats, prev_state, has_mm, has_ip, has_i2l, has_dbip, has_iplocate)
+        new_state["change_tracking"] = change_tracking
         STATE_DIR.mkdir(exist_ok=True)
         state_file.write_text(json.dumps(new_state, indent=2))
         print("Generating HTML report...")
-        generate_html(results, stats, has_mm, has_ip, has_i2l, has_dbip, has_iplocate, feed)
+        generate_html(results, stats, has_mm, has_ip, has_i2l, has_dbip, has_iplocate, feed, change_tracking=change_tracking)
         print(f"Report written to {feed['output']}")
 
     if mm_reader:

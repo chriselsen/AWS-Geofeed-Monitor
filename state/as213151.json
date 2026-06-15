@@ -80,5 +80,392 @@
     "2602:fb2a:c8::/46": true,
     "2602:fb2a:fe::/48": true
   },
-  "locode_issues": {}
+  "locode_issues": {},
+  "change_tracking": {
+    "2a06:e881:7300::/40": {
+      "geofeed_values": {
+        "country": "DE",
+        "subdivision": "DE-HE",
+        "city": "Frankfurt am Main"
+      },
+      "geofeed_changed_at": "2026-06-15T23:49:40Z",
+      "providers": {
+        "maxmind": {
+          "country": "DE",
+          "city": "Frankfurt am Main",
+          "changed_at": "2026-06-15T23:49:40Z"
+        },
+        "ipinfo": {
+          "country": "DE",
+          "city": "",
+          "changed_at": "2026-06-15T23:49:40Z"
+        },
+        "ip2location": {
+          "country": "DE",
+          "city": "Frankfurt am Main",
+          "changed_at": "2026-06-15T23:49:40Z"
+        },
+        "dbip": {
+          "country": "DE",
+          "city": "Frankfurt am Main",
+          "changed_at": "2026-06-15T23:49:40Z"
+        },
+        "iplocate": {
+          "country": "DE",
+          "city": "",
+          "changed_at": "2026-06-15T23:49:40Z"
+        }
+      }
+    },
+    "2001:678:1e8::/48": {
+      "geofeed_values": {
+        "country": "DE",
+        "subdivision": "DE-HE",
+        "city": "Frankfurt am Main"
+      },
+      "geofeed_changed_at": "2026-06-15T23:49:40Z",
+      "providers": {
+        "maxmind": {
+          "country": "DE",
+          "city": "Frankfurt am Main",
+          "changed_at": "2026-06-15T23:49:40Z"
+        },
+        "ipinfo": {
+          "country": "DE",
+          "city": "",
+          "changed_at": "2026-06-15T23:49:40Z"
+        },
+        "ip2location": {
+          "country": "DE",
+          "city": "Frankfurt am Main",
+          "changed_at": "2026-06-15T23:49:40Z"
+        },
+        "dbip": {
+          "country": "DE",
+          "city": "Frankfurt am Main",
+          "changed_at": "2026-06-15T23:49:40Z"
+        },
+        "iplocate": {
+          "country": "DE",
+          "city": "",
+          "changed_at": "2026-06-15T23:49:40Z"
+        }
+      }
+    },
+    "2602:fb2a::/40": {
+      "geofeed_values": {
+        "country": "DE",
+        "subdivision": "DE-HE",
+        "city": "Frankfurt am Main"
+      },
+      "geofeed_changed_at": "2026-06-15T23:49:40Z",
+      "providers": {
+        "maxmind": {
+          "country": "DE",
+          "city": "Frankfurt am Main",
+          "changed_at": "2026-06-15T23:49:40Z"
+        },
+        "ipinfo": {
+          "country": "DE",
+          "city": "",
+          "changed_at": "2026-06-15T23:49:40Z"
+        },
+        "ip2location": {
+          "country": "DE",
+          "city": "Frankfurt am Main",
+          "changed_at": "2026-06-15T23:49:40Z"
+        },
+        "dbip": {
+          "country": "DE",
+          "city": "Frankfurt am Main",
+          "changed_at": "2026-06-15T23:49:40Z"
+        },
+        "iplocate": {
+          "country": "DE",
+          "city": "",
+          "changed_at": "2026-06-15T23:49:40Z"
+        }
+      }
+    },
+    "2602:fb2a:c0::/46": {
+      "geofeed_values": {
+        "country": "US",
+        "subdivision": "US-VA",
+        "city": "Ashburn"
+      },
+      "geofeed_changed_at": "2026-06-15T23:49:40Z",
+      "providers": {
+        "maxmind": {
+          "country": "US",
+          "city": "Ashburn",
+          "changed_at": "2026-06-15T23:49:40Z"
+        },
+        "ipinfo": {
+          "country": "US",
+          "city": "",
+          "changed_at": "2026-06-15T23:49:40Z"
+        },
+        "ip2location": {
+          "country": "US",
+          "city": "Ashburn",
+          "changed_at": "2026-06-15T23:49:40Z"
+        },
+        "dbip": {
+          "country": "US",
+          "city": "Ashburn",
+          "changed_at": "2026-06-15T23:49:40Z"
+        },
+        "iplocate": {
+          "country": "US",
+          "city": "",
+          "changed_at": "2026-06-15T23:49:40Z"
+        }
+      }
+    },
+    "2602:fb2a:c4::/46": {
+      "geofeed_values": {
+        "country": "US",
+        "subdivision": "US-OH",
+        "city": "Columbus"
+      },
+      "geofeed_changed_at": "2026-06-15T23:49:40Z",
+      "providers": {
+        "maxmind": {
+          "country": "US",
+          "city": "Columbus",
+          "changed_at": "2026-06-15T23:49:40Z"
+        },
+        "ipinfo": {
+          "country": "US",
+          "city": "",
+          "changed_at": "2026-06-15T23:49:40Z"
+        },
+        "ip2location": {
+          "country": "US",
+          "city": "Columbus",
+          "changed_at": "2026-06-15T23:49:40Z"
+        },
+        "dbip": {
+          "country": "US",
+          "city": "Columbus",
+          "changed_at": "2026-06-15T23:49:40Z"
+        },
+        "iplocate": {
+          "country": "US",
+          "city": "",
+          "changed_at": "2026-06-15T23:49:40Z"
+        }
+      }
+    },
+    "2602:fb2a:c8::/46": {
+      "geofeed_values": {
+        "country": "US",
+        "subdivision": "US-CA",
+        "city": "San Francisco"
+      },
+      "geofeed_changed_at": "2026-06-15T23:49:40Z",
+      "providers": {
+        "maxmind": {
+          "country": "US",
+          "city": "San Francisco",
+          "changed_at": "2026-06-15T23:49:40Z"
+        },
+        "ipinfo": {
+          "country": "US",
+          "city": "",
+          "changed_at": "2026-06-15T23:49:40Z"
+        },
+        "ip2location": {
+          "country": "US",
+          "city": "San Francisco",
+          "changed_at": "2026-06-15T23:49:40Z"
+        },
+        "dbip": {
+          "country": "US",
+          "city": "San Francisco",
+          "changed_at": "2026-06-15T23:49:40Z"
+        },
+        "iplocate": {
+          "country": "US",
+          "city": "",
+          "changed_at": "2026-06-15T23:49:40Z"
+        }
+      }
+    },
+    "2602:fb2a:cc::/46": {
+      "geofeed_values": {
+        "country": "US",
+        "subdivision": "US-OR",
+        "city": "Boardman"
+      },
+      "geofeed_changed_at": "2026-06-15T23:49:40Z",
+      "providers": {
+        "maxmind": {
+          "country": "US",
+          "city": "Boardman",
+          "changed_at": "2026-06-15T23:49:40Z"
+        },
+        "ipinfo": {
+          "country": "US",
+          "city": "",
+          "changed_at": "2026-06-15T23:49:40Z"
+        },
+        "ip2location": {
+          "country": "US",
+          "city": "Boardman",
+          "changed_at": "2026-06-15T23:49:40Z"
+        },
+        "dbip": {
+          "country": "US",
+          "city": "Boardman",
+          "changed_at": "2026-06-15T23:49:40Z"
+        },
+        "iplocate": {
+          "country": "US",
+          "city": "",
+          "changed_at": "2026-06-15T23:49:40Z"
+        }
+      }
+    },
+    "2602:fb2a:d0::/46": {
+      "geofeed_values": {
+        "country": "NZ",
+        "subdivision": "NZ-AUK",
+        "city": "Auckland"
+      },
+      "geofeed_changed_at": "2026-06-15T23:49:40Z",
+      "providers": {
+        "maxmind": {
+          "country": "NZ",
+          "city": "Auckland",
+          "changed_at": "2026-06-15T23:49:40Z"
+        },
+        "ipinfo": {
+          "country": "NZ",
+          "city": "",
+          "changed_at": "2026-06-15T23:49:40Z"
+        },
+        "ip2location": {
+          "country": "NZ",
+          "city": "Auckland",
+          "changed_at": "2026-06-15T23:49:40Z"
+        },
+        "dbip": {
+          "country": "NZ",
+          "city": "Auckland",
+          "changed_at": "2026-06-15T23:49:40Z"
+        },
+        "iplocate": {
+          "country": "NZ",
+          "city": "",
+          "changed_at": "2026-06-15T23:49:40Z"
+        }
+      }
+    },
+    "2602:fb2a:fe::/48": {
+      "geofeed_values": {
+        "country": "US",
+        "subdivision": "US-CA",
+        "city": "San Francisco"
+      },
+      "geofeed_changed_at": "2026-06-15T23:49:40Z",
+      "providers": {
+        "maxmind": {
+          "country": "DE",
+          "city": "Frankfurt am Main",
+          "changed_at": "2026-06-15T23:49:40Z"
+        },
+        "ipinfo": {
+          "country": "US",
+          "city": "",
+          "changed_at": "2026-06-15T23:49:40Z"
+        },
+        "ip2location": {
+          "country": "US",
+          "city": "San Francisco",
+          "changed_at": "2026-06-15T23:49:40Z"
+        },
+        "dbip": {
+          "country": "DE",
+          "city": "Frankfurt am Main",
+          "changed_at": "2026-06-15T23:49:40Z"
+        },
+        "iplocate": {
+          "country": "US",
+          "city": "",
+          "changed_at": "2026-06-15T23:49:40Z"
+        }
+      }
+    },
+    "2602:fb2a:ff::/48": {
+      "geofeed_values": {
+        "country": "US",
+        "subdivision": "US-VA",
+        "city": "Ashburn"
+      },
+      "geofeed_changed_at": "2026-06-15T23:49:40Z",
+      "providers": {
+        "maxmind": {
+          "country": "US",
+          "city": "Ashburn",
+          "changed_at": "2026-06-15T23:49:40Z"
+        },
+        "ipinfo": {
+          "country": "US",
+          "city": "",
+          "changed_at": "2026-06-15T23:49:40Z"
+        },
+        "ip2location": {
+          "country": "US",
+          "city": "Ashburn",
+          "changed_at": "2026-06-15T23:49:40Z"
+        },
+        "dbip": {
+          "country": "US",
+          "city": "Ashburn",
+          "changed_at": "2026-06-15T23:49:40Z"
+        },
+        "iplocate": {
+          "country": "US",
+          "city": "",
+          "changed_at": "2026-06-15T23:49:40Z"
+        }
+      }
+    },
+    "185.197.135.0/24": {
+      "geofeed_values": {
+        "country": "DE",
+        "subdivision": "DE-HE",
+        "city": "Frankfurt am Main"
+      },
+      "geofeed_changed_at": "2026-06-15T23:49:40Z",
+      "providers": {
+        "maxmind": {
+          "country": "DE",
+          "city": "Frankfurt am Main",
+          "changed_at": "2026-06-15T23:49:40Z"
+        },
+        "ipinfo": {
+          "country": "DE",
+          "city": "",
+          "changed_at": "2026-06-15T23:49:40Z"
+        },
+        "ip2location": {
+          "country": "DE",
+          "city": "Frankfurt am Main",
+          "changed_at": "2026-06-15T23:49:40Z"
+        },
+        "dbip": {
+          "country": "DE",
+          "city": "Frankfurt am Main",
+          "changed_at": "2026-06-15T23:49:40Z"
+        },
+        "iplocate": {
+          "country": "DE",
+          "city": "",
+          "changed_at": "2026-06-15T23:49:40Z"
+        }
+      }
+    }
+  }
 }

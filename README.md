@@ -5,20 +5,22 @@ Monitors the accuracy of [RFC 8805 geofeeds](https://datatracker.ietf.org/doc/ht
 ## What it does
 
 1. Fetches geofeed CSVs — lists of IP prefixes with their claimed country, subdivision, and city.
-2. Looks up each prefix in multiple geolocation providers (MaxMind GeoLite2, IPinfo Lite, IP2Location Lite) and compares the results.
+2. Looks up each prefix in multiple geolocation providers (MaxMind GeoLite2, IPinfo Lite, IP2Location Lite, DB-IP City Lite, IPLocate) and compares the results.
 3. Validates each location entry against the [GeoNames cities1000](https://download.geonames.org/export/dump/cities1000.zip) dataset — checking that the city exists and belongs to the claimed country.
 4. Checks each prefix for visibility in the global routing table using [RIPE RIS](https://www.ripe.net/analyse/internet-measurements/routing-information-service-ris) whois dumps.
-5. Checks each prefix for a registered geofeed URL in RIR whois (RFC 9092/9632) using the [geolocatemuch.com](https://geolocatemuch.com/) validated prefix list.
-6. Generates self-contained HTML reports with:
+5. Checks each prefix for a registered geofeed URL in RIR whois (RFC 9092/9632) using the [geolocatemuch.com](https://geolocatemuch.com/) validated prefix list and [ARIN Bulk Whois](https://www.arin.net/reference/research/bulkwhois/) data as fallback.
+6. Tracks when geofeed source data and provider data last changed for each prefix, showing ingestion lag indicators.
+7. Generates self-contained HTML reports with:
    - Global accuracy statistics (by prefix and by address count)
    - Per-location breakdown with expandable prefix details
    - Location name validation warnings per location
    - Routing visibility indicators per prefix (visible / not visible / too specific)
    - Geofeed in RIR indicators per prefix (matches / mismatches / not registered)
+   - Change timestamps with relative time display and provider ingestion status
    - Search by prefix or IP address
    - Filter to show only inaccurate entries
-7. Generates a landing page (`index.html`) with per-feed summary cards showing prefix count, accuracy, routing, location name, and Geofeed in RIR stats.
-8. Sends Slack alerts on detected changes or issues (see [Alerting](#alerting)).
+8. Generates a landing page (`index.html`) with per-feed summary cards showing prefix count, accuracy, routing, location name, and Geofeed in RIR stats.
+9. Sends Slack alerts on detected changes or issues (see [Alerting](#alerting)).
 
 ## Monitored Geofeeds
 
@@ -96,6 +98,8 @@ Prefixes more specific than `/24` (IPv4) or `/48` (IPv6) are marked as too speci
 
 Each prefix is checked against the [geolocatemuch.com](https://geolocatemuch.com/geofeeds/validated-all.csv) daily-updated validated prefix list (sourced from all RIR whois databases). If a prefix is found, its registered geofeed URL is retrieved via RDAP and compared to the monitored feed URL. Results are cached locally to avoid repeated RDAP queries.
 
+**ARIN Bulk Whois Fallback:** If the `ARIN_API_KEY` environment variable is set, the monitor downloads the [ARIN Bulk Whois](https://www.arin.net/reference/research/bulkwhois/) nets file (cached for 24 hours) and extracts geofeed URLs from network record comments. This covers prefixes that geolocatemuch.com hasn't indexed yet, including child prefixes that inherit the geofeed URL from a parent allocation. The bulk whois data is only used as a fallback when a prefix is not found in the geolocatemuch.com validated list.
+
 Per-prefix indicators:
 - 🟢 Green shield — geofeed URL in RIR whois matches the monitored feed URL
 - 🟡 Amber shield — geofeed URL in RIR whois points to a different URL
@@ -104,6 +108,13 @@ Per-prefix indicators:
 Per-location summary icons reflect the proportion of prefixes with registered geofeed entries.
 
 This check is opt-in per feed via the `check_rdap` config key. Currently enabled for: AWS (Official), AS213151.
+
+### Change Timestamps
+
+The monitor tracks when geofeed source data and provider data last changed for each prefix. On each run, current values are compared against previously stored values in the state file.
+
+- **Last Changed column** — shows when the geofeed data (country, subdivision, or city) last changed for each prefix, displayed as a relative time (e.g. "5 days ago") with full ISO timestamp on hover. Shows "N/A" until a change is detected.
+- **Provider timestamps** — below each provider match cell, shows when that provider last changed its data for the prefix as a relative time (e.g. "3 days ago") with full ISO timestamp on hover.
 
 ## Alerting
 
