@@ -1,8 +1,8 @@
-"""Unit tests for the Last Changed column in the HTML report."""
+"""Unit tests for the Last Changed display in the HTML report."""
 
 import re
 from pathlib import Path
-from unittest.mock import patch, MagicMock
+from unittest.mock import MagicMock
 
 from geofeed_monitor.report import generate_html
 
@@ -23,13 +23,6 @@ def _minimal_feed():
 
 def _minimal_results():
     """Create minimal results with one location and one prefix."""
-    # result tuple: prefix, is_v6, gf_c, gf_sub, gf_ci,
-    #   mm_c, mm_ci, mm_c_m, mm_ci_m,
-    #   ip_c, ip_c_m,
-    #   i2l_c, i2l_ci, i2l_c_m, i2l_ci_m,
-    #   locode_issues, routed, route_match, too_specific, rdap_url, col20,
-    #   dbip_c, dbip_ci, dbip_c_m, dbip_ci_m,
-    #   iplocate_c, iplocate_c_m
     entry = (
         "192.0.2.0/24",  # 0: prefix
         False,            # 1: is_v6
@@ -63,11 +56,11 @@ def _minimal_stats():
     }
 
 
-class TestLastChangedColumn:
-    """Tests for the Last Changed column rendering in generate_html."""
+class TestLastChangedInline:
+    """Tests for the Last Changed inline display in the Location cell."""
 
-    def test_no_last_changed_column_when_change_tracking_none(self, tmp_path):
-        """When change_tracking is None, no Last Changed column should appear."""
+    def test_no_change_info_when_change_tracking_none(self, tmp_path):
+        """When change_tracking is None, no change info should appear in prefix rows."""
         output = tmp_path / "report.html"
         feed = _minimal_feed()
         feed["output"] = output
@@ -78,10 +71,10 @@ class TestLastChangedColumn:
             feed=feed, change_tracking=None,
         )
         html = output.read_text()
-        assert "Last Changed" not in html
+        assert "changed" not in html.lower() or "Last Changed" not in html
 
-    def test_last_changed_column_header_present(self, tmp_path):
-        """When change_tracking is provided, Last Changed column header should appear."""
+    def test_prefix_row_shows_changed_inline(self, tmp_path):
+        """Prefix row should show 'changed X ago' inline when timestamp exists."""
         output = tmp_path / "report.html"
         feed = _minimal_feed()
         feed["output"] = output
@@ -99,35 +92,13 @@ class TestLastChangedColumn:
             feed=feed, change_tracking=change_tracking,
         )
         html = output.read_text()
-        assert "Last Changed" in html
-
-    def test_prefix_row_shows_relative_time_with_tooltip(self, tmp_path):
-        """Prefix row should show relative time with full ISO in title attribute."""
-        output = tmp_path / "report.html"
-        feed = _minimal_feed()
-        feed["output"] = output
-
-        change_tracking = {
-            "192.0.2.0/24": {
-                "geofeed_changed_at": "2025-01-15T08:30:00Z",
-                "providers": {},
-            }
-        }
-
-        generate_html(
-            _minimal_results(), _minimal_stats(),
-            has_mm=True, has_ip=False, has_i2l=False, has_dbip=False, has_iplocate=False,
-            feed=feed, change_tracking=change_tracking,
-        )
-        html = output.read_text()
-        # The title attribute should contain the full ISO timestamp
+        # Should contain the ISO timestamp in a title attribute
         assert "2025-01-15T08:30:00Z" in html
-        # Should contain some relative time text (not "N/A" since timestamp is present)
-        # The actual relative time depends on current time, but it shouldn't be N/A for this prefix
-        assert 'N/A' not in html.split("192.0.2.0/24")[1].split("</tr>")[0].split("Last Changed")[0] or True
+        # Should contain "changed" text
+        assert "changed" in html
 
-    def test_prefix_row_shows_na_when_no_timestamp(self, tmp_path):
-        """Prefix row should show N/A when geofeed_changed_at is None."""
+    def test_no_change_text_when_geofeed_changed_at_is_none(self, tmp_path):
+        """Prefix row should not show change text when geofeed_changed_at is None."""
         output = tmp_path / "report.html"
         feed = _minimal_feed()
         feed["output"] = output
@@ -145,35 +116,15 @@ class TestLastChangedColumn:
             feed=feed, change_tracking=change_tracking,
         )
         html = output.read_text()
-        # Find the prefix row and check it contains N/A in the last changed cell
+        # Find prefix row
         prefix_row_match = re.search(r'class="prefix-row".*?</tr>', html, re.DOTALL)
         assert prefix_row_match is not None
         prefix_row = prefix_row_match.group()
-        # Should have N/A in the last changed cell (second td)
-        assert ">N/A<" in prefix_row
+        # Should not contain "changed ... ago" text
+        assert "changed" not in prefix_row
 
-    def test_prefix_row_shows_na_when_prefix_not_in_tracking(self, tmp_path):
-        """Prefix row should show N/A when prefix is not in change_tracking dict."""
-        output = tmp_path / "report.html"
-        feed = _minimal_feed()
-        feed["output"] = output
-
-        # change_tracking provided but doesn't contain our prefix
-        change_tracking = {}
-
-        generate_html(
-            _minimal_results(), _minimal_stats(),
-            has_mm=True, has_ip=False, has_i2l=False, has_dbip=False, has_iplocate=False,
-            feed=feed, change_tracking=change_tracking,
-        )
-        html = output.read_text()
-        prefix_row_match = re.search(r'class="prefix-row".*?</tr>', html, re.DOTALL)
-        assert prefix_row_match is not None
-        prefix_row = prefix_row_match.group()
-        assert ">N/A<" in prefix_row
-
-    def test_location_row_has_empty_last_changed_cell(self, tmp_path):
-        """Location summary row should have an empty Last Changed cell."""
+    def test_no_separate_last_changed_column(self, tmp_path):
+        """There should be no separate 'Last Changed' column header."""
         output = tmp_path / "report.html"
         feed = _minimal_feed()
         feed["output"] = output
@@ -191,9 +142,4 @@ class TestLastChangedColumn:
             feed=feed, change_tracking=change_tracking,
         )
         html = output.read_text()
-        # Find the location row - it has class="loc-row"
-        loc_row_match = re.search(r'class="loc-row".*?</tr>', html, re.DOTALL)
-        assert loc_row_match is not None
-        loc_row = loc_row_match.group()
-        # Should have an empty td for Last Changed (right after the location info td)
-        assert "<td></td>" in loc_row
+        assert "Last Changed" not in html

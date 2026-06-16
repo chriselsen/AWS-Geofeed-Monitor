@@ -390,7 +390,6 @@ def generate_html(results, stats, has_mm, has_ip, has_i2l, has_dbip=False, has_i
 <thead>
 <tr>
   <th rowspan="2">Location <span id="locCounter" class="header-counter"></span> <span id="prefixCounter" class="header-counter"></span></th>
-  {'<th rowspan="2" class="sub-hdr">Last Changed</th>' if change_tracking is not None else ''}
   {'<th colspan="2" class="provider-hdr"><img src="' + mm_fav + '" alt="">MaxMind</th>' if has_mm else ''}
   {'<th colspan="2" class="provider-hdr"><img src="' + ip_fav + '" alt="">IPinfo</th>' if has_ip else ''}
   {'<th colspan="2" class="provider-hdr"><img src="' + dbip_fav + '" alt="">DB-IP</th>' if has_dbip else ''}
@@ -442,8 +441,6 @@ def generate_html(results, stats, has_mm, has_ip, has_i2l, has_dbip=False, has_i
         has_rir = 1 if feed.get("check_rdap") and any(r[19] is not None for r in loc_results) else 0
         html.append(f'<tr class="loc-row" data-loc="{loc_idx}" data-has-bad="{int(has_bad)}" data-has-locode="{has_locode}" data-has-unrouted="{has_unrouted}" data-has-rir="{has_rir}">')
         html.append(f"  <td>{flag}{display_name} <span class='loc-count' data-loc-count='{loc_idx}' data-total='{len(loc_results)}'>({len(loc_results)})</span> {locode_icon}{route_icon}{rdap_loc_icon} {loc_filter}</td>")
-        if change_tracking is not None:
-            html.append('  <td></td>')
         if has_mm:
             html.append(f"  {pct_cell(mm_c_pct, True)}{pct_cell(mm_ci_pct)}")
         if has_ip:
@@ -476,17 +473,19 @@ def generate_html(results, stats, has_mm, has_ip, has_i2l, has_dbip=False, has_i
             prefix_rir = "1" if rdap_url is not None else "0"
             prefix_routed = "0" if (not routed and not too_specific) else "1"
             html.append(f'<tr class="prefix-row" data-loc="{loc_idx}" data-perfect="{int(perfect)}" data-prefix="{prefix}" data-routed="{prefix_routed}" data-has-rir="{prefix_rir}">')
-            html.append(f"  <td>{prefix} <small>({proto}) &mdash; geofeed: {gf_label}</small> {route_icon}{rdap_icon}</td>")
             if change_tracking is not None:
                 ct_entry = change_tracking.get(prefix)
                 geofeed_changed_at = ct_entry.get("geofeed_changed_at") if ct_entry else None
                 if geofeed_changed_at:
                     rel_time = format_relative_time(geofeed_changed_at)
-                    html.append(f'  <td class="na" title="{geofeed_changed_at}">{rel_time}</td>')
+                    last_changed_html = f'<br><small style="font-size:10px;color:#879596" title="{geofeed_changed_at}">changed {rel_time}</small>'
                 else:
-                    html.append('  <td class="na">N/A</td>')
-                # Get provider timestamps for ingestion indicators
+                    last_changed_html = ''
+                # Get provider timestamps
                 ct_providers = ct_entry.get("providers", {}) if ct_entry else {}
+            else:
+                last_changed_html = ''
+            html.append(f"  <td>{prefix} <small>({proto}) &mdash; geofeed: {gf_label}</small> {route_icon}{rdap_icon}{last_changed_html}</td>")
             if has_mm:
                 if change_tracking is not None:
                     mm_changed = ct_providers.get("maxmind", {}).get("changed_at")
@@ -526,8 +525,6 @@ def generate_html(results, stats, has_mm, has_ip, has_i2l, has_dbip=False, has_i
 
     def _foot_row(label, mm_c_key, mm_ci_key, ip_c_key, i2l_c_key, i2l_ci_key, dbip_c_key=None, dbip_ci_key=None, iplocate_c_key=None):
         row = f"<tr>{_foot_label(label)}"
-        if change_tracking is not None:
-            row += '<td></td>'
         if has_mm:
             row += pct_cell(stats.get(mm_c_key), True) + pct_cell(stats.get(mm_ci_key))
         if has_ip:
