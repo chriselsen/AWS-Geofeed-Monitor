@@ -87,7 +87,7 @@
         "8.34.211.0/24",
         "8.34.220.0/22"
       ],
-      "country_pct": 99.27272727272727,
+      "country_pct": 98.9090909090909,
       "city_pct": 99.39024390243902
     },
     "Columbus, US": {
@@ -230,7 +230,7 @@
         "8.35.192.0/21"
       ],
       "country_pct": 99.81981981981983,
-      "city_pct": 99.09365558912387
+      "city_pct": 99.09638554216868
     },
     "Dallas, US": {
       "country": "US",
@@ -512,7 +512,7 @@
         "8.232.0.0/15"
       ],
       "country_pct": 100.0,
-      "city_pct": 98.26086956521739
+      "city_pct": 98.3739837398374
     },
     "Lappeenranta, FI": {
       "country": "FI",
@@ -1399,7 +1399,7 @@
         "8.234.2.0/24"
       ],
       "country_pct": 99.62264150943396,
-      "city_pct": 33.97435897435898
+      "city_pct": 35.22012578616352
     },
     "Zurich, CH": {
       "country": "CH",
@@ -27501,8 +27501,8 @@
       "providers": {
         "maxmind": {
           "country": "US",
-          "city": "",
-          "changed_at": "2026-06-15T23:49:26Z"
+          "city": "Kansas City",
+          "changed_at": "2026-06-17T00:43:23Z"
         },
         "ipinfo": {
           "country": "US",
@@ -28026,8 +28026,8 @@
       "providers": {
         "maxmind": {
           "country": "US",
-          "city": "",
-          "changed_at": "2026-06-15T23:49:26Z"
+          "city": "Kansas City",
+          "changed_at": "2026-06-17T00:43:23Z"
         },
         "ipinfo": {
           "country": "US",
@@ -28061,8 +28061,8 @@
       "providers": {
         "maxmind": {
           "country": "US",
-          "city": "",
-          "changed_at": "2026-06-15T23:49:26Z"
+          "city": "Kansas City",
+          "changed_at": "2026-06-17T00:43:23Z"
         },
         "ipinfo": {
           "country": "US",
@@ -28096,8 +28096,8 @@
       "providers": {
         "maxmind": {
           "country": "US",
-          "city": "",
-          "changed_at": "2026-06-15T23:49:26Z"
+          "city": "Kansas City",
+          "changed_at": "2026-06-17T00:43:23Z"
         },
         "ipinfo": {
           "country": "US",
@@ -31596,8 +31596,8 @@
       "providers": {
         "maxmind": {
           "country": "US",
-          "city": "",
-          "changed_at": "2026-06-15T23:49:26Z"
+          "city": "Kansas City",
+          "changed_at": "2026-06-17T00:43:23Z"
         },
         "ipinfo": {
           "country": "US",
@@ -36181,8 +36181,8 @@
       "providers": {
         "maxmind": {
           "country": "US",
-          "city": "",
-          "changed_at": "2026-06-15T23:49:26Z"
+          "city": "Kansas City",
+          "changed_at": "2026-06-17T00:43:23Z"
         },
         "ipinfo": {
           "country": "US",
@@ -36356,8 +36356,8 @@
       "providers": {
         "maxmind": {
           "country": "US",
-          "city": "",
-          "changed_at": "2026-06-15T23:49:26Z"
+          "city": "Kansas City",
+          "changed_at": "2026-06-17T00:43:23Z"
         },
         "ipinfo": {
           "country": "US",
@@ -36391,8 +36391,8 @@
       "providers": {
         "maxmind": {
           "country": "US",
-          "city": "",
-          "changed_at": "2026-06-15T23:49:26Z"
+          "city": "Kansas City",
+          "changed_at": "2026-06-17T00:43:23Z"
         },
         "ipinfo": {
           "country": "US",
@@ -36706,8 +36706,8 @@
       "providers": {
         "maxmind": {
           "country": "US",
-          "city": "",
-          "changed_at": "2026-06-15T23:49:26Z"
+          "city": "Washington",
+          "changed_at": "2026-06-17T00:43:23Z"
         },
         "ipinfo": {
           "country": "US",
@@ -36951,8 +36951,8 @@
       "providers": {
         "maxmind": {
           "country": "US",
-          "city": "",
-          "changed_at": "2026-06-15T23:49:26Z"
+          "city": "Washington",
+          "changed_at": "2026-06-17T00:43:23Z"
         },
         "ipinfo": {
           "country": "US",
@@ -36986,8 +36986,8 @@
       "providers": {
         "maxmind": {
           "country": "US",
-          "city": "",
-          "changed_at": "2026-06-15T23:49:26Z"
+          "city": "Washington",
+          "changed_at": "2026-06-17T00:43:23Z"
         },
         "ipinfo": {
           "country": "US",
@@ -37021,8 +37021,8 @@
       "providers": {
         "maxmind": {
           "country": "US",
-          "city": "",
-          "changed_at": "2026-06-15T23:49:26Z"
+          "city": "Council Bluffs",
+          "changed_at": "2026-06-17T00:43:23Z"
         },
         "ipinfo": {
           "country": "US",
@@ -38090,9 +38090,9 @@
           "changed_at": "2026-06-15T23:49:26Z"
         },
         "iplocate": {
-          "country": "BE",
+          "country": "US",
           "city": "",
-          "changed_at": "2026-06-15T23:49:26Z"
+          "changed_at": "2026-06-17T00:43:23Z"
         }
       }
     },
