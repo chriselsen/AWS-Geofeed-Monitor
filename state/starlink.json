@@ -471,7 +471,7 @@
         "2a0d:3341:cb00::/40",
         "2a0d:3341:de00::/40"
       ],
-      "country_pct": 97.5,
+      "country_pct": 100.0,
       "city_pct": 100.0
     },
     "Baku, AZ": {
@@ -2592,7 +2592,7 @@
         "2605:59c0:900::/40",
         "74.244.82.0/24"
       ],
-      "country_pct": 100.0,
+      "country_pct": 96.66666666666667,
       "city_pct": 100.0
     },
     "Kolkata, IN": {
@@ -2691,7 +2691,7 @@
         "2620:134:b054:100::79/128",
         "2a0d:3341:d500::/40"
       ],
-      "country_pct": 71.42857142857143,
+      "country_pct": 68.57142857142857,
       "city_pct": 57.89473684210527
     },
     "Kyiv, UA": {
@@ -3702,7 +3702,7 @@
         "9.246.8.0/24",
         "9.246.9.0/24"
       ],
-      "country_pct": 88.88888888888889,
+      "country_pct": 89.44444444444444,
       "city_pct": 84.76190476190476
     },
     "Milwaukee, US": {
@@ -4745,7 +4745,7 @@
         "153.67.94.0/24",
         "153.67.95.0/24"
       ],
-      "country_pct": 80.0,
+      "country_pct": 100.0,
       "city_pct": 50.0
     },
     "Reykjavik, IS": {
@@ -5979,7 +5979,7 @@
         "116.91.215.0/24",
         "2406:2d40:a200::/40"
       ],
-      "country_pct": 100.0,
+      "country_pct": 93.33333333333333,
       "city_pct": 66.66666666666666
     },
     "Yerevan, AM": {
@@ -35742,9 +35742,9 @@
           "changed_at": "2026-06-15T23:49:41Z"
         },
         "iplocate": {
-          "country": "NR",
+          "country": "NZ",
           "city": "",
-          "changed_at": "2026-06-15T23:49:41Z"
+          "changed_at": "2026-06-18T00:44:37Z"
         }
       }
     },
@@ -82502,9 +82502,9 @@
           "changed_at": "2026-06-15T23:49:41Z"
         },
         "iplocate": {
-          "country": "US",
+          "country": "RE",
           "city": "",
-          "changed_at": "2026-06-17T00:43:39Z"
+          "changed_at": "2026-06-18T00:44:37Z"
         }
       }
     },
@@ -82537,9 +82537,9 @@
           "changed_at": "2026-06-15T23:49:41Z"
         },
         "iplocate": {
-          "country": "US",
+          "country": "RE",
           "city": "",
-          "changed_at": "2026-06-17T00:43:39Z"
+          "changed_at": "2026-06-18T00:44:37Z"
         }
       }
     },
@@ -84077,9 +84077,9 @@
           "changed_at": "2026-06-15T23:49:41Z"
         },
         "iplocate": {
-          "country": "CD",
+          "country": "US",
           "city": "",
-          "changed_at": "2026-06-15T23:49:41Z"
+          "changed_at": "2026-06-18T00:44:37Z"
         }
       }
     },
@@ -104972,9 +104972,9 @@
           "changed_at": "2026-06-15T23:49:41Z"
         },
         "iplocate": {
-          "country": "US",
+          "country": "IT",
           "city": "",
-          "changed_at": "2026-06-17T00:43:39Z"
+          "changed_at": "2026-06-18T00:44:37Z"
         }
       }
     },
@@ -107422,9 +107422,9 @@
           "changed_at": "2026-06-15T23:49:41Z"
         },
         "iplocate": {
-          "country": "QA",
+          "country": "IQ",
           "city": "",
-          "changed_at": "2026-06-17T00:43:39Z"
+          "changed_at": "2026-06-18T00:44:37Z"
         }
       }
     },
@@ -139307,9 +139307,9 @@
           "changed_at": "2026-06-15T23:49:41Z"
         },
         "iplocate": {
-          "country": "KW",
+          "country": "US",
           "city": "",
-          "changed_at": "2026-06-15T23:49:41Z"
+          "changed_at": "2026-06-18T00:44:37Z"
         }
       }
     },
