@@ -2779,7 +2779,7 @@
         "87.251.28.0/24",
         "87.251.29.0/24"
       ],
-      "country_pct": 99.01234567901234,
+      "country_pct": 98.51851851851852,
       "city_pct": 100.0
     },
     "Lagos, NG": {
@@ -3593,7 +3593,7 @@
         "98.97.6.0/24",
         "98.97.7.0/24"
       ],
-      "country_pct": 99.06542056074767,
+      "country_pct": 99.25233644859813,
       "city_pct": 100.0
     },
     "Miami, US": {
@@ -29162,9 +29162,9 @@
           "changed_at": "2026-06-15T23:49:41Z"
         },
         "iplocate": {
-          "country": "US",
+          "country": "MX",
           "city": "",
-          "changed_at": "2026-06-15T23:49:41Z"
+          "changed_at": "2026-06-19T00:48:38Z"
         }
       }
     },
@@ -48587,9 +48587,9 @@
           "changed_at": "2026-06-15T23:49:41Z"
         },
         "iplocate": {
-          "country": "UA",
+          "country": "US",
           "city": "",
-          "changed_at": "2026-06-15T23:49:41Z"
+          "changed_at": "2026-06-19T00:48:38Z"
         }
       }
     },
@@ -48622,9 +48622,9 @@
           "changed_at": "2026-06-15T23:49:41Z"
         },
         "iplocate": {
-          "country": "UA",
+          "country": "US",
           "city": "",
-          "changed_at": "2026-06-15T23:49:41Z"
+          "changed_at": "2026-06-19T00:48:38Z"
         }
       }
     },
