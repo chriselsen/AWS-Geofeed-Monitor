@@ -606,7 +606,7 @@
         "2401:e320::/38"
       ],
       "country_pct": 100.0,
-      "city_pct": 51.85185185185185
+      "city_pct": 59.25925925925925
     },
     "Beirut, LB": {
       "country": "LB",
@@ -2691,7 +2691,7 @@
         "2620:134:b054:100::79/128",
         "2a0d:3341:d500::/40"
       ],
-      "country_pct": 68.57142857142857,
+      "country_pct": 71.42857142857143,
       "city_pct": 57.89473684210527
     },
     "Kyiv, UA": {
@@ -2779,7 +2779,7 @@
         "87.251.28.0/24",
         "87.251.29.0/24"
       ],
-      "country_pct": 98.51851851851852,
+      "country_pct": 99.01234567901234,
       "city_pct": 100.0
     },
     "Lagos, NG": {
@@ -3593,7 +3593,7 @@
         "98.97.6.0/24",
         "98.97.7.0/24"
       ],
-      "country_pct": 99.25233644859813,
+      "country_pct": 99.06542056074767,
       "city_pct": 100.0
     },
     "Miami, US": {
@@ -4141,7 +4141,7 @@
         "179.65.151.0/24",
         "2406:2d40:2700::/40"
       ],
-      "country_pct": 100.0,
+      "country_pct": 93.33333333333333,
       "city_pct": 100.0
     },
     "Nuku'alofa, TO": {
@@ -5496,7 +5496,7 @@
         "65.181.14.0/24",
         "65.181.15.0/24"
       ],
-      "country_pct": 95.41666666666667,
+      "country_pct": 95.0,
       "city_pct": 92.95774647887323
     },
     "Tallinn, EE": {
@@ -29162,9 +29162,9 @@
           "changed_at": "2026-06-15T23:49:41Z"
         },
         "iplocate": {
-          "country": "MX",
+          "country": "US",
           "city": "",
-          "changed_at": "2026-06-19T00:48:38Z"
+          "changed_at": "2026-06-20T00:39:57Z"
         }
       }
     },
@@ -48587,9 +48587,9 @@
           "changed_at": "2026-06-15T23:49:41Z"
         },
         "iplocate": {
-          "country": "US",
+          "country": "UA",
           "city": "",
-          "changed_at": "2026-06-19T00:48:38Z"
+          "changed_at": "2026-06-20T00:39:57Z"
         }
       }
     },
@@ -48622,9 +48622,9 @@
           "changed_at": "2026-06-15T23:49:41Z"
         },
         "iplocate": {
-          "country": "US",
+          "country": "UA",
           "city": "",
-          "changed_at": "2026-06-19T00:48:38Z"
+          "changed_at": "2026-06-20T00:39:57Z"
         }
       }
     },
@@ -98462,9 +98462,9 @@
           "changed_at": "2026-06-15T23:49:41Z"
         },
         "iplocate": {
-          "country": "AU",
+          "country": "US",
           "city": "",
-          "changed_at": "2026-06-15T23:49:41Z"
+          "changed_at": "2026-06-20T00:39:57Z"
         }
       }
     },
@@ -99248,8 +99248,8 @@
       "providers": {
         "maxmind": {
           "country": "ID",
-          "city": "Jakarta",
-          "changed_at": "2026-06-15T23:49:41Z"
+          "city": "Batam",
+          "changed_at": "2026-06-20T00:39:57Z"
         },
         "ipinfo": {
           "country": "ID",
@@ -99283,8 +99283,8 @@
       "providers": {
         "maxmind": {
           "country": "ID",
-          "city": "Jakarta",
-          "changed_at": "2026-06-15T23:49:41Z"
+          "city": "Batam",
+          "changed_at": "2026-06-20T00:39:57Z"
         },
         "ipinfo": {
           "country": "ID",
@@ -120442,9 +120442,9 @@
           "changed_at": "2026-06-15T23:49:41Z"
         },
         "iplocate": {
-          "country": "NC",
+          "country": "US",
           "city": "",
-          "changed_at": "2026-06-15T23:49:41Z"
+          "changed_at": "2026-06-20T00:39:57Z"
         }
       }
     },
@@ -139307,9 +139307,9 @@
           "changed_at": "2026-06-15T23:49:41Z"
         },
         "iplocate": {
-          "country": "US",
+          "country": "KW",
           "city": "",
-          "changed_at": "2026-06-18T00:44:37Z"
+          "changed_at": "2026-06-20T00:39:57Z"
         }
       }
     },
