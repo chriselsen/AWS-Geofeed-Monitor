@@ -4745,7 +4745,7 @@
         "153.67.94.0/24",
         "153.67.95.0/24"
       ],
-      "country_pct": 100.0,
+      "country_pct": 80.0,
       "city_pct": 50.0
     },
     "Reykjavik, IS": {
@@ -82502,9 +82502,9 @@
           "changed_at": "2026-06-15T23:49:41Z"
         },
         "iplocate": {
-          "country": "RE",
+          "country": "US",
           "city": "",
-          "changed_at": "2026-06-18T00:44:37Z"
+          "changed_at": "2026-06-22T00:42:27Z"
         }
       }
     },
@@ -82537,9 +82537,9 @@
           "changed_at": "2026-06-15T23:49:41Z"
         },
         "iplocate": {
-          "country": "RE",
+          "country": "US",
           "city": "",
-          "changed_at": "2026-06-18T00:44:37Z"
+          "changed_at": "2026-06-22T00:42:27Z"
         }
       }
     },
