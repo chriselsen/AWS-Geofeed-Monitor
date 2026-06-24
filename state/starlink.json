@@ -3468,7 +3468,7 @@
         "2406:2d40:6900::/40",
         "2406:2d40:6a00::/40"
       ],
-      "country_pct": 100.0,
+      "country_pct": 99.23076923076923,
       "city_pct": 100.0
     },
     "Memphis, US": {
@@ -4745,7 +4745,7 @@
         "153.67.94.0/24",
         "153.67.95.0/24"
       ],
-      "country_pct": 80.0,
+      "country_pct": 100.0,
       "city_pct": 50.0
     },
     "Reykjavik, IS": {
@@ -4936,7 +4936,7 @@
         "74.244.144.0/24",
         "74.244.145.0/24"
       ],
-      "country_pct": 100.0,
+      "country_pct": 98.0,
       "city_pct": 100.0
     },
     "San Jose, US": {
@@ -5955,12 +5955,17 @@
         "150.228.149.0/24",
         "153.67.30.0/24",
         "153.67.31.0/24",
+        "179.65.176.0/24",
+        "179.65.177.0/24",
+        "179.65.178.0/24",
+        "179.65.179.0/24",
+        "2406:2d40:4c00::/40",
         "2406:2d40:6300::/40",
         "2406:2d40:9800::/40",
         "2406:2d40:9c00::/40"
       ],
-      "country_pct": 100.0,
-      "city_pct": 100.0
+      "country_pct": 64.28571428571429,
+      "city_pct": 72.97297297297297
     },
     "Yaound\u00e9, CM": {
       "country": "CM",
@@ -7957,6 +7962,10 @@
     "179.65.173.0/24",
     "179.65.174.0/24",
     "179.65.175.0/24",
+    "179.65.176.0/24",
+    "179.65.177.0/24",
+    "179.65.178.0/24",
+    "179.65.179.0/24",
     "179.65.18.0/24",
     "179.65.19.0/24",
     "179.65.192.0/24",
@@ -8436,6 +8445,7 @@
     "2406:2d40:4900::/40",
     "2406:2d40:4a00::/40",
     "2406:2d40:4b00::/40",
+    "2406:2d40:4c00::/40",
     "2406:2d40:4d00::/40",
     "2406:2d40:5800::/40",
     "2406:2d40:5900::/40",
@@ -13272,6 +13282,11 @@
     "150.228.149.0/24": true,
     "153.67.30.0/24": true,
     "153.67.31.0/24": true,
+    "179.65.176.0/24": false,
+    "179.65.177.0/24": false,
+    "179.65.178.0/24": false,
+    "179.65.179.0/24": false,
+    "2406:2d40:4c00::/40": false,
     "2406:2d40:6300::/40": true,
     "2406:2d40:9800::/40": true,
     "2406:2d40:9c00::/40": true,
@@ -82502,9 +82517,9 @@
           "changed_at": "2026-06-15T23:49:41Z"
         },
         "iplocate": {
-          "country": "US",
+          "country": "RE",
           "city": "",
-          "changed_at": "2026-06-22T00:42:27Z"
+          "changed_at": "2026-06-24T00:33:54Z"
         }
       }
     },
@@ -82537,9 +82552,9 @@
           "changed_at": "2026-06-15T23:49:41Z"
         },
         "iplocate": {
-          "country": "US",
+          "country": "RE",
           "city": "",
-          "changed_at": "2026-06-22T00:42:27Z"
+          "changed_at": "2026-06-24T00:33:54Z"
         }
       }
     },
@@ -83657,9 +83672,9 @@
           "changed_at": "2026-06-15T23:49:41Z"
         },
         "iplocate": {
-          "country": "CR",
+          "country": "US",
           "city": "",
-          "changed_at": "2026-06-15T23:49:41Z"
+          "changed_at": "2026-06-24T00:33:54Z"
         }
       }
     },
@@ -98042,9 +98057,9 @@
           "changed_at": "2026-06-15T23:49:41Z"
         },
         "iplocate": {
-          "country": "AU",
+          "country": "US",
           "city": "",
-          "changed_at": "2026-06-15T23:49:41Z"
+          "changed_at": "2026-06-24T00:33:54Z"
         }
       }
     },
@@ -99095,6 +99110,146 @@
           "country": "US",
           "city": "",
           "changed_at": "2026-06-15T23:49:41Z"
+        }
+      }
+    },
+    "179.65.176.0/24": {
+      "geofeed_values": {
+        "country": "MM",
+        "subdivision": "MM-06",
+        "city": "Yangon"
+      },
+      "geofeed_changed_at": null,
+      "providers": {
+        "maxmind": {
+          "country": "US",
+          "city": "",
+          "changed_at": "2026-06-24T00:33:54Z"
+        },
+        "ipinfo": {
+          "country": "US",
+          "city": "",
+          "changed_at": "2026-06-24T00:33:54Z"
+        },
+        "ip2location": {
+          "country": "US",
+          "city": "Hawthorne",
+          "changed_at": "2026-06-24T00:33:54Z"
+        },
+        "dbip": {
+          "country": "PH",
+          "city": "Manila",
+          "changed_at": "2026-06-24T00:33:54Z"
+        },
+        "iplocate": {
+          "country": "US",
+          "city": "",
+          "changed_at": "2026-06-24T00:33:54Z"
+        }
+      }
+    },
+    "179.65.177.0/24": {
+      "geofeed_values": {
+        "country": "MM",
+        "subdivision": "MM-06",
+        "city": "Yangon"
+      },
+      "geofeed_changed_at": null,
+      "providers": {
+        "maxmind": {
+          "country": "US",
+          "city": "",
+          "changed_at": "2026-06-24T00:33:54Z"
+        },
+        "ipinfo": {
+          "country": "US",
+          "city": "",
+          "changed_at": "2026-06-24T00:33:54Z"
+        },
+        "ip2location": {
+          "country": "US",
+          "city": "Hawthorne",
+          "changed_at": "2026-06-24T00:33:54Z"
+        },
+        "dbip": {
+          "country": "PH",
+          "city": "Manila",
+          "changed_at": "2026-06-24T00:33:54Z"
+        },
+        "iplocate": {
+          "country": "US",
+          "city": "",
+          "changed_at": "2026-06-24T00:33:54Z"
+        }
+      }
+    },
+    "179.65.178.0/24": {
+      "geofeed_values": {
+        "country": "MM",
+        "subdivision": "MM-06",
+        "city": "Yangon"
+      },
+      "geofeed_changed_at": null,
+      "providers": {
+        "maxmind": {
+          "country": "US",
+          "city": "",
+          "changed_at": "2026-06-24T00:33:54Z"
+        },
+        "ipinfo": {
+          "country": "US",
+          "city": "",
+          "changed_at": "2026-06-24T00:33:54Z"
+        },
+        "ip2location": {
+          "country": "US",
+          "city": "Hawthorne",
+          "changed_at": "2026-06-24T00:33:54Z"
+        },
+        "dbip": {
+          "country": "PH",
+          "city": "Manila",
+          "changed_at": "2026-06-24T00:33:54Z"
+        },
+        "iplocate": {
+          "country": "US",
+          "city": "",
+          "changed_at": "2026-06-24T00:33:54Z"
+        }
+      }
+    },
+    "179.65.179.0/24": {
+      "geofeed_values": {
+        "country": "MM",
+        "subdivision": "MM-06",
+        "city": "Yangon"
+      },
+      "geofeed_changed_at": null,
+      "providers": {
+        "maxmind": {
+          "country": "US",
+          "city": "",
+          "changed_at": "2026-06-24T00:33:54Z"
+        },
+        "ipinfo": {
+          "country": "US",
+          "city": "",
+          "changed_at": "2026-06-24T00:33:54Z"
+        },
+        "ip2location": {
+          "country": "US",
+          "city": "Hawthorne",
+          "changed_at": "2026-06-24T00:33:54Z"
+        },
+        "dbip": {
+          "country": "PH",
+          "city": "Manila",
+          "changed_at": "2026-06-24T00:33:54Z"
+        },
+        "iplocate": {
+          "country": "US",
+          "city": "",
+          "changed_at": "2026-06-24T00:33:54Z"
         }
       }
     },
@@ -121460,6 +121615,41 @@
           "country": "PG",
           "city": "",
           "changed_at": "2026-06-15T23:49:41Z"
+        }
+      }
+    },
+    "2406:2d40:4c00::/40": {
+      "geofeed_values": {
+        "country": "MM",
+        "subdivision": "MM-06",
+        "city": "Yangon"
+      },
+      "geofeed_changed_at": null,
+      "providers": {
+        "maxmind": {
+          "country": "US",
+          "city": "",
+          "changed_at": "2026-06-24T00:33:54Z"
+        },
+        "ipinfo": {
+          "country": "PG",
+          "city": "",
+          "changed_at": "2026-06-24T00:33:54Z"
+        },
+        "ip2location": {
+          "country": "US",
+          "city": "Hawthorne",
+          "changed_at": "2026-06-24T00:33:54Z"
+        },
+        "dbip": {
+          "country": "JP",
+          "city": "Chiyoda City",
+          "changed_at": "2026-06-24T00:33:54Z"
+        },
+        "iplocate": {
+          "country": "US",
+          "city": "",
+          "changed_at": "2026-06-24T00:33:54Z"
         }
       }
     },
