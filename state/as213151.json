@@ -50,8 +50,8 @@
         "2602:fb2a:c8::/46",
         "2602:fb2a:fe::/48"
       ],
-      "country_pct": 80.0,
-      "city_pct": 66.66666666666666
+      "country_pct": 90.0,
+      "city_pct": 83.33333333333334
     }
   },
   "prefixes": [
@@ -386,9 +386,9 @@
           "changed_at": "2026-06-15T23:49:40Z"
         },
         "dbip": {
-          "country": "DE",
-          "city": "Frankfurt am Main",
-          "changed_at": "2026-06-15T23:49:40Z"
+          "country": "US",
+          "city": "San Francisco",
+          "changed_at": "2026-07-02T00:39:38Z"
         },
         "iplocate": {
           "country": "US",
