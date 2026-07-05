@@ -5445,7 +5445,6 @@
       "country": "ID",
       "prefixes": [
         "1.178.19.0/24",
-        "1.178.86.0/24",
         "104.255.59.101/32",
         "104.255.59.102/32",
         "104.255.59.103/32",
@@ -5580,8 +5579,8 @@
         "99.78.238.255/32",
         "99.78.240.0/20"
       ],
-      "country_pct": 89.1044776119403,
-      "city_pct": 87.2340425531915
+      "country_pct": 89.47368421052632,
+      "city_pct": 87.43315508021391
     },
     "Kansas City, US": {
       "country": "US",
@@ -6162,7 +6161,7 @@
         "99.77.249.0/24",
         "99.82.169.0/24"
       ],
-      "country_pct": 87.06766917293233,
+      "country_pct": 87.16791979949875,
       "city_pct": 81.86573670444638
     },
     "Los Angeles, US": {
@@ -6820,7 +6819,7 @@
         "99.79.34.0/23",
         "99.82.174.0/24"
       ],
-      "country_pct": 92.88888888888889,
+      "country_pct": 93.06666666666666,
       "city_pct": 78.19314641744548
     },
     "Mumbai, IN": {
@@ -7544,7 +7543,7 @@
         "99.77.248.0/24",
         "99.82.161.0/24"
       ],
-      "country_pct": 91.94444444444444,
+      "country_pct": 92.12962962962963,
       "city_pct": 90.22435897435898
     },
     "Perth, AU": {
@@ -7748,7 +7747,7 @@
         "52.94.250.160/28",
         "76.223.170.112/28"
       ],
-      "country_pct": 71.92307692307692,
+      "country_pct": 72.3076923076923,
       "city_pct": 56.75675675675676
     },
     "San Francisco, US": {
@@ -11010,7 +11009,6 @@
     "1.178.65.0/24",
     "1.178.7.0/24",
     "1.178.8.0/24",
-    "1.178.86.0/24",
     "1.178.88.0/24",
     "1.178.89.0/24",
     "1.178.9.0/24",
@@ -24385,7 +24383,6 @@
     "64.66.153.0/24": true,
     "65.4.0.0/16": true,
     "63.249.143.0/24": true,
-    "1.178.86.0/24": true,
     "15.232.0.0/16": true,
     "63.249.141.0/24": true,
     "16.79.0.0/16": true,
@@ -66356,9 +66353,9 @@
           "changed_at": "2026-06-15T23:49:38Z"
         },
         "iplocate": {
-          "country": "US",
+          "country": "CA",
           "city": "",
-          "changed_at": "2026-07-04T02:12:05Z"
+          "changed_at": "2026-07-05T02:28:12Z"
         }
       }
     },
@@ -68596,9 +68593,9 @@
           "changed_at": "2026-06-15T23:49:38Z"
         },
         "iplocate": {
-          "country": "US",
+          "country": "CA",
           "city": "",
-          "changed_at": "2026-07-04T02:12:05Z"
+          "changed_at": "2026-07-05T02:28:12Z"
         }
       }
     },
@@ -119521,9 +119518,9 @@
           "changed_at": "2026-07-02T00:39:29Z"
         },
         "iplocate": {
-          "country": "US",
+          "country": "FR",
           "city": "",
-          "changed_at": "2026-07-02T00:39:29Z"
+          "changed_at": "2026-07-05T02:28:12Z"
         }
       }
     },
@@ -124071,9 +124068,9 @@
           "changed_at": "2026-07-02T00:39:29Z"
         },
         "iplocate": {
-          "country": "US",
+          "country": "FR",
           "city": "",
-          "changed_at": "2026-07-02T00:39:29Z"
+          "changed_at": "2026-07-05T02:28:12Z"
         }
       }
     },
@@ -128501,9 +128498,9 @@
           "changed_at": "2026-07-04T02:12:05Z"
         },
         "ipinfo": {
-          "country": "US",
+          "country": "GB",
           "city": "",
-          "changed_at": "2026-07-03T02:18:14Z"
+          "changed_at": "2026-07-05T02:28:12Z"
         },
         "ip2location": {
           "country": "US",
@@ -128516,9 +128513,9 @@
           "changed_at": "2026-07-03T02:18:14Z"
         },
         "iplocate": {
-          "country": "US",
+          "country": "GB",
           "city": "",
-          "changed_at": "2026-07-03T02:18:14Z"
+          "changed_at": "2026-07-05T02:28:12Z"
         }
       }
     },
@@ -147419,41 +147416,6 @@
           "country": "ID",
           "city": "",
           "changed_at": "2026-06-29T00:40:03Z"
-        }
-      }
-    },
-    "1.178.86.0/24": {
-      "geofeed_values": {
-        "country": "ID",
-        "subdivision": "ID-JK",
-        "city": "Jakarta"
-      },
-      "geofeed_changed_at": null,
-      "providers": {
-        "maxmind": {
-          "country": "US",
-          "city": "",
-          "changed_at": "2026-07-04T02:12:05Z"
-        },
-        "ipinfo": {
-          "country": "US",
-          "city": "",
-          "changed_at": "2026-07-04T02:12:05Z"
-        },
-        "ip2location": {
-          "country": "US",
-          "city": "Columbus",
-          "changed_at": "2026-07-04T02:12:05Z"
-        },
-        "dbip": {
-          "country": "ID",
-          "city": "Jakarta",
-          "changed_at": "2026-07-04T02:12:05Z"
-        },
-        "iplocate": {
-          "country": "ID",
-          "city": "",
-          "changed_at": "2026-07-04T02:12:05Z"
         }
       }
     },
@@ -232346,9 +232308,9 @@
           "changed_at": "2026-07-04T02:12:05Z"
         },
         "ipinfo": {
-          "country": "US",
+          "country": "SA",
           "city": "",
-          "changed_at": "2026-07-03T02:18:14Z"
+          "changed_at": "2026-07-05T02:28:12Z"
         },
         "ip2location": {
           "country": "US",
