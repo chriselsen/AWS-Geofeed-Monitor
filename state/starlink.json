@@ -3146,8 +3146,6 @@
         "98.97.141.0/24",
         "98.97.142.0/24",
         "98.97.143.0/24",
-        "98.97.191.0/25",
-        "98.97.191.128/25",
         "98.97.56.0/24",
         "98.97.57.0/24",
         "98.97.58.0/24",
@@ -9959,8 +9957,6 @@
     "98.97.19.0/24",
     "98.97.190.0/25",
     "98.97.190.128/25",
-    "98.97.191.0/25",
-    "98.97.191.128/25",
     "98.97.2.0/24",
     "98.97.20.0/24",
     "98.97.21.0/24",
@@ -111559,76 +111555,6 @@
         "dbip": {
           "country": "US",
           "city": "Dallas",
-          "changed_at": "2026-06-15T23:49:41Z"
-        },
-        "iplocate": {
-          "country": "US",
-          "city": "",
-          "changed_at": "2026-06-15T23:49:41Z"
-        }
-      }
-    },
-    "98.97.191.0/25": {
-      "geofeed_values": {
-        "country": "US",
-        "subdivision": "US-CA",
-        "city": "Los Angeles"
-      },
-      "geofeed_changed_at": "2026-06-15T23:49:41Z",
-      "providers": {
-        "maxmind": {
-          "country": "US",
-          "city": "Los Angeles",
-          "changed_at": "2026-06-15T23:49:41Z"
-        },
-        "ipinfo": {
-          "country": "US",
-          "city": "",
-          "changed_at": "2026-06-15T23:49:41Z"
-        },
-        "ip2location": {
-          "country": "US",
-          "city": "Los Angeles",
-          "changed_at": "2026-06-15T23:49:41Z"
-        },
-        "dbip": {
-          "country": "US",
-          "city": "Los Angeles",
-          "changed_at": "2026-06-15T23:49:41Z"
-        },
-        "iplocate": {
-          "country": "US",
-          "city": "",
-          "changed_at": "2026-06-15T23:49:41Z"
-        }
-      }
-    },
-    "98.97.191.128/25": {
-      "geofeed_values": {
-        "country": "US",
-        "subdivision": "US-CA",
-        "city": "Los Angeles"
-      },
-      "geofeed_changed_at": "2026-06-15T23:49:41Z",
-      "providers": {
-        "maxmind": {
-          "country": "US",
-          "city": "Los Angeles",
-          "changed_at": "2026-06-15T23:49:41Z"
-        },
-        "ipinfo": {
-          "country": "US",
-          "city": "",
-          "changed_at": "2026-06-15T23:49:41Z"
-        },
-        "ip2location": {
-          "country": "US",
-          "city": "Los Angeles",
-          "changed_at": "2026-06-15T23:49:41Z"
-        },
-        "dbip": {
-          "country": "US",
-          "city": "Los Angeles",
           "changed_at": "2026-06-15T23:49:41Z"
         },
         "iplocate": {
