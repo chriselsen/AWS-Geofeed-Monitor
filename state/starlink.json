@@ -1699,7 +1699,7 @@
         "98.97.95.0/24"
       ],
       "country_pct": 99.85611510791367,
-      "city_pct": 99.27884615384616
+      "city_pct": 99.52038369304557
     },
     "Damascus, SY": {
       "country": "SY",
@@ -2815,7 +2815,7 @@
         "87.251.28.0/24",
         "87.251.29.0/24"
       ],
-      "country_pct": 99.01234567901234,
+      "country_pct": 98.51851851851852,
       "city_pct": 100.0
     },
     "Lagos, NG": {
@@ -5264,8 +5264,8 @@
         "98.97.156.0/24",
         "98.97.157.0/24"
       ],
-      "country_pct": 97.17948717948718,
-      "city_pct": 95.17543859649122
+      "country_pct": 97.43589743589743,
+      "city_pct": 94.75982532751091
     },
     "Sao Tome, ST": {
       "country": "ST",
@@ -6125,7 +6125,7 @@
         "9.246.67.0/24"
       ],
       "country_pct": 100.0,
-      "city_pct": 100.0
+      "city_pct": 97.77777777777777
     }
   },
   "prefixes": [
@@ -34535,9 +34535,9 @@
       "geofeed_changed_at": "2026-06-15T23:49:41Z",
       "providers": {
         "maxmind": {
-          "country": "MX",
-          "city": "",
-          "changed_at": "2026-07-01T00:40:12Z"
+          "country": "BR",
+          "city": "S\u00e3o Gabriel da Cachoeira",
+          "changed_at": "2026-07-11T01:59:54Z"
         },
         "ipinfo": {
           "country": "BR",
@@ -39366,8 +39366,8 @@
       "providers": {
         "maxmind": {
           "country": "US",
-          "city": "Atlanta",
-          "changed_at": "2026-06-15T23:49:41Z"
+          "city": "Dallas",
+          "changed_at": "2026-07-11T01:59:54Z"
         },
         "ipinfo": {
           "country": "US",
@@ -42061,8 +42061,8 @@
       "providers": {
         "maxmind": {
           "country": "CA",
-          "city": "",
-          "changed_at": "2026-06-15T23:49:41Z"
+          "city": "Toronto",
+          "changed_at": "2026-07-11T01:59:54Z"
         },
         "ipinfo": {
           "country": "CA",
@@ -53035,9 +53035,9 @@
           "changed_at": "2026-06-15T23:49:41Z"
         },
         "iplocate": {
-          "country": "UA",
+          "country": "KZ",
           "city": "",
-          "changed_at": "2026-06-15T23:49:41Z"
+          "changed_at": "2026-07-11T01:59:54Z"
         }
       }
     },
@@ -53070,9 +53070,9 @@
           "changed_at": "2026-06-15T23:49:41Z"
         },
         "iplocate": {
-          "country": "UA",
+          "country": "KZ",
           "city": "",
-          "changed_at": "2026-06-15T23:49:41Z"
+          "changed_at": "2026-07-11T01:59:54Z"
         }
       }
     },
@@ -117171,8 +117171,8 @@
       "providers": {
         "maxmind": {
           "country": "CH",
-          "city": "Zurich",
-          "changed_at": "2026-06-15T23:49:41Z"
+          "city": "Villars-sur-Ollon",
+          "changed_at": "2026-07-11T01:59:54Z"
         },
         "ipinfo": {
           "country": "CH",
@@ -147026,8 +147026,8 @@
       "providers": {
         "maxmind": {
           "country": "US",
-          "city": "",
-          "changed_at": "2026-07-09T02:15:33Z"
+          "city": "Dallas",
+          "changed_at": "2026-07-11T01:59:54Z"
         },
         "ipinfo": {
           "country": "US",

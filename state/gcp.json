@@ -240,7 +240,7 @@
         "8.35.192.0/21"
       ],
       "country_pct": 99.82456140350877,
-      "city_pct": 99.12023460410558
+      "city_pct": 99.12280701754386
     },
     "Dallas, US": {
       "country": "US",
@@ -870,7 +870,7 @@
         "35.243.128.0/17"
       ],
       "country_pct": 99.61538461538461,
-      "city_pct": 67.0967741935484
+      "city_pct": 67.3076923076923
     },
     "Osaka, JP": {
       "country": "JP",
@@ -8291,8 +8291,8 @@
       "providers": {
         "maxmind": {
           "country": "US",
-          "city": "",
-          "changed_at": "2026-06-26T00:40:02Z"
+          "city": "North Charleston",
+          "changed_at": "2026-07-11T01:59:41Z"
         },
         "ipinfo": {
           "country": "US",
@@ -8571,8 +8571,8 @@
       "providers": {
         "maxmind": {
           "country": "US",
-          "city": "",
-          "changed_at": "2026-06-26T00:40:02Z"
+          "city": "Council Bluffs",
+          "changed_at": "2026-07-11T01:59:41Z"
         },
         "ipinfo": {
           "country": "US",
