@@ -2774,7 +2774,7 @@
         "76.223.170.0/28",
         "99.151.168.0/21"
       ],
-      "country_pct": 93.91304347826087,
+      "country_pct": 94.1304347826087,
       "city_pct": 93.93939393939394
     },
     "Cape Town, ZA": {
@@ -6084,7 +6084,7 @@
         "99.77.249.0/24",
         "99.82.169.0/24"
       ],
-      "country_pct": 87.13924050632912,
+      "country_pct": 87.18987341772151,
       "city_pct": 81.57894736842105
     },
     "Los Angeles, US": {
@@ -10878,7 +10878,7 @@
         "70.232.96.0/20",
         "99.151.80.0/21"
       ],
-      "country_pct": 94.79166666666666,
+      "country_pct": 95.0,
       "city_pct": 96.0
     }
   },
@@ -64455,9 +64455,9 @@
           "changed_at": "2026-07-11T01:59:51Z"
         },
         "ipinfo": {
-          "country": "US",
+          "country": "CA",
           "city": "",
-          "changed_at": "2026-07-10T02:18:37Z"
+          "changed_at": "2026-07-12T02:03:21Z"
         },
         "ip2location": {
           "country": "US",
@@ -74375,9 +74375,9 @@
           "changed_at": "2026-06-15T23:49:38Z"
         },
         "iplocate": {
-          "country": "DE",
+          "country": "CH",
           "city": "",
-          "changed_at": "2026-07-11T01:59:51Z"
+          "changed_at": "2026-07-12T02:03:21Z"
         }
       }
     },
@@ -132845,9 +132845,9 @@
           "changed_at": "2026-07-11T01:59:51Z"
         },
         "ipinfo": {
-          "country": "US",
+          "country": "GB",
           "city": "",
-          "changed_at": "2026-07-10T02:18:37Z"
+          "changed_at": "2026-07-12T02:03:21Z"
         },
         "ip2location": {
           "country": "US",

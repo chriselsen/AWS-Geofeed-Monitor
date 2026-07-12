@@ -1140,7 +1140,7 @@
         "98.97.148.0/24",
         "98.97.149.0/24"
       ],
-      "country_pct": 97.73584905660377,
+      "country_pct": 97.35849056603773,
       "city_pct": 64.5367412140575
     },
     "Buffalo, US": {
@@ -2815,7 +2815,7 @@
         "87.251.28.0/24",
         "87.251.29.0/24"
       ],
-      "country_pct": 98.51851851851852,
+      "country_pct": 99.01234567901234,
       "city_pct": 100.0
     },
     "Lagos, NG": {
@@ -53035,9 +53035,9 @@
           "changed_at": "2026-06-15T23:49:41Z"
         },
         "iplocate": {
-          "country": "KZ",
+          "country": "UA",
           "city": "",
-          "changed_at": "2026-07-11T01:59:54Z"
+          "changed_at": "2026-07-12T02:03:26Z"
         }
       }
     },
@@ -53070,9 +53070,9 @@
           "changed_at": "2026-06-15T23:49:41Z"
         },
         "iplocate": {
-          "country": "KZ",
+          "country": "UA",
           "city": "",
-          "changed_at": "2026-07-11T01:59:54Z"
+          "changed_at": "2026-07-12T02:03:26Z"
         }
       }
     },
@@ -92760,9 +92760,9 @@
           "changed_at": "2026-06-15T23:49:41Z"
         },
         "iplocate": {
-          "country": "AR",
+          "country": "US",
           "city": "",
-          "changed_at": "2026-06-15T23:49:41Z"
+          "changed_at": "2026-07-12T02:03:26Z"
         }
       }
     },
@@ -92795,9 +92795,9 @@
           "changed_at": "2026-06-15T23:49:41Z"
         },
         "iplocate": {
-          "country": "AR",
+          "country": "US",
           "city": "",
-          "changed_at": "2026-06-15T23:49:41Z"
+          "changed_at": "2026-07-12T02:03:26Z"
         }
       }
     },
