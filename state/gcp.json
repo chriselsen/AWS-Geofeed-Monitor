@@ -249,18 +249,24 @@
         "2600:1901:8140::/44",
         "34.0.128.0/19",
         "34.127.156.0/22",
+        "34.128.4.0/22",
+        "34.144.172.0/22",
         "34.152.110.128/26",
         "34.157.174.0/23",
         "34.157.219.128/26",
         "34.157.46.0/23",
         "34.174.0.0/16",
+        "34.177.120.0/22",
         "34.183.66.0/24",
         "34.184.65.0/24",
         "34.34.243.0/24",
-        "8.230.96.0/19"
+        "35.235.172.0/22",
+        "8.230.96.0/19",
+        "8.234.20.0/22",
+        "8.234.24.0/21"
       ],
-      "country_pct": 92.3076923076923,
-      "city_pct": 87.17948717948718
+      "country_pct": 94.73684210526315,
+      "city_pct": 66.66666666666666
     },
     "Dammam, SA": {
       "country": "SA",
@@ -1839,6 +1845,7 @@
     "34.128.32.0/22",
     "34.128.36.0/24",
     "34.128.37.0/24",
+    "34.128.4.0/22",
     "34.128.42.0/23",
     "34.128.44.0/23",
     "34.128.46.0/23",
@@ -1871,6 +1878,7 @@
     "34.142.128.0/17",
     "34.143.128.0/17",
     "34.143.64.0/21",
+    "34.144.172.0/22",
     "34.144.176.0/20",
     "34.144.192.0/18",
     "34.145.0.0/17",
@@ -2027,6 +2035,7 @@
     "34.175.0.0/16",
     "34.176.0.0/16",
     "34.177.112.0/21",
+    "34.177.120.0/22",
     "34.177.32.0/22",
     "34.177.36.0/23",
     "34.177.40.0/21",
@@ -2528,6 +2537,7 @@
     "35.234.64.0/18",
     "35.235.0.0/20",
     "35.235.16.0/20",
+    "35.235.172.0/22",
     "35.235.216.0/21",
     "35.235.32.0/20",
     "35.235.48.0/20",
@@ -2610,6 +2620,8 @@
     "8.234.16.0/24",
     "8.234.17.0/24",
     "8.234.2.0/24",
+    "8.234.20.0/22",
+    "8.234.24.0/21",
     "8.234.3.0/24",
     "8.234.32.0/19",
     "8.234.4.0/22",
@@ -2829,14 +2841,20 @@
     "199.223.236.0/24": true,
     "2600:1900:4000::/44": true,
     "8.230.96.0/19": true,
+    "8.234.20.0/22": true,
+    "8.234.24.0/21": true,
     "34.0.128.0/19": true,
     "34.34.243.0/24": true,
     "34.127.156.0/22": true,
+    "34.128.4.0/22": true,
+    "34.144.172.0/22": true,
     "34.157.46.0/23": true,
     "34.157.174.0/23": true,
     "34.174.0.0/16": true,
+    "34.177.120.0/22": true,
     "34.183.66.0/24": true,
     "34.184.65.0/24": true,
+    "35.235.172.0/22": true,
     "2600:1901:8140::/44": true,
     "8.228.192.0/19": true,
     "8.230.64.0/19": true,
@@ -4778,6 +4796,76 @@
           "country": "US",
           "city": "",
           "changed_at": "2026-06-15T23:49:26Z"
+        }
+      }
+    },
+    "8.234.20.0/22": {
+      "geofeed_values": {
+        "country": "US",
+        "subdivision": "US-TX",
+        "city": "Dallas"
+      },
+      "geofeed_changed_at": null,
+      "providers": {
+        "maxmind": {
+          "country": "US",
+          "city": "",
+          "changed_at": "2026-07-14T01:51:21Z"
+        },
+        "ipinfo": {
+          "country": "US",
+          "city": "",
+          "changed_at": "2026-07-14T01:51:21Z"
+        },
+        "ip2location": {
+          "country": "US",
+          "city": "Mountain View",
+          "changed_at": "2026-07-14T01:51:21Z"
+        },
+        "dbip": {
+          "country": "US",
+          "city": "Monroe",
+          "changed_at": "2026-07-14T01:51:21Z"
+        },
+        "iplocate": {
+          "country": "US",
+          "city": "",
+          "changed_at": "2026-07-14T01:51:21Z"
+        }
+      }
+    },
+    "8.234.24.0/21": {
+      "geofeed_values": {
+        "country": "US",
+        "subdivision": "US-TX",
+        "city": "Dallas"
+      },
+      "geofeed_changed_at": null,
+      "providers": {
+        "maxmind": {
+          "country": "US",
+          "city": "",
+          "changed_at": "2026-07-14T01:51:21Z"
+        },
+        "ipinfo": {
+          "country": "US",
+          "city": "",
+          "changed_at": "2026-07-14T01:51:21Z"
+        },
+        "ip2location": {
+          "country": "US",
+          "city": "Mountain View",
+          "changed_at": "2026-07-14T01:51:21Z"
+        },
+        "dbip": {
+          "country": "US",
+          "city": "Monroe",
+          "changed_at": "2026-07-14T01:51:21Z"
+        },
+        "iplocate": {
+          "country": "US",
+          "city": "",
+          "changed_at": "2026-07-14T01:51:21Z"
         }
       }
     },
@@ -16261,6 +16349,41 @@
         }
       }
     },
+    "34.128.4.0/22": {
+      "geofeed_values": {
+        "country": "US",
+        "subdivision": "US-TX",
+        "city": "Dallas"
+      },
+      "geofeed_changed_at": null,
+      "providers": {
+        "maxmind": {
+          "country": "US",
+          "city": "",
+          "changed_at": "2026-07-14T01:51:21Z"
+        },
+        "ipinfo": {
+          "country": "US",
+          "city": "",
+          "changed_at": "2026-07-14T01:51:21Z"
+        },
+        "ip2location": {
+          "country": "US",
+          "city": "Mountain View",
+          "changed_at": "2026-07-14T01:51:21Z"
+        },
+        "dbip": {
+          "country": "US",
+          "city": "Mountain View",
+          "changed_at": "2026-07-14T01:51:21Z"
+        },
+        "iplocate": {
+          "country": "US",
+          "city": "",
+          "changed_at": "2026-07-14T01:51:21Z"
+        }
+      }
+    },
     "34.128.32.0/22": {
       "geofeed_values": {
         "country": "US",
@@ -17308,6 +17431,41 @@
           "country": "SG",
           "city": "",
           "changed_at": "2026-06-15T23:49:26Z"
+        }
+      }
+    },
+    "34.144.172.0/22": {
+      "geofeed_values": {
+        "country": "US",
+        "subdivision": "US-TX",
+        "city": "Dallas"
+      },
+      "geofeed_changed_at": null,
+      "providers": {
+        "maxmind": {
+          "country": "US",
+          "city": "",
+          "changed_at": "2026-07-14T01:51:21Z"
+        },
+        "ipinfo": {
+          "country": "US",
+          "city": "",
+          "changed_at": "2026-07-14T01:51:21Z"
+        },
+        "ip2location": {
+          "country": "US",
+          "city": "Mountain View",
+          "changed_at": "2026-07-14T01:51:21Z"
+        },
+        "dbip": {
+          "country": "US",
+          "city": "Mountain View",
+          "changed_at": "2026-07-14T01:51:21Z"
+        },
+        "iplocate": {
+          "country": "US",
+          "city": "",
+          "changed_at": "2026-07-14T01:51:21Z"
         }
       }
     },
@@ -23363,6 +23521,41 @@
           "country": "US",
           "city": "",
           "changed_at": "2026-06-15T23:49:26Z"
+        }
+      }
+    },
+    "34.177.120.0/22": {
+      "geofeed_values": {
+        "country": "US",
+        "subdivision": "US-TX",
+        "city": "Dallas"
+      },
+      "geofeed_changed_at": null,
+      "providers": {
+        "maxmind": {
+          "country": "US",
+          "city": "",
+          "changed_at": "2026-07-14T01:51:21Z"
+        },
+        "ipinfo": {
+          "country": "US",
+          "city": "",
+          "changed_at": "2026-07-14T01:51:21Z"
+        },
+        "ip2location": {
+          "country": "US",
+          "city": "Mountain View",
+          "changed_at": "2026-07-14T01:51:21Z"
+        },
+        "dbip": {
+          "country": "US",
+          "city": "Mountain View",
+          "changed_at": "2026-07-14T01:51:21Z"
+        },
+        "iplocate": {
+          "country": "US",
+          "city": "",
+          "changed_at": "2026-07-14T01:51:21Z"
         }
       }
     },
@@ -33863,6 +34056,41 @@
           "country": "US",
           "city": "",
           "changed_at": "2026-06-15T23:49:26Z"
+        }
+      }
+    },
+    "35.235.172.0/22": {
+      "geofeed_values": {
+        "country": "US",
+        "subdivision": "US-TX",
+        "city": "Dallas"
+      },
+      "geofeed_changed_at": null,
+      "providers": {
+        "maxmind": {
+          "country": "US",
+          "city": "",
+          "changed_at": "2026-07-14T01:51:21Z"
+        },
+        "ipinfo": {
+          "country": "US",
+          "city": "",
+          "changed_at": "2026-07-14T01:51:21Z"
+        },
+        "ip2location": {
+          "country": "US",
+          "city": "Mountain View",
+          "changed_at": "2026-07-14T01:51:21Z"
+        },
+        "dbip": {
+          "country": "US",
+          "city": "Mountain View",
+          "changed_at": "2026-07-14T01:51:21Z"
+        },
+        "iplocate": {
+          "country": "US",
+          "city": "",
+          "changed_at": "2026-07-14T01:51:21Z"
         }
       }
     },
