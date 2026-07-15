@@ -341,7 +341,7 @@
         "2406:2d40:4800::/40"
       ],
       "country_pct": 100.0,
-      "city_pct": 66.66666666666666
+      "city_pct": 100.0
     },
     "Athens, GR": {
       "country": "GR",
@@ -523,8 +523,8 @@
         "150.228.213.128/25",
         "2406:2d40:4900::/40"
       ],
-      "country_pct": 90.0,
-      "city_pct": 83.33333333333334
+      "country_pct": 95.0,
+      "city_pct": 91.66666666666666
     },
     "Bangui, CF": {
       "country": "CF",
@@ -803,7 +803,7 @@
         "74.244.168.0/24",
         "74.244.169.0/24"
       ],
-      "country_pct": 95.48387096774194,
+      "country_pct": 95.80645161290322,
       "city_pct": 95.6043956043956
     },
     "Boise, US": {
@@ -1699,7 +1699,7 @@
         "98.97.95.0/24"
       ],
       "country_pct": 99.85611510791367,
-      "city_pct": 99.52038369304557
+      "city_pct": 99.76019184652279
     },
     "Damascus, SY": {
       "country": "SY",
@@ -2188,8 +2188,8 @@
         "150.228.212.0/25",
         "2406:2d40:ae00::/40"
       ],
-      "country_pct": 95.0,
-      "city_pct": 91.66666666666666
+      "country_pct": 100.0,
+      "city_pct": 100.0
     },
     "Halifax, CA": {
       "country": "CA",
@@ -2628,7 +2628,7 @@
         "2605:59c0:900::/40",
         "74.244.82.0/24"
       ],
-      "country_pct": 93.33333333333333,
+      "country_pct": 96.66666666666667,
       "city_pct": 100.0
     },
     "Kolkata, IN": {
@@ -2694,7 +2694,7 @@
         "65.181.24.0/24",
         "65.181.25.0/24"
       ],
-      "country_pct": 100.0,
+      "country_pct": 96.8,
       "city_pct": 100.0
     },
     "Kukes, AL": {
@@ -2815,7 +2815,7 @@
         "87.251.28.0/24",
         "87.251.29.0/24"
       ],
-      "country_pct": 99.01234567901234,
+      "country_pct": 99.25925925925925,
       "city_pct": 100.0
     },
     "Lagos, NG": {
@@ -2881,7 +2881,7 @@
         "153.67.153.0/24",
         "2605:59c0:6b00::/40"
       ],
-      "country_pct": 100.0,
+      "country_pct": 93.33333333333333,
       "city_pct": 100.0
     },
     "Lilongwe, MW": {
@@ -3502,7 +3502,7 @@
         "2406:2d40:6900::/40",
         "2406:2d40:6a00::/40"
       ],
-      "country_pct": 99.23076923076923,
+      "country_pct": 98.46153846153847,
       "city_pct": 100.0
     },
     "Memphis, US": {
@@ -3661,7 +3661,7 @@
         "98.97.6.0/24",
         "98.97.7.0/24"
       ],
-      "country_pct": 99.29078014184397,
+      "country_pct": 99.43262411347517,
       "city_pct": 100.0
     },
     "Miami, US": {
@@ -4166,7 +4166,7 @@
         "74.244.12.0/24",
         "74.244.13.0/24"
       ],
-      "country_pct": 85.71428571428571,
+      "country_pct": 87.14285714285714,
       "city_pct": 80.95238095238095
     },
     "Nicosia, CY": {
@@ -4352,8 +4352,8 @@
         "150.228.212.128/25",
         "2406:2d40:ac00::/40"
       ],
-      "country_pct": 90.0,
-      "city_pct": 91.66666666666666
+      "country_pct": 85.0,
+      "city_pct": 83.33333333333334
     },
     "Panama City, PA": {
       "country": "PA",
@@ -4498,7 +4498,7 @@
         "65.181.30.0/24",
         "65.181.31.0/24"
       ],
-      "country_pct": 97.77777777777777,
+      "country_pct": 100.0,
       "city_pct": 100.0
     },
     "Philadelphia, US": {
@@ -4888,7 +4888,7 @@
         "2620:134:b054:100::97/128"
       ],
       "country_pct": 86.66666666666667,
-      "city_pct": 60.86956521739131
+      "city_pct": 77.77777777777779
     },
     "Saint George's, GD": {
       "country": "GD",
@@ -4959,8 +4959,8 @@
         "179.65.129.0/24",
         "2406:2d40:ad00::/40"
       ],
-      "country_pct": 100.0,
-      "city_pct": 66.66666666666666
+      "country_pct": 95.0,
+      "city_pct": 58.333333333333336
     },
     "Salt Lake City, US": {
       "country": "US",
@@ -5800,7 +5800,7 @@
         "98.97.74.0/24",
         "98.97.75.0/24"
       ],
-      "country_pct": 96.66666666666667,
+      "country_pct": 93.33333333333333,
       "city_pct": 50.0
     },
     "T\u00f3rshavn, FO": {
@@ -17851,8 +17851,8 @@
         },
         "ip2location": {
           "country": "TK",
-          "city": "Fale",
-          "changed_at": "2026-06-15T23:49:41Z"
+          "city": "Atafu Village",
+          "changed_at": "2026-07-15T01:47:41Z"
         },
         "dbip": {
           "country": "TK",
@@ -17886,8 +17886,8 @@
         },
         "ip2location": {
           "country": "TK",
-          "city": "Fale",
-          "changed_at": "2026-06-15T23:49:41Z"
+          "city": "Atafu Village",
+          "changed_at": "2026-07-15T01:47:41Z"
         },
         "dbip": {
           "country": "TK",
@@ -29445,9 +29445,9 @@
           "changed_at": "2026-06-15T23:49:41Z"
         },
         "iplocate": {
-          "country": "US",
+          "country": "MX",
           "city": "",
-          "changed_at": "2026-06-20T00:39:57Z"
+          "changed_at": "2026-07-15T01:47:41Z"
         }
       }
     },
@@ -37495,9 +37495,9 @@
           "changed_at": "2026-06-15T23:49:41Z"
         },
         "iplocate": {
-          "country": "US",
+          "country": "UA",
           "city": "",
-          "changed_at": "2026-07-02T00:39:39Z"
+          "changed_at": "2026-07-15T01:47:41Z"
         }
       }
     },
@@ -37530,9 +37530,9 @@
           "changed_at": "2026-06-15T23:49:41Z"
         },
         "iplocate": {
-          "country": "US",
+          "country": "UA",
           "city": "",
-          "changed_at": "2026-07-02T00:39:39Z"
+          "changed_at": "2026-07-15T01:47:41Z"
         }
       }
     },
@@ -37565,9 +37565,9 @@
           "changed_at": "2026-06-15T23:49:41Z"
         },
         "iplocate": {
-          "country": "UA",
+          "country": "US",
           "city": "",
-          "changed_at": "2026-07-02T00:39:39Z"
+          "changed_at": "2026-07-15T01:47:41Z"
         }
       }
     },
@@ -47216,8 +47216,8 @@
         },
         "ip2location": {
           "country": "CA",
-          "city": "",
-          "changed_at": "2026-06-15T23:49:41Z"
+          "city": "Granduc",
+          "changed_at": "2026-07-15T01:47:41Z"
         },
         "dbip": {
           "country": "CA",
@@ -51871,8 +51871,8 @@
         },
         "ip2location": {
           "country": "CI",
-          "city": "Yamoussoukro",
-          "changed_at": "2026-06-15T23:49:41Z"
+          "city": "Abidjan",
+          "changed_at": "2026-07-15T01:47:41Z"
         },
         "dbip": {
           "country": "CI",
@@ -51906,8 +51906,8 @@
         },
         "ip2location": {
           "country": "CI",
-          "city": "Yamoussoukro",
-          "changed_at": "2026-06-15T23:49:41Z"
+          "city": "Abidjan",
+          "changed_at": "2026-07-15T01:47:41Z"
         },
         "dbip": {
           "country": "CI",
@@ -65530,9 +65530,9 @@
           "changed_at": "2026-06-15T23:49:41Z"
         },
         "iplocate": {
-          "country": "LY",
+          "country": "US",
           "city": "",
-          "changed_at": "2026-07-13T02:05:30Z"
+          "changed_at": "2026-07-15T01:47:41Z"
         }
       }
     },
@@ -67306,8 +67306,8 @@
         },
         "ip2location": {
           "country": "VN",
-          "city": "",
-          "changed_at": "2026-06-15T23:49:41Z"
+          "city": "Ho Chi Minh City",
+          "changed_at": "2026-07-15T01:47:41Z"
         },
         "dbip": {
           "country": "VN",
@@ -67341,8 +67341,8 @@
         },
         "ip2location": {
           "country": "VN",
-          "city": "",
-          "changed_at": "2026-06-15T23:49:41Z"
+          "city": "Ho Chi Minh City",
+          "changed_at": "2026-07-15T01:47:41Z"
         },
         "dbip": {
           "country": "VN",
@@ -83380,9 +83380,9 @@
           "changed_at": "2026-06-15T23:49:41Z"
         },
         "iplocate": {
-          "country": "US",
+          "country": "CO",
           "city": "",
-          "changed_at": "2026-07-14T01:51:41Z"
+          "changed_at": "2026-07-15T01:47:41Z"
         }
       }
     },
@@ -84255,9 +84255,9 @@
           "changed_at": "2026-06-15T23:49:41Z"
         },
         "iplocate": {
-          "country": "US",
+          "country": "CD",
           "city": "",
-          "changed_at": "2026-07-14T01:51:41Z"
+          "changed_at": "2026-07-15T01:47:41Z"
         }
       }
     },
@@ -84780,9 +84780,9 @@
           "changed_at": "2026-06-15T23:49:41Z"
         },
         "iplocate": {
-          "country": "GA",
+          "country": "US",
           "city": "",
-          "changed_at": "2026-06-15T23:49:41Z"
+          "changed_at": "2026-07-15T01:47:41Z"
         }
       }
     },
@@ -93591,8 +93591,8 @@
         },
         "ip2location": {
           "country": "CA",
-          "city": "",
-          "changed_at": "2026-06-15T23:49:41Z"
+          "city": "Iqaluit",
+          "changed_at": "2026-07-15T01:47:41Z"
         },
         "dbip": {
           "country": "CA",
@@ -93626,8 +93626,8 @@
         },
         "ip2location": {
           "country": "CA",
-          "city": "",
-          "changed_at": "2026-06-15T23:49:41Z"
+          "city": "Iqaluit",
+          "changed_at": "2026-07-15T01:47:41Z"
         },
         "dbip": {
           "country": "CA",
@@ -94431,8 +94431,8 @@
         },
         "ip2location": {
           "country": "CI",
-          "city": "Yamoussoukro",
-          "changed_at": "2026-06-15T23:49:41Z"
+          "city": "Abidjan",
+          "changed_at": "2026-07-15T01:47:41Z"
         },
         "dbip": {
           "country": "CI",
@@ -94466,8 +94466,8 @@
         },
         "ip2location": {
           "country": "CI",
-          "city": "Yamoussoukro",
-          "changed_at": "2026-06-15T23:49:41Z"
+          "city": "Abidjan",
+          "changed_at": "2026-07-15T01:47:41Z"
         },
         "dbip": {
           "country": "CI",
@@ -97870,9 +97870,9 @@
           "changed_at": "2026-06-15T23:49:41Z"
         },
         "iplocate": {
-          "country": "MY",
+          "country": "US",
           "city": "",
-          "changed_at": "2026-06-15T23:49:41Z"
+          "changed_at": "2026-07-15T01:47:41Z"
         }
       }
     },
@@ -97905,9 +97905,9 @@
           "changed_at": "2026-06-15T23:49:41Z"
         },
         "iplocate": {
-          "country": "MY",
+          "country": "US",
           "city": "",
-          "changed_at": "2026-06-15T23:49:41Z"
+          "changed_at": "2026-07-15T01:47:41Z"
         }
       }
     },
@@ -97940,9 +97940,9 @@
           "changed_at": "2026-06-15T23:49:41Z"
         },
         "iplocate": {
-          "country": "MY",
+          "country": "US",
           "city": "",
-          "changed_at": "2026-06-15T23:49:41Z"
+          "changed_at": "2026-07-15T01:47:41Z"
         }
       }
     },
@@ -97975,9 +97975,9 @@
           "changed_at": "2026-06-15T23:49:41Z"
         },
         "iplocate": {
-          "country": "MY",
+          "country": "US",
           "city": "",
-          "changed_at": "2026-06-15T23:49:41Z"
+          "changed_at": "2026-07-15T01:47:41Z"
         }
       }
     },
@@ -98185,9 +98185,9 @@
           "changed_at": "2026-06-15T23:49:41Z"
         },
         "iplocate": {
-          "country": "AU",
+          "country": "US",
           "city": "",
-          "changed_at": "2026-07-14T01:51:41Z"
+          "changed_at": "2026-07-15T01:47:41Z"
         }
       }
     },
@@ -98220,9 +98220,9 @@
           "changed_at": "2026-06-15T23:49:41Z"
         },
         "iplocate": {
-          "country": "US",
+          "country": "AU",
           "city": "",
-          "changed_at": "2026-07-14T01:51:41Z"
+          "changed_at": "2026-07-15T01:47:41Z"
         }
       }
     },
@@ -98255,9 +98255,9 @@
           "changed_at": "2026-06-15T23:49:41Z"
         },
         "iplocate": {
-          "country": "US",
+          "country": "AU",
           "city": "",
-          "changed_at": "2026-07-14T01:51:41Z"
+          "changed_at": "2026-07-15T01:47:41Z"
         }
       }
     },
@@ -98911,8 +98911,8 @@
         },
         "ip2location": {
           "country": "VN",
-          "city": "",
-          "changed_at": "2026-06-15T23:49:41Z"
+          "city": "Ho Chi Minh City",
+          "changed_at": "2026-07-15T01:47:41Z"
         },
         "dbip": {
           "country": "VN",
@@ -98946,8 +98946,8 @@
         },
         "ip2location": {
           "country": "VN",
-          "city": "",
-          "changed_at": "2026-06-15T23:49:41Z"
+          "city": "Ho Chi Minh City",
+          "changed_at": "2026-07-15T01:47:41Z"
         },
         "dbip": {
           "country": "VN",
@@ -109840,9 +109840,9 @@
           "changed_at": "2026-06-15T23:49:41Z"
         },
         "iplocate": {
-          "country": "BW",
+          "country": "NE",
           "city": "",
-          "changed_at": "2026-07-13T02:05:30Z"
+          "changed_at": "2026-07-15T01:47:41Z"
         }
       }
     },
@@ -114380,9 +114380,9 @@
           "changed_at": "2026-06-15T23:49:41Z"
         },
         "ip2location": {
-          "country": "FM",
-          "city": "Palikir",
-          "changed_at": "2026-06-15T23:49:41Z"
+          "country": "GU",
+          "city": "Hagatna",
+          "changed_at": "2026-07-15T01:47:41Z"
         },
         "dbip": {
           "country": "GU",
@@ -114415,9 +114415,9 @@
           "changed_at": "2026-06-15T23:49:41Z"
         },
         "ip2location": {
-          "country": "FM",
-          "city": "Palikir",
-          "changed_at": "2026-06-15T23:49:41Z"
+          "country": "GU",
+          "city": "Hagatna",
+          "changed_at": "2026-07-15T01:47:41Z"
         },
         "dbip": {
           "country": "GU",
@@ -114450,9 +114450,9 @@
           "changed_at": "2026-06-15T23:49:41Z"
         },
         "ip2location": {
-          "country": "MP",
-          "city": "Saipan",
-          "changed_at": "2026-06-15T23:49:41Z"
+          "country": "BN",
+          "city": "Bandar Seri Begawan",
+          "changed_at": "2026-07-15T01:47:41Z"
         },
         "dbip": {
           "country": "MP",
@@ -114485,9 +114485,9 @@
           "changed_at": "2026-06-15T23:49:41Z"
         },
         "ip2location": {
-          "country": "MP",
-          "city": "Saipan",
-          "changed_at": "2026-06-15T23:49:41Z"
+          "country": "BN",
+          "city": "Bandar Seri Begawan",
+          "changed_at": "2026-07-15T01:47:41Z"
         },
         "dbip": {
           "country": "MP",
@@ -121801,8 +121801,8 @@
         },
         "ip2location": {
           "country": "VN",
-          "city": "Hanoi",
-          "changed_at": "2026-06-15T23:49:41Z"
+          "city": "Ho Chi Minh City",
+          "changed_at": "2026-07-15T01:47:41Z"
         },
         "dbip": {
           "country": "VN",
@@ -123735,9 +123735,9 @@
           "changed_at": "2026-06-15T23:49:41Z"
         },
         "iplocate": {
-          "country": "US",
+          "country": "AU",
           "city": "",
-          "changed_at": "2026-07-13T02:05:30Z"
+          "changed_at": "2026-07-15T01:47:41Z"
         }
       }
     },
@@ -124776,8 +124776,8 @@
         },
         "ip2location": {
           "country": "TK",
-          "city": "Fale",
-          "changed_at": "2026-06-15T23:49:41Z"
+          "city": "Atafu Village",
+          "changed_at": "2026-07-15T01:47:41Z"
         },
         "dbip": {
           "country": "TK",
@@ -127366,8 +127366,8 @@
         },
         "ip2location": {
           "country": "CI",
-          "city": "Yamoussoukro",
-          "changed_at": "2026-06-15T23:49:41Z"
+          "city": "Abidjan",
+          "changed_at": "2026-07-15T01:47:41Z"
         },
         "dbip": {
           "country": "CI",
@@ -130201,8 +130201,8 @@
         },
         "ip2location": {
           "country": "CI",
-          "city": "Yamoussoukro",
-          "changed_at": "2026-06-15T23:49:41Z"
+          "city": "Abidjan",
+          "changed_at": "2026-07-15T01:47:41Z"
         },
         "dbip": {
           "country": "CI",
@@ -143420,9 +143420,9 @@
       "geofeed_changed_at": "2026-06-15T23:49:41Z",
       "providers": {
         "maxmind": {
-          "country": "US",
+          "country": "SE",
           "city": "",
-          "changed_at": "2026-07-08T02:02:11Z"
+          "changed_at": "2026-07-15T01:47:41Z"
         },
         "ipinfo": {
           "country": "BH",
@@ -143455,9 +143455,9 @@
       "geofeed_changed_at": "2026-06-15T23:49:41Z",
       "providers": {
         "maxmind": {
-          "country": "US",
+          "country": "SE",
           "city": "",
-          "changed_at": "2026-07-08T02:02:11Z"
+          "changed_at": "2026-07-15T01:47:41Z"
         },
         "ipinfo": {
           "country": "PS",
@@ -147036,8 +147036,8 @@
         },
         "ip2location": {
           "country": "US",
-          "city": "Hawthorne",
-          "changed_at": "2026-07-09T02:15:33Z"
+          "city": "Dallas",
+          "changed_at": "2026-07-15T01:47:41Z"
         },
         "dbip": {
           "country": "US",
@@ -147386,8 +147386,8 @@
         },
         "ip2location": {
           "country": "CA",
-          "city": "Toronto",
-          "changed_at": "2026-06-15T23:49:41Z"
+          "city": "Granduc",
+          "changed_at": "2026-07-15T01:47:41Z"
         },
         "dbip": {
           "country": "CA",
@@ -147421,8 +147421,8 @@
         },
         "ip2location": {
           "country": "US",
-          "city": "Hawthorne",
-          "changed_at": "2026-06-15T23:49:41Z"
+          "city": "South Point",
+          "changed_at": "2026-07-15T01:47:41Z"
         },
         "dbip": {
           "country": "US",
@@ -147491,8 +147491,8 @@
         },
         "ip2location": {
           "country": "US",
-          "city": "Hawthorne",
-          "changed_at": "2026-06-15T23:49:41Z"
+          "city": "Vandenberg Air Force Base",
+          "changed_at": "2026-07-15T01:47:41Z"
         },
         "dbip": {
           "country": "US",
@@ -147666,8 +147666,8 @@
         },
         "ip2location": {
           "country": "PG",
-          "city": "Port Moresby",
-          "changed_at": "2026-06-15T23:49:41Z"
+          "city": "Namatanai",
+          "changed_at": "2026-07-15T01:47:41Z"
         },
         "dbip": {
           "country": "PG",
@@ -150676,8 +150676,8 @@
         },
         "ip2location": {
           "country": "VN",
-          "city": "Hanoi",
-          "changed_at": "2026-06-15T23:49:41Z"
+          "city": "Ho Chi Minh City",
+          "changed_at": "2026-07-15T01:47:41Z"
         },
         "dbip": {
           "country": "US",
@@ -150711,8 +150711,8 @@
         },
         "ip2location": {
           "country": "VN",
-          "city": "Hanoi",
-          "changed_at": "2026-06-15T23:49:41Z"
+          "city": "Ho Chi Minh City",
+          "changed_at": "2026-07-15T01:47:41Z"
         },
         "dbip": {
           "country": "US",
