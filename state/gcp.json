@@ -266,7 +266,7 @@
         "8.234.24.0/21"
       ],
       "country_pct": 94.73684210526315,
-      "city_pct": 78.43137254901961
+      "city_pct": 80.7017543859649
     },
     "Dammam, SA": {
       "country": "SA",
@@ -4809,8 +4809,8 @@
       "providers": {
         "maxmind": {
           "country": "US",
-          "city": "",
-          "changed_at": "2026-07-14T01:51:21Z"
+          "city": "Dallas",
+          "changed_at": "2026-07-18T01:51:40Z"
         },
         "ipinfo": {
           "country": "US",
@@ -4844,8 +4844,8 @@
       "providers": {
         "maxmind": {
           "country": "US",
-          "city": "",
-          "changed_at": "2026-07-14T01:51:21Z"
+          "city": "Dallas",
+          "changed_at": "2026-07-18T01:51:40Z"
         },
         "ipinfo": {
           "country": "US",
@@ -16359,8 +16359,8 @@
       "providers": {
         "maxmind": {
           "country": "US",
-          "city": "",
-          "changed_at": "2026-07-14T01:51:21Z"
+          "city": "Dallas",
+          "changed_at": "2026-07-18T01:51:40Z"
         },
         "ipinfo": {
           "country": "US",
@@ -17444,8 +17444,8 @@
       "providers": {
         "maxmind": {
           "country": "US",
-          "city": "",
-          "changed_at": "2026-07-14T01:51:21Z"
+          "city": "Dallas",
+          "changed_at": "2026-07-18T01:51:40Z"
         },
         "ipinfo": {
           "country": "US",
@@ -23534,8 +23534,8 @@
       "providers": {
         "maxmind": {
           "country": "US",
-          "city": "",
-          "changed_at": "2026-07-14T01:51:21Z"
+          "city": "Dallas",
+          "changed_at": "2026-07-18T01:51:40Z"
         },
         "ipinfo": {
           "country": "US",
@@ -34069,8 +34069,8 @@
       "providers": {
         "maxmind": {
           "country": "US",
-          "city": "",
-          "changed_at": "2026-07-14T01:51:21Z"
+          "city": "Dallas",
+          "changed_at": "2026-07-18T01:51:40Z"
         },
         "ipinfo": {
           "country": "US",
