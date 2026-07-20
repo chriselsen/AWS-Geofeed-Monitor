@@ -2815,7 +2815,7 @@
         "87.251.28.0/24",
         "87.251.29.0/24"
       ],
-      "country_pct": 97.53086419753086,
+      "country_pct": 99.01234567901234,
       "city_pct": 100.0
     },
     "Lagos, NG": {
@@ -19680,9 +19680,9 @@
           "changed_at": "2026-06-15T23:49:41Z"
         },
         "iplocate": {
-          "country": "US",
+          "country": "UA",
           "city": "",
-          "changed_at": "2026-07-19T02:01:39Z"
+          "changed_at": "2026-07-20T02:22:41Z"
         }
       }
     },
@@ -19715,9 +19715,9 @@
           "changed_at": "2026-06-15T23:49:41Z"
         },
         "iplocate": {
-          "country": "US",
+          "country": "UA",
           "city": "",
-          "changed_at": "2026-07-19T02:01:39Z"
+          "changed_at": "2026-07-20T02:22:41Z"
         }
       }
     },
@@ -19750,9 +19750,9 @@
           "changed_at": "2026-06-15T23:49:41Z"
         },
         "iplocate": {
-          "country": "US",
+          "country": "UA",
           "city": "",
-          "changed_at": "2026-07-19T02:01:39Z"
+          "changed_at": "2026-07-20T02:22:41Z"
         }
       }
     },
@@ -19785,9 +19785,9 @@
           "changed_at": "2026-06-15T23:49:41Z"
         },
         "iplocate": {
-          "country": "US",
+          "country": "UA",
           "city": "",
-          "changed_at": "2026-07-19T02:01:39Z"
+          "changed_at": "2026-07-20T02:22:41Z"
         }
       }
     },
@@ -37705,9 +37705,9 @@
           "changed_at": "2026-06-15T23:49:41Z"
         },
         "iplocate": {
-          "country": "US",
+          "country": "UA",
           "city": "",
-          "changed_at": "2026-07-19T02:01:39Z"
+          "changed_at": "2026-07-20T02:22:41Z"
         }
       }
     },
@@ -37740,9 +37740,9 @@
           "changed_at": "2026-06-15T23:49:41Z"
         },
         "iplocate": {
-          "country": "US",
+          "country": "UA",
           "city": "",
-          "changed_at": "2026-07-19T02:01:39Z"
+          "changed_at": "2026-07-20T02:22:41Z"
         }
       }
     },
