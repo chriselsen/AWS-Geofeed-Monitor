@@ -11,7 +11,7 @@
         "34.3.32.0/20",
         "34.96.53.0/24"
       ],
-      "country_pct": 91.42857142857143,
+      "country_pct": 94.28571428571428,
       "city_pct": 95.0
     },
     "Berlin, DE": {
@@ -91,7 +91,7 @@
         "8.34.211.0/24",
         "8.34.220.0/22"
       ],
-      "country_pct": 96.61016949152543,
+      "country_pct": 97.28813559322033,
       "city_pct": 98.27586206896551
     },
     "Columbus, US": {
@@ -290,7 +290,7 @@
         "8.228.192.0/19",
         "8.230.64.0/19"
       ],
-      "country_pct": 92.22222222222223,
+      "country_pct": 93.33333333333333,
       "city_pct": 90.56603773584906
     },
     "Doha, QA": {
@@ -306,7 +306,7 @@
         "34.184.66.0/24",
         "34.34.230.0/24"
       ],
-      "country_pct": 93.33333333333333,
+      "country_pct": 95.55555555555556,
       "city_pct": 96.15384615384616
     },
     "Frankfurt, DE": {
@@ -407,7 +407,7 @@
         "34.2.96.0/20",
         "34.96.59.0/24"
       ],
-      "country_pct": 88.57142857142857,
+      "country_pct": 91.42857142857143,
       "city_pct": 92.85714285714286
     },
     "Hong Kong, HK": {
@@ -428,7 +428,7 @@
         "35.242.27.0/24",
         "35.243.8.0/21"
       ],
-      "country_pct": 95.71428571428572,
+      "country_pct": 97.14285714285714,
       "city_pct": 97.5609756097561
     },
     "Huntsville, US": {
@@ -673,7 +673,7 @@
         "34.184.111.0/24",
         "34.96.38.0/24"
       ],
-      "country_pct": 90.0,
+      "country_pct": 91.66666666666666,
       "city_pct": 91.42857142857143
     },
     "Melbourne, AU": {
@@ -691,7 +691,7 @@
         "34.177.69.0/24",
         "34.34.239.0/24"
       ],
-      "country_pct": 94.54545454545455,
+      "country_pct": 96.36363636363636,
       "city_pct": 96.875
     },
     "Milan, IT": {
@@ -716,7 +716,7 @@
         "34.96.32.0/24",
         "35.219.224.0/19"
       ],
-      "country_pct": 94.44444444444444,
+      "country_pct": 95.55555555555556,
       "city_pct": 94.33962264150944
     },
     "Montreal, CA": {
@@ -750,7 +750,7 @@
         "35.234.240.0/20",
         "35.242.43.0/24"
       ],
-      "country_pct": 97.03703703703704,
+      "country_pct": 97.77777777777777,
       "city_pct": 97.5
     },
     "Mumbai, IN": {
@@ -894,7 +894,7 @@
         "35.242.45.0/24",
         "35.243.56.0/21"
       ],
-      "country_pct": 95.0,
+      "country_pct": 96.66666666666667,
       "city_pct": 97.14285714285714
     },
     "Paris, FR": {
@@ -939,7 +939,7 @@
         "34.51.0.0/17",
         "34.96.55.0/24"
       ],
-      "country_pct": 88.57142857142857,
+      "country_pct": 91.42857142857143,
       "city_pct": 50.0
     },
     "Salt Lake City, US": {
@@ -1339,7 +1339,7 @@
         "34.184.30.0/24",
         "34.34.232.0/24"
       ],
-      "country_pct": 94.28571428571428,
+      "country_pct": 95.71428571428572,
       "city_pct": 92.6829268292683
     },
     "Tulsa, US": {
@@ -8453,9 +8453,9 @@
           "changed_at": "2026-07-22T01:59:19Z"
         },
         "ipinfo": {
-          "country": "US",
+          "country": "JP",
           "city": "",
-          "changed_at": "2026-07-23T02:07:49Z"
+          "changed_at": "2026-07-24T02:05:38Z"
         },
         "ip2location": {
           "country": "JP",
@@ -8558,9 +8558,9 @@
           "changed_at": "2026-07-22T01:59:19Z"
         },
         "ipinfo": {
-          "country": "US",
+          "country": "QA",
           "city": "",
-          "changed_at": "2026-07-23T02:07:49Z"
+          "changed_at": "2026-07-24T02:05:38Z"
         },
         "ip2location": {
           "country": "QA",
@@ -8628,9 +8628,9 @@
           "changed_at": "2026-07-22T01:59:19Z"
         },
         "ipinfo": {
-          "country": "US",
+          "country": "CA",
           "city": "",
-          "changed_at": "2026-07-23T02:07:49Z"
+          "changed_at": "2026-07-24T02:05:38Z"
         },
         "ip2location": {
           "country": "CA",
@@ -8768,9 +8768,9 @@
           "changed_at": "2026-07-22T01:59:19Z"
         },
         "ipinfo": {
-          "country": "US",
+          "country": "HK",
           "city": "",
-          "changed_at": "2026-07-23T02:07:49Z"
+          "changed_at": "2026-07-24T02:05:38Z"
         },
         "ip2location": {
           "country": "HK",
@@ -8873,9 +8873,9 @@
           "changed_at": "2026-07-22T01:59:19Z"
         },
         "ipinfo": {
-          "country": "US",
+          "country": "AU",
           "city": "",
-          "changed_at": "2026-07-23T02:07:49Z"
+          "changed_at": "2026-07-24T02:05:38Z"
         },
         "ip2location": {
           "country": "AU",
@@ -9188,9 +9188,9 @@
           "changed_at": "2026-07-22T01:59:19Z"
         },
         "ipinfo": {
-          "country": "US",
+          "country": "CA",
           "city": "",
-          "changed_at": "2026-07-23T02:07:49Z"
+          "changed_at": "2026-07-24T02:05:38Z"
         },
         "ip2location": {
           "country": "CA",
@@ -9433,9 +9433,9 @@
           "changed_at": "2026-07-22T01:59:19Z"
         },
         "ipinfo": {
-          "country": "US",
+          "country": "SA",
           "city": "",
-          "changed_at": "2026-07-23T02:07:49Z"
+          "changed_at": "2026-07-24T02:05:38Z"
         },
         "ip2location": {
           "country": "SA",
@@ -11953,9 +11953,9 @@
           "changed_at": "2026-07-22T01:59:19Z"
         },
         "ipinfo": {
-          "country": "US",
+          "country": "IT",
           "city": "",
-          "changed_at": "2026-07-23T02:07:49Z"
+          "changed_at": "2026-07-24T02:05:38Z"
         },
         "ip2location": {
           "country": "IT",
@@ -12163,9 +12163,9 @@
           "changed_at": "2026-07-22T01:59:19Z"
         },
         "ipinfo": {
-          "country": "US",
+          "country": "ES",
           "city": "",
-          "changed_at": "2026-07-23T02:07:49Z"
+          "changed_at": "2026-07-24T02:05:38Z"
         },
         "ip2location": {
           "country": "ES",
@@ -12268,9 +12268,9 @@
           "changed_at": "2026-07-22T01:59:19Z"
         },
         "ipinfo": {
-          "country": "GB",
+          "country": "BE",
           "city": "",
-          "changed_at": "2026-07-23T02:07:49Z"
+          "changed_at": "2026-07-24T02:05:38Z"
         },
         "ip2location": {
           "country": "BE",
@@ -12548,9 +12548,9 @@
           "changed_at": "2026-07-22T01:59:19Z"
         },
         "ipinfo": {
-          "country": "US",
+          "country": "TH",
           "city": "",
-          "changed_at": "2026-07-23T02:07:49Z"
+          "changed_at": "2026-07-24T02:05:38Z"
         },
         "ip2location": {
           "country": "TH",
@@ -12618,9 +12618,9 @@
           "changed_at": "2026-07-22T01:59:19Z"
         },
         "ipinfo": {
-          "country": "US",
+          "country": "MX",
           "city": "",
-          "changed_at": "2026-07-23T02:07:49Z"
+          "changed_at": "2026-07-24T02:05:38Z"
         },
         "ip2location": {
           "country": "MX",
@@ -12688,9 +12688,9 @@
           "changed_at": "2026-07-22T01:59:19Z"
         },
         "ipinfo": {
-          "country": "US",
+          "country": "DE",
           "city": "",
-          "changed_at": "2026-07-23T02:07:49Z"
+          "changed_at": "2026-07-24T02:05:38Z"
         },
         "ip2location": {
           "country": "DE",
@@ -12758,9 +12758,9 @@
           "changed_at": "2026-07-22T01:59:19Z"
         },
         "ipinfo": {
-          "country": "GB",
+          "country": "BE",
           "city": "",
-          "changed_at": "2026-07-23T02:07:49Z"
+          "changed_at": "2026-07-24T02:05:38Z"
         },
         "ip2location": {
           "country": "BE",
