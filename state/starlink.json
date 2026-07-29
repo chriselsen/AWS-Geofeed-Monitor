@@ -2774,10 +2774,24 @@
     "Kyiv, UA": {
       "country": "UA",
       "prefixes": [
+        "129.222.10.0/24",
+        "129.222.11.0/24",
+        "129.222.12.0/24",
+        "129.222.13.0/24",
+        "129.222.14.0/24",
+        "129.222.15.0/24",
+        "129.222.16.0/24",
         "129.222.164.0/24",
         "129.222.165.0/24",
+        "129.222.17.0/24",
+        "129.222.18.0/24",
         "129.222.188.0/24",
         "129.222.189.0/24",
+        "129.222.19.0/24",
+        "129.222.20.0/24",
+        "129.222.21.0/24",
+        "129.222.22.0/24",
+        "129.222.23.0/24",
         "129.222.32.0/24",
         "129.222.33.0/24",
         "129.222.34.0/24",
@@ -2788,6 +2802,8 @@
         "129.222.39.0/24",
         "129.222.66.0/24",
         "129.222.67.0/24",
+        "129.222.8.0/24",
+        "129.222.9.0/24",
         "129.224.208.0/24",
         "129.224.209.0/24",
         "143.105.166.0/24",
@@ -2878,8 +2894,8 @@
         "9.246.98.0/24",
         "9.246.99.0/24"
       ],
-      "country_pct": 88.93203883495146,
-      "city_pct": 83.81877022653723
+      "country_pct": 81.34453781512605,
+      "city_pct": 78.71148459383754
     },
     "Lagos, NG": {
       "country": "NG",
@@ -4934,6 +4950,8 @@
         "129.222.158.0/24",
         "129.222.96.0/24",
         "129.222.97.0/24",
+        "143.105.58.0/24",
+        "143.105.59.0/24",
         "179.64.114.0/24",
         "179.64.115.0/24",
         "216.234.192.0/24",
@@ -4942,8 +4960,8 @@
         "2605:59c1:1d00::/40",
         "2605:59ca:1100::/40"
       ],
-      "country_pct": 96.92307692307692,
-      "city_pct": 94.87179487179486
+      "country_pct": 84.0,
+      "city_pct": 82.22222222222221
     },
     "Reunion, RE": {
       "country": "RE",
@@ -5401,7 +5419,7 @@
         "98.97.157.0/24"
       ],
       "country_pct": 95.60975609756098,
-      "city_pct": 91.70124481327801
+      "city_pct": 91.59663865546219
     },
     "Sao Tome, ST": {
       "country": "ST",
@@ -5567,7 +5585,7 @@
         "9.246.48.0/24",
         "9.246.49.0/24"
       ],
-      "country_pct": 98.46153846153847,
+      "country_pct": 96.92307692307692,
       "city_pct": 100.0
     },
     "St Helier, JE": {
@@ -6315,6 +6333,7 @@
     "116.91.223.0/24",
     "129.222.0.0/24",
     "129.222.1.0/24",
+    "129.222.10.0/24",
     "129.222.100.0/24",
     "129.222.101.0/24",
     "129.222.102.0/24",
@@ -6325,6 +6344,7 @@
     "129.222.107.0/24",
     "129.222.108.0/24",
     "129.222.109.0/24",
+    "129.222.11.0/24",
     "129.222.110.0/24",
     "129.222.111.0/24",
     "129.222.112.0/24",
@@ -6335,6 +6355,7 @@
     "129.222.117.0/24",
     "129.222.118.0/24",
     "129.222.119.0/24",
+    "129.222.12.0/24",
     "129.222.120.0/24",
     "129.222.121.0/24",
     "129.222.122.0/24",
@@ -6345,6 +6366,7 @@
     "129.222.127.0/24",
     "129.222.128.0/24",
     "129.222.129.0/24",
+    "129.222.13.0/24",
     "129.222.130.0/24",
     "129.222.131.0/24",
     "129.222.132.0/24",
@@ -6355,6 +6377,7 @@
     "129.222.137.0/24",
     "129.222.138.0/24",
     "129.222.139.0/24",
+    "129.222.14.0/24",
     "129.222.140.0/24",
     "129.222.141.0/24",
     "129.222.142.0/24",
@@ -6365,6 +6388,7 @@
     "129.222.147.0/24",
     "129.222.148.0/24",
     "129.222.149.0/24",
+    "129.222.15.0/24",
     "129.222.150.0/24",
     "129.222.151.0/24",
     "129.222.152.0/24",
@@ -6375,6 +6399,7 @@
     "129.222.157.0/24",
     "129.222.158.0/24",
     "129.222.159.0/24",
+    "129.222.16.0/24",
     "129.222.160.0/24",
     "129.222.161.0/24",
     "129.222.162.0/24",
@@ -6385,6 +6410,7 @@
     "129.222.167.0/24",
     "129.222.168.0/24",
     "129.222.169.0/24",
+    "129.222.17.0/24",
     "129.222.170.0/24",
     "129.222.171.0/24",
     "129.222.172.0/24",
@@ -6395,6 +6421,7 @@
     "129.222.177.0/24",
     "129.222.178.0/24",
     "129.222.179.0/24",
+    "129.222.18.0/24",
     "129.222.180.0/24",
     "129.222.181.0/24",
     "129.222.182.0/25",
@@ -6406,6 +6433,7 @@
     "129.222.187.0/24",
     "129.222.188.0/24",
     "129.222.189.0/24",
+    "129.222.19.0/24",
     "129.222.190.0/24",
     "129.222.191.0/24",
     "129.222.192.0/24",
@@ -6417,6 +6445,7 @@
     "129.222.198.0/24",
     "129.222.199.0/24",
     "129.222.2.0/24",
+    "129.222.20.0/24",
     "129.222.200.0/24",
     "129.222.201.0/24",
     "129.222.202.0/24",
@@ -6427,18 +6456,21 @@
     "129.222.207.0/24",
     "129.222.208.0/24",
     "129.222.209.0/24",
+    "129.222.21.0/24",
     "129.222.210.0/24",
     "129.222.211.0/24",
     "129.222.212.0/24",
     "129.222.213.0/24",
     "129.222.214.0/24",
     "129.222.215.0/24",
+    "129.222.22.0/24",
     "129.222.224.0/24",
     "129.222.225.0/24",
     "129.222.226.0/24",
     "129.222.227.0/24",
     "129.222.228.0/24",
     "129.222.229.0/24",
+    "129.222.23.0/24",
     "129.222.230.0/24",
     "129.222.231.0/24",
     "129.222.232.0/24",
@@ -6527,6 +6559,7 @@
     "129.222.77.0/24",
     "129.222.78.0/24",
     "129.222.79.0/24",
+    "129.222.8.0/24",
     "129.222.80.0/24",
     "129.222.81.0/24",
     "129.222.82.0/24",
@@ -6537,6 +6570,7 @@
     "129.222.87.0/24",
     "129.222.88.0/24",
     "129.222.89.0/24",
+    "129.222.9.0/24",
     "129.222.90.0/24",
     "129.222.91.0/24",
     "129.222.94.0/24",
@@ -6881,6 +6915,8 @@
     "143.105.55.0/24",
     "143.105.56.0/24",
     "143.105.57.0/24",
+    "143.105.58.0/24",
+    "143.105.59.0/24",
     "143.105.6.0/24",
     "143.105.60.0/24",
     "143.105.61.0/24",
@@ -11081,7 +11117,7 @@
     "2605:59c8:600::/40": true,
     "2605:59c8:a00::/40": true,
     "2605:59ca:8004::/47": true,
-    "129.224.223.0/24": true,
+    "129.224.223.0/24": false,
     "2605:59c7:f005::/48": true,
     "66.9.160.0/24": true,
     "66.9.161.0/24": true,
@@ -11338,8 +11374,8 @@
     "98.97.93.0/24": true,
     "98.97.94.0/24": true,
     "98.97.95.0/24": true,
-    "98.97.152.0/24": true,
-    "98.97.153.0/24": true,
+    "98.97.152.0/24": false,
+    "98.97.153.0/24": false,
     "129.222.72.0/24": true,
     "129.222.73.0/24": true,
     "129.222.74.0/24": true,
@@ -12019,6 +12055,22 @@
     "74.244.127.0/24": true,
     "87.251.28.0/24": true,
     "87.251.29.0/24": true,
+    "129.222.8.0/24": true,
+    "129.222.9.0/24": true,
+    "129.222.10.0/24": true,
+    "129.222.11.0/24": true,
+    "129.222.12.0/24": true,
+    "129.222.13.0/24": true,
+    "129.222.14.0/24": true,
+    "129.222.15.0/24": true,
+    "129.222.16.0/24": true,
+    "129.222.17.0/24": true,
+    "129.222.18.0/24": true,
+    "129.222.19.0/24": true,
+    "129.222.20.0/24": true,
+    "129.222.21.0/24": true,
+    "129.222.22.0/24": true,
+    "129.222.23.0/24": true,
     "129.222.32.0/24": true,
     "129.222.33.0/24": true,
     "129.222.34.0/24": true,
@@ -13336,6 +13388,8 @@
     "129.222.156.0/24": true,
     "129.222.157.0/24": true,
     "129.222.158.0/24": true,
+    "143.105.58.0/24": false,
+    "143.105.59.0/24": false,
     "179.64.114.0/24": true,
     "179.64.115.0/24": true,
     "216.234.192.0/24": true,
@@ -13649,7 +13703,7 @@
     "98.97.101.0/24": true,
     "98.97.102.0/24": true,
     "98.97.103.0/24": true,
-    "129.224.220.0/24": true,
+    "129.224.220.0/24": false,
     "2605:59c1::/38": true,
     "2605:59c0:9200::/40": true,
     "2605:59c8::/40": true,
@@ -25611,9 +25665,9 @@
       "geofeed_changed_at": null,
       "providers": {
         "maxmind": {
-          "country": "US",
-          "city": "Lebanon",
-          "changed_at": "2026-07-26T02:06:40Z"
+          "country": "UA",
+          "city": "Kyiv",
+          "changed_at": "2026-07-29T01:59:27Z"
         },
         "ipinfo": {
           "country": "UA",
@@ -25646,9 +25700,9 @@
       "geofeed_changed_at": null,
       "providers": {
         "maxmind": {
-          "country": "US",
-          "city": "Lebanon",
-          "changed_at": "2026-07-26T02:06:40Z"
+          "country": "UA",
+          "city": "Kyiv",
+          "changed_at": "2026-07-29T01:59:27Z"
         },
         "ipinfo": {
           "country": "UA",
@@ -25681,9 +25735,9 @@
       "geofeed_changed_at": null,
       "providers": {
         "maxmind": {
-          "country": "US",
-          "city": "Lebanon",
-          "changed_at": "2026-07-26T02:06:40Z"
+          "country": "UA",
+          "city": "Kyiv",
+          "changed_at": "2026-07-29T01:59:27Z"
         },
         "ipinfo": {
           "country": "UA",
@@ -25716,9 +25770,9 @@
       "geofeed_changed_at": null,
       "providers": {
         "maxmind": {
-          "country": "US",
-          "city": "Lebanon",
-          "changed_at": "2026-07-26T02:06:40Z"
+          "country": "UA",
+          "city": "Kyiv",
+          "changed_at": "2026-07-29T01:59:27Z"
         },
         "ipinfo": {
           "country": "UA",
@@ -27521,9 +27575,9 @@
           "changed_at": "2026-06-15T23:49:41Z"
         },
         "iplocate": {
-          "country": "US",
+          "country": "UA",
           "city": "",
-          "changed_at": "2026-07-28T01:56:04Z"
+          "changed_at": "2026-07-29T01:59:27Z"
         }
       }
     },
@@ -27556,9 +27610,9 @@
           "changed_at": "2026-06-15T23:49:41Z"
         },
         "iplocate": {
-          "country": "US",
+          "country": "UA",
           "city": "",
-          "changed_at": "2026-07-28T01:56:04Z"
+          "changed_at": "2026-07-29T01:59:27Z"
         }
       }
     },
@@ -29426,9 +29480,9 @@
       "geofeed_changed_at": null,
       "providers": {
         "maxmind": {
-          "country": "US",
-          "city": "Elkland",
-          "changed_at": "2026-07-26T02:06:40Z"
+          "country": "UA",
+          "city": "Kyiv",
+          "changed_at": "2026-07-29T01:59:27Z"
         },
         "ipinfo": {
           "country": "UA",
@@ -29461,9 +29515,9 @@
       "geofeed_changed_at": null,
       "providers": {
         "maxmind": {
-          "country": "US",
-          "city": "Elkland",
-          "changed_at": "2026-07-26T02:06:40Z"
+          "country": "UA",
+          "city": "Kyiv",
+          "changed_at": "2026-07-29T01:59:27Z"
         },
         "ipinfo": {
           "country": "UA",
@@ -41772,6 +41826,566 @@
         }
       }
     },
+    "129.222.8.0/24": {
+      "geofeed_values": {
+        "country": "UA",
+        "subdivision": "UA-30",
+        "city": "Kyiv"
+      },
+      "geofeed_changed_at": null,
+      "providers": {
+        "maxmind": {
+          "country": "UA",
+          "city": "Kyiv",
+          "changed_at": "2026-07-29T01:59:27Z"
+        },
+        "ipinfo": {
+          "country": "US",
+          "city": "",
+          "changed_at": "2026-07-29T01:59:27Z"
+        },
+        "ip2location": {
+          "country": "US",
+          "city": "Chicago",
+          "changed_at": "2026-07-29T01:59:27Z"
+        },
+        "dbip": {
+          "country": "US",
+          "city": "Chicago",
+          "changed_at": "2026-07-29T01:59:27Z"
+        },
+        "iplocate": {
+          "country": "US",
+          "city": "",
+          "changed_at": "2026-07-29T01:59:27Z"
+        }
+      }
+    },
+    "129.222.9.0/24": {
+      "geofeed_values": {
+        "country": "UA",
+        "subdivision": "UA-30",
+        "city": "Kyiv"
+      },
+      "geofeed_changed_at": null,
+      "providers": {
+        "maxmind": {
+          "country": "UA",
+          "city": "Kyiv",
+          "changed_at": "2026-07-29T01:59:27Z"
+        },
+        "ipinfo": {
+          "country": "US",
+          "city": "",
+          "changed_at": "2026-07-29T01:59:27Z"
+        },
+        "ip2location": {
+          "country": "US",
+          "city": "Chicago",
+          "changed_at": "2026-07-29T01:59:27Z"
+        },
+        "dbip": {
+          "country": "US",
+          "city": "Chicago",
+          "changed_at": "2026-07-29T01:59:27Z"
+        },
+        "iplocate": {
+          "country": "US",
+          "city": "",
+          "changed_at": "2026-07-29T01:59:27Z"
+        }
+      }
+    },
+    "129.222.10.0/24": {
+      "geofeed_values": {
+        "country": "UA",
+        "subdivision": "UA-30",
+        "city": "Kyiv"
+      },
+      "geofeed_changed_at": null,
+      "providers": {
+        "maxmind": {
+          "country": "UA",
+          "city": "Kyiv",
+          "changed_at": "2026-07-29T01:59:27Z"
+        },
+        "ipinfo": {
+          "country": "US",
+          "city": "",
+          "changed_at": "2026-07-29T01:59:27Z"
+        },
+        "ip2location": {
+          "country": "US",
+          "city": "Chicago",
+          "changed_at": "2026-07-29T01:59:27Z"
+        },
+        "dbip": {
+          "country": "US",
+          "city": "Chicago",
+          "changed_at": "2026-07-29T01:59:27Z"
+        },
+        "iplocate": {
+          "country": "US",
+          "city": "",
+          "changed_at": "2026-07-29T01:59:27Z"
+        }
+      }
+    },
+    "129.222.11.0/24": {
+      "geofeed_values": {
+        "country": "UA",
+        "subdivision": "UA-30",
+        "city": "Kyiv"
+      },
+      "geofeed_changed_at": null,
+      "providers": {
+        "maxmind": {
+          "country": "UA",
+          "city": "Kyiv",
+          "changed_at": "2026-07-29T01:59:27Z"
+        },
+        "ipinfo": {
+          "country": "US",
+          "city": "",
+          "changed_at": "2026-07-29T01:59:27Z"
+        },
+        "ip2location": {
+          "country": "US",
+          "city": "Chicago",
+          "changed_at": "2026-07-29T01:59:27Z"
+        },
+        "dbip": {
+          "country": "US",
+          "city": "Chicago",
+          "changed_at": "2026-07-29T01:59:27Z"
+        },
+        "iplocate": {
+          "country": "US",
+          "city": "",
+          "changed_at": "2026-07-29T01:59:27Z"
+        }
+      }
+    },
+    "129.222.12.0/24": {
+      "geofeed_values": {
+        "country": "UA",
+        "subdivision": "UA-30",
+        "city": "Kyiv"
+      },
+      "geofeed_changed_at": null,
+      "providers": {
+        "maxmind": {
+          "country": "UA",
+          "city": "Kyiv",
+          "changed_at": "2026-07-29T01:59:27Z"
+        },
+        "ipinfo": {
+          "country": "US",
+          "city": "",
+          "changed_at": "2026-07-29T01:59:27Z"
+        },
+        "ip2location": {
+          "country": "US",
+          "city": "Chicago",
+          "changed_at": "2026-07-29T01:59:27Z"
+        },
+        "dbip": {
+          "country": "US",
+          "city": "Chicago",
+          "changed_at": "2026-07-29T01:59:27Z"
+        },
+        "iplocate": {
+          "country": "US",
+          "city": "",
+          "changed_at": "2026-07-29T01:59:27Z"
+        }
+      }
+    },
+    "129.222.13.0/24": {
+      "geofeed_values": {
+        "country": "UA",
+        "subdivision": "UA-30",
+        "city": "Kyiv"
+      },
+      "geofeed_changed_at": null,
+      "providers": {
+        "maxmind": {
+          "country": "UA",
+          "city": "Kyiv",
+          "changed_at": "2026-07-29T01:59:27Z"
+        },
+        "ipinfo": {
+          "country": "US",
+          "city": "",
+          "changed_at": "2026-07-29T01:59:27Z"
+        },
+        "ip2location": {
+          "country": "US",
+          "city": "Chicago",
+          "changed_at": "2026-07-29T01:59:27Z"
+        },
+        "dbip": {
+          "country": "US",
+          "city": "Chicago",
+          "changed_at": "2026-07-29T01:59:27Z"
+        },
+        "iplocate": {
+          "country": "US",
+          "city": "",
+          "changed_at": "2026-07-29T01:59:27Z"
+        }
+      }
+    },
+    "129.222.14.0/24": {
+      "geofeed_values": {
+        "country": "UA",
+        "subdivision": "UA-30",
+        "city": "Kyiv"
+      },
+      "geofeed_changed_at": null,
+      "providers": {
+        "maxmind": {
+          "country": "UA",
+          "city": "Kyiv",
+          "changed_at": "2026-07-29T01:59:27Z"
+        },
+        "ipinfo": {
+          "country": "US",
+          "city": "",
+          "changed_at": "2026-07-29T01:59:27Z"
+        },
+        "ip2location": {
+          "country": "US",
+          "city": "Chicago",
+          "changed_at": "2026-07-29T01:59:27Z"
+        },
+        "dbip": {
+          "country": "US",
+          "city": "Chicago",
+          "changed_at": "2026-07-29T01:59:27Z"
+        },
+        "iplocate": {
+          "country": "US",
+          "city": "",
+          "changed_at": "2026-07-29T01:59:27Z"
+        }
+      }
+    },
+    "129.222.15.0/24": {
+      "geofeed_values": {
+        "country": "UA",
+        "subdivision": "UA-30",
+        "city": "Kyiv"
+      },
+      "geofeed_changed_at": null,
+      "providers": {
+        "maxmind": {
+          "country": "UA",
+          "city": "Kyiv",
+          "changed_at": "2026-07-29T01:59:27Z"
+        },
+        "ipinfo": {
+          "country": "US",
+          "city": "",
+          "changed_at": "2026-07-29T01:59:27Z"
+        },
+        "ip2location": {
+          "country": "US",
+          "city": "Chicago",
+          "changed_at": "2026-07-29T01:59:27Z"
+        },
+        "dbip": {
+          "country": "US",
+          "city": "Chicago",
+          "changed_at": "2026-07-29T01:59:27Z"
+        },
+        "iplocate": {
+          "country": "US",
+          "city": "",
+          "changed_at": "2026-07-29T01:59:27Z"
+        }
+      }
+    },
+    "129.222.16.0/24": {
+      "geofeed_values": {
+        "country": "UA",
+        "subdivision": "UA-30",
+        "city": "Kyiv"
+      },
+      "geofeed_changed_at": null,
+      "providers": {
+        "maxmind": {
+          "country": "UA",
+          "city": "Kyiv",
+          "changed_at": "2026-07-29T01:59:27Z"
+        },
+        "ipinfo": {
+          "country": "US",
+          "city": "",
+          "changed_at": "2026-07-29T01:59:27Z"
+        },
+        "ip2location": {
+          "country": "US",
+          "city": "Chicago",
+          "changed_at": "2026-07-29T01:59:27Z"
+        },
+        "dbip": {
+          "country": "US",
+          "city": "Chicago",
+          "changed_at": "2026-07-29T01:59:27Z"
+        },
+        "iplocate": {
+          "country": "US",
+          "city": "",
+          "changed_at": "2026-07-29T01:59:27Z"
+        }
+      }
+    },
+    "129.222.17.0/24": {
+      "geofeed_values": {
+        "country": "UA",
+        "subdivision": "UA-30",
+        "city": "Kyiv"
+      },
+      "geofeed_changed_at": null,
+      "providers": {
+        "maxmind": {
+          "country": "UA",
+          "city": "Kyiv",
+          "changed_at": "2026-07-29T01:59:27Z"
+        },
+        "ipinfo": {
+          "country": "US",
+          "city": "",
+          "changed_at": "2026-07-29T01:59:27Z"
+        },
+        "ip2location": {
+          "country": "US",
+          "city": "Chicago",
+          "changed_at": "2026-07-29T01:59:27Z"
+        },
+        "dbip": {
+          "country": "US",
+          "city": "Chicago",
+          "changed_at": "2026-07-29T01:59:27Z"
+        },
+        "iplocate": {
+          "country": "US",
+          "city": "",
+          "changed_at": "2026-07-29T01:59:27Z"
+        }
+      }
+    },
+    "129.222.18.0/24": {
+      "geofeed_values": {
+        "country": "UA",
+        "subdivision": "UA-30",
+        "city": "Kyiv"
+      },
+      "geofeed_changed_at": null,
+      "providers": {
+        "maxmind": {
+          "country": "UA",
+          "city": "Kyiv",
+          "changed_at": "2026-07-29T01:59:27Z"
+        },
+        "ipinfo": {
+          "country": "US",
+          "city": "",
+          "changed_at": "2026-07-29T01:59:27Z"
+        },
+        "ip2location": {
+          "country": "US",
+          "city": "Chicago",
+          "changed_at": "2026-07-29T01:59:27Z"
+        },
+        "dbip": {
+          "country": "US",
+          "city": "Chicago",
+          "changed_at": "2026-07-29T01:59:27Z"
+        },
+        "iplocate": {
+          "country": "US",
+          "city": "",
+          "changed_at": "2026-07-29T01:59:27Z"
+        }
+      }
+    },
+    "129.222.19.0/24": {
+      "geofeed_values": {
+        "country": "UA",
+        "subdivision": "UA-30",
+        "city": "Kyiv"
+      },
+      "geofeed_changed_at": null,
+      "providers": {
+        "maxmind": {
+          "country": "UA",
+          "city": "Kyiv",
+          "changed_at": "2026-07-29T01:59:27Z"
+        },
+        "ipinfo": {
+          "country": "US",
+          "city": "",
+          "changed_at": "2026-07-29T01:59:27Z"
+        },
+        "ip2location": {
+          "country": "US",
+          "city": "Chicago",
+          "changed_at": "2026-07-29T01:59:27Z"
+        },
+        "dbip": {
+          "country": "US",
+          "city": "Chicago",
+          "changed_at": "2026-07-29T01:59:27Z"
+        },
+        "iplocate": {
+          "country": "US",
+          "city": "",
+          "changed_at": "2026-07-29T01:59:27Z"
+        }
+      }
+    },
+    "129.222.20.0/24": {
+      "geofeed_values": {
+        "country": "UA",
+        "subdivision": "UA-30",
+        "city": "Kyiv"
+      },
+      "geofeed_changed_at": null,
+      "providers": {
+        "maxmind": {
+          "country": "UA",
+          "city": "Kyiv",
+          "changed_at": "2026-07-29T01:59:27Z"
+        },
+        "ipinfo": {
+          "country": "US",
+          "city": "",
+          "changed_at": "2026-07-29T01:59:27Z"
+        },
+        "ip2location": {
+          "country": "US",
+          "city": "Chicago",
+          "changed_at": "2026-07-29T01:59:27Z"
+        },
+        "dbip": {
+          "country": "US",
+          "city": "Chicago",
+          "changed_at": "2026-07-29T01:59:27Z"
+        },
+        "iplocate": {
+          "country": "US",
+          "city": "",
+          "changed_at": "2026-07-29T01:59:27Z"
+        }
+      }
+    },
+    "129.222.21.0/24": {
+      "geofeed_values": {
+        "country": "UA",
+        "subdivision": "UA-30",
+        "city": "Kyiv"
+      },
+      "geofeed_changed_at": null,
+      "providers": {
+        "maxmind": {
+          "country": "UA",
+          "city": "Kyiv",
+          "changed_at": "2026-07-29T01:59:27Z"
+        },
+        "ipinfo": {
+          "country": "US",
+          "city": "",
+          "changed_at": "2026-07-29T01:59:27Z"
+        },
+        "ip2location": {
+          "country": "US",
+          "city": "Chicago",
+          "changed_at": "2026-07-29T01:59:27Z"
+        },
+        "dbip": {
+          "country": "US",
+          "city": "Chicago",
+          "changed_at": "2026-07-29T01:59:27Z"
+        },
+        "iplocate": {
+          "country": "US",
+          "city": "",
+          "changed_at": "2026-07-29T01:59:27Z"
+        }
+      }
+    },
+    "129.222.22.0/24": {
+      "geofeed_values": {
+        "country": "UA",
+        "subdivision": "UA-30",
+        "city": "Kyiv"
+      },
+      "geofeed_changed_at": null,
+      "providers": {
+        "maxmind": {
+          "country": "UA",
+          "city": "Kyiv",
+          "changed_at": "2026-07-29T01:59:27Z"
+        },
+        "ipinfo": {
+          "country": "US",
+          "city": "",
+          "changed_at": "2026-07-29T01:59:27Z"
+        },
+        "ip2location": {
+          "country": "US",
+          "city": "Chicago",
+          "changed_at": "2026-07-29T01:59:27Z"
+        },
+        "dbip": {
+          "country": "US",
+          "city": "Chicago",
+          "changed_at": "2026-07-29T01:59:27Z"
+        },
+        "iplocate": {
+          "country": "US",
+          "city": "",
+          "changed_at": "2026-07-29T01:59:27Z"
+        }
+      }
+    },
+    "129.222.23.0/24": {
+      "geofeed_values": {
+        "country": "UA",
+        "subdivision": "UA-30",
+        "city": "Kyiv"
+      },
+      "geofeed_changed_at": null,
+      "providers": {
+        "maxmind": {
+          "country": "UA",
+          "city": "Kyiv",
+          "changed_at": "2026-07-29T01:59:27Z"
+        },
+        "ipinfo": {
+          "country": "US",
+          "city": "",
+          "changed_at": "2026-07-29T01:59:27Z"
+        },
+        "ip2location": {
+          "country": "US",
+          "city": "Chicago",
+          "changed_at": "2026-07-29T01:59:27Z"
+        },
+        "dbip": {
+          "country": "US",
+          "city": "Chicago",
+          "changed_at": "2026-07-29T01:59:27Z"
+        },
+        "iplocate": {
+          "country": "US",
+          "city": "",
+          "changed_at": "2026-07-29T01:59:27Z"
+        }
+      }
+    },
     "129.222.24.0/24": {
       "geofeed_values": {
         "country": "US",
@@ -42081,9 +42695,9 @@
           "changed_at": "2026-06-15T23:49:41Z"
         },
         "iplocate": {
-          "country": "US",
+          "country": "UA",
           "city": "",
-          "changed_at": "2026-07-28T01:56:04Z"
+          "changed_at": "2026-07-29T01:59:27Z"
         }
       }
     },
@@ -42116,9 +42730,9 @@
           "changed_at": "2026-06-15T23:49:41Z"
         },
         "iplocate": {
-          "country": "US",
+          "country": "UA",
           "city": "",
-          "changed_at": "2026-07-28T01:56:04Z"
+          "changed_at": "2026-07-29T01:59:27Z"
         }
       }
     },
@@ -54089,6 +54703,76 @@
           "country": "US",
           "city": "",
           "changed_at": "2026-06-15T23:49:41Z"
+        }
+      }
+    },
+    "143.105.58.0/24": {
+      "geofeed_values": {
+        "country": "CA",
+        "subdivision": "CA-SK",
+        "city": "Regina"
+      },
+      "geofeed_changed_at": null,
+      "providers": {
+        "maxmind": {
+          "country": "US",
+          "city": "Warrenton",
+          "changed_at": "2026-07-29T01:59:27Z"
+        },
+        "ipinfo": {
+          "country": "US",
+          "city": "",
+          "changed_at": "2026-07-29T01:59:27Z"
+        },
+        "ip2location": {
+          "country": "US",
+          "city": "Phoenix",
+          "changed_at": "2026-07-29T01:59:27Z"
+        },
+        "dbip": {
+          "country": "US",
+          "city": "Phoenix",
+          "changed_at": "2026-07-29T01:59:27Z"
+        },
+        "iplocate": {
+          "country": "US",
+          "city": "",
+          "changed_at": "2026-07-29T01:59:27Z"
+        }
+      }
+    },
+    "143.105.59.0/24": {
+      "geofeed_values": {
+        "country": "CA",
+        "subdivision": "CA-SK",
+        "city": "Regina"
+      },
+      "geofeed_changed_at": null,
+      "providers": {
+        "maxmind": {
+          "country": "US",
+          "city": "Warrenton",
+          "changed_at": "2026-07-29T01:59:27Z"
+        },
+        "ipinfo": {
+          "country": "US",
+          "city": "",
+          "changed_at": "2026-07-29T01:59:27Z"
+        },
+        "ip2location": {
+          "country": "US",
+          "city": "Phoenix",
+          "changed_at": "2026-07-29T01:59:27Z"
+        },
+        "dbip": {
+          "country": "US",
+          "city": "Phoenix",
+          "changed_at": "2026-07-29T01:59:27Z"
+        },
+        "iplocate": {
+          "country": "US",
+          "city": "",
+          "changed_at": "2026-07-29T01:59:27Z"
         }
       }
     },
@@ -66317,8 +67001,8 @@
       "providers": {
         "maxmind": {
           "country": "BR",
-          "city": "S\u00e3o Paulo",
-          "changed_at": "2026-07-08T02:02:11Z"
+          "city": "",
+          "changed_at": "2026-07-29T01:59:27Z"
         },
         "ipinfo": {
           "country": "BR",
@@ -66352,8 +67036,8 @@
       "providers": {
         "maxmind": {
           "country": "BR",
-          "city": "S\u00e3o Paulo",
-          "changed_at": "2026-07-08T02:02:11Z"
+          "city": "",
+          "changed_at": "2026-07-29T01:59:27Z"
         },
         "ipinfo": {
           "country": "BR",
@@ -66387,8 +67071,8 @@
       "providers": {
         "maxmind": {
           "country": "BR",
-          "city": "S\u00e3o Paulo",
-          "changed_at": "2026-07-08T02:02:11Z"
+          "city": "",
+          "changed_at": "2026-07-29T01:59:27Z"
         },
         "ipinfo": {
           "country": "BR",
@@ -119641,9 +120325,9 @@
           "changed_at": "2026-06-15T23:49:41Z"
         },
         "iplocate": {
-          "country": "BG",
+          "country": "CZ",
           "city": "",
-          "changed_at": "2026-07-27T02:15:34Z"
+          "changed_at": "2026-07-29T01:59:27Z"
         }
       }
     },
@@ -119676,9 +120360,9 @@
           "changed_at": "2026-06-15T23:49:41Z"
         },
         "iplocate": {
-          "country": "BG",
+          "country": "CZ",
           "city": "",
-          "changed_at": "2026-07-27T02:15:34Z"
+          "changed_at": "2026-07-29T01:59:27Z"
         }
       }
     },
