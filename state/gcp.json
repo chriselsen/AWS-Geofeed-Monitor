@@ -290,8 +290,8 @@
         "8.228.192.0/19",
         "8.230.64.0/19"
       ],
-      "country_pct": 94.44444444444444,
-      "city_pct": 90.74074074074075
+      "country_pct": 92.22222222222223,
+      "city_pct": 87.03703703703704
     },
     "Doha, QA": {
       "country": "QA",
@@ -571,7 +571,6 @@
         "34.118.240.0/22",
         "34.124.8.0/22",
         "34.125.0.0/16",
-        "34.127.146.0/24",
         "34.16.128.0/17",
         "34.186.0.0/19",
         "34.50.160.0/19",
@@ -580,8 +579,8 @@
         "8.228.0.0/19",
         "8.234.17.0/24"
       ],
-      "country_pct": 98.66666666666667,
-      "city_pct": 93.33333333333333
+      "country_pct": 98.57142857142858,
+      "city_pct": 97.61904761904762
     },
     "London, GB": {
       "country": "GB",
@@ -717,8 +716,8 @@
         "34.96.32.0/24",
         "35.219.224.0/19"
       ],
-      "country_pct": 96.66666666666667,
-      "city_pct": 94.44444444444444
+      "country_pct": 95.55555555555556,
+      "city_pct": 92.5925925925926
     },
     "Montreal, CA": {
       "country": "CA",
@@ -817,8 +816,8 @@
         "34.4.24.0/22",
         "34.96.33.0/24"
       ],
-      "country_pct": 94.11764705882352,
-      "city_pct": 90.19607843137256
+      "country_pct": 96.47058823529412,
+      "city_pct": 94.11764705882352
     },
     "North Charleston, US": {
       "country": "US",
@@ -951,7 +950,6 @@
         "2600:1900:4170::/44",
         "34.104.52.0/24",
         "34.106.0.0/16",
-        "34.127.145.0/24",
         "34.127.180.0/24",
         "34.152.111.0/24",
         "34.177.79.0/24",
@@ -965,8 +963,8 @@
         "8.234.16.0/24",
         "8.234.8.0/21"
       ],
-      "country_pct": 98.88888888888889,
-      "city_pct": 94.44444444444444
+      "country_pct": 98.82352941176471,
+      "city_pct": 98.0392156862745
     },
     "Santiago, CL": {
       "country": "CL",
@@ -989,8 +987,8 @@
         "34.184.109.0/24",
         "34.34.252.0/24"
       ],
-      "country_pct": 91.76470588235294,
-      "city_pct": 86.27450980392157
+      "country_pct": 94.11764705882352,
+      "city_pct": 90.19607843137256
     },
     "Sao Paulo, BR": {
       "country": "BR",
@@ -1214,7 +1212,7 @@
         "35.252.0.0/19",
         "8.230.32.0/19"
       ],
-      "country_pct": 93.33333333333333,
+      "country_pct": 92.0,
       "city_pct": 60.0
     },
     "The Dalles, US": {
@@ -1341,8 +1339,8 @@
         "34.184.30.0/24",
         "34.34.232.0/24"
       ],
-      "country_pct": 97.14285714285714,
-      "city_pct": 92.85714285714286
+      "country_pct": 94.28571428571428,
+      "city_pct": 88.09523809523809
     },
     "Tulsa, US": {
       "country": "US",
@@ -1384,8 +1382,8 @@
         "34.184.113.0/24",
         "34.34.238.0/24"
       ],
-      "country_pct": 90.0,
-      "city_pct": 83.33333333333334
+      "country_pct": 91.42857142857143,
+      "city_pct": 85.71428571428571
     },
     "Warsaw, PL": {
       "country": "PL",
@@ -1832,8 +1830,6 @@
     "34.126.208.0/20",
     "34.126.64.0/18",
     "34.127.0.0/17",
-    "34.127.145.0/24",
-    "34.127.146.0/24",
     "34.127.156.0/22",
     "34.127.160.0/20",
     "34.127.177.0/24",
@@ -3071,7 +3067,6 @@
     "34.118.240.0/22": true,
     "34.124.8.0/22": true,
     "34.125.0.0/16": true,
-    "34.127.146.0/24": true,
     "34.186.0.0/19": true,
     "35.219.128.0/18": true,
     "136.85.128.0/17": true,
@@ -3333,7 +3328,6 @@
     "34.96.36.0/24": true,
     "34.104.52.0/24": true,
     "34.106.0.0/16": true,
-    "34.127.145.0/24": true,
     "34.127.180.0/24": true,
     "34.152.111.0/24": true,
     "34.177.79.0/24": true,
@@ -16040,76 +16034,6 @@
         }
       }
     },
-    "34.127.145.0/24": {
-      "geofeed_values": {
-        "country": "US",
-        "subdivision": "US-UT",
-        "city": "Salt Lake City"
-      },
-      "geofeed_changed_at": null,
-      "providers": {
-        "maxmind": {
-          "country": "US",
-          "city": "Salt Lake City",
-          "changed_at": "2026-07-30T01:49:54Z"
-        },
-        "ipinfo": {
-          "country": "US",
-          "city": "",
-          "changed_at": "2026-07-30T01:49:54Z"
-        },
-        "ip2location": {
-          "country": "US",
-          "city": "Mountain View",
-          "changed_at": "2026-07-30T01:49:54Z"
-        },
-        "dbip": {
-          "country": "US",
-          "city": "Mountain View",
-          "changed_at": "2026-07-30T01:49:54Z"
-        },
-        "iplocate": {
-          "country": "US",
-          "city": "",
-          "changed_at": "2026-07-30T01:49:54Z"
-        }
-      }
-    },
-    "34.127.146.0/24": {
-      "geofeed_values": {
-        "country": "US",
-        "subdivision": "US-NV",
-        "city": "Las Vegas"
-      },
-      "geofeed_changed_at": null,
-      "providers": {
-        "maxmind": {
-          "country": "US",
-          "city": "Las Vegas",
-          "changed_at": "2026-07-30T01:49:54Z"
-        },
-        "ipinfo": {
-          "country": "US",
-          "city": "",
-          "changed_at": "2026-07-30T01:49:54Z"
-        },
-        "ip2location": {
-          "country": "US",
-          "city": "Mountain View",
-          "changed_at": "2026-07-30T01:49:54Z"
-        },
-        "dbip": {
-          "country": "US",
-          "city": "Mountain View",
-          "changed_at": "2026-07-30T01:49:54Z"
-        },
-        "iplocate": {
-          "country": "US",
-          "city": "",
-          "changed_at": "2026-07-30T01:49:54Z"
-        }
-      }
-    },
     "34.127.156.0/22": {
       "geofeed_values": {
         "country": "US",
@@ -18404,9 +18328,9 @@
           "changed_at": "2026-06-15T23:49:26Z"
         },
         "ip2location": {
-          "country": "CA",
-          "city": "Toronto",
-          "changed_at": "2026-06-15T23:49:26Z"
+          "country": "IT",
+          "city": "Torino",
+          "changed_at": "2026-08-01T02:10:38Z"
         },
         "dbip": {
           "country": "IT",
@@ -18439,9 +18363,9 @@
           "changed_at": "2026-06-15T23:49:26Z"
         },
         "ip2location": {
-          "country": "CA",
-          "city": "Toronto",
-          "changed_at": "2026-06-15T23:49:26Z"
+          "country": "IT",
+          "city": "Torino",
+          "changed_at": "2026-08-01T02:10:38Z"
         },
         "dbip": {
           "country": "IT",
@@ -20854,9 +20778,9 @@
           "changed_at": "2026-06-15T23:49:26Z"
         },
         "ip2location": {
-          "country": "SA",
-          "city": "Dammam",
-          "changed_at": "2026-07-01T00:39:59Z"
+          "country": "CL",
+          "city": "Santiago",
+          "changed_at": "2026-08-01T02:10:38Z"
         },
         "dbip": {
           "country": "CL",
@@ -20889,9 +20813,9 @@
           "changed_at": "2026-06-15T23:49:26Z"
         },
         "ip2location": {
-          "country": "SA",
-          "city": "Dammam",
-          "changed_at": "2026-07-01T00:39:59Z"
+          "country": "CL",
+          "city": "Santiago",
+          "changed_at": "2026-08-01T02:10:38Z"
         },
         "dbip": {
           "country": "CL",
@@ -20924,9 +20848,9 @@
           "changed_at": "2026-06-15T23:49:26Z"
         },
         "ip2location": {
-          "country": "IT",
-          "city": "Milan",
-          "changed_at": "2026-07-15T01:47:27Z"
+          "country": "US",
+          "city": "Mountain View",
+          "changed_at": "2026-08-01T02:10:38Z"
         },
         "dbip": {
           "country": "IT",
@@ -21589,9 +21513,9 @@
           "changed_at": "2026-06-15T23:49:26Z"
         },
         "ip2location": {
-          "country": "SA",
-          "city": "Dammam",
-          "changed_at": "2026-07-01T00:39:59Z"
+          "country": "CL",
+          "city": "Santiago",
+          "changed_at": "2026-08-01T02:10:38Z"
         },
         "dbip": {
           "country": "CL",
@@ -21624,9 +21548,9 @@
           "changed_at": "2026-06-15T23:49:26Z"
         },
         "ip2location": {
-          "country": "SA",
-          "city": "Dammam",
-          "changed_at": "2026-07-01T00:39:59Z"
+          "country": "CL",
+          "city": "Santiago",
+          "changed_at": "2026-08-01T02:10:38Z"
         },
         "dbip": {
           "country": "CL",
@@ -23059,9 +22983,9 @@
           "changed_at": "2026-06-15T23:49:26Z"
         },
         "ip2location": {
-          "country": "CA",
-          "city": "Toronto",
-          "changed_at": "2026-06-15T23:49:26Z"
+          "country": "IT",
+          "city": "Torino",
+          "changed_at": "2026-08-01T02:10:38Z"
         },
         "dbip": {
           "country": "IT",
@@ -23094,9 +23018,9 @@
           "changed_at": "2026-06-15T23:49:26Z"
         },
         "ip2location": {
-          "country": "CA",
-          "city": "Toronto",
-          "changed_at": "2026-06-15T23:49:26Z"
+          "country": "IT",
+          "city": "Torino",
+          "changed_at": "2026-08-01T02:10:38Z"
         },
         "dbip": {
           "country": "IT",
@@ -24039,9 +23963,9 @@
           "changed_at": "2026-06-15T23:49:26Z"
         },
         "ip2location": {
-          "country": "IT",
-          "city": "Torino",
-          "changed_at": "2026-07-01T00:39:59Z"
+          "country": "IN",
+          "city": "Delhi",
+          "changed_at": "2026-08-01T02:10:38Z"
         },
         "dbip": {
           "country": "IN",
@@ -24074,9 +23998,9 @@
           "changed_at": "2026-06-15T23:49:26Z"
         },
         "ip2location": {
-          "country": "IT",
-          "city": "Torino",
-          "changed_at": "2026-07-01T00:39:59Z"
+          "country": "IN",
+          "city": "Delhi",
+          "changed_at": "2026-08-01T02:10:38Z"
         },
         "dbip": {
           "country": "IN",
@@ -26279,9 +26203,9 @@
           "changed_at": "2026-06-15T23:49:26Z"
         },
         "ip2location": {
-          "country": "IL",
-          "city": "Petah Tikva",
-          "changed_at": "2026-06-15T23:49:26Z"
+          "country": "IN",
+          "city": "Delhi",
+          "changed_at": "2026-08-01T02:10:38Z"
         },
         "dbip": {
           "country": "IN",
@@ -26314,9 +26238,9 @@
           "changed_at": "2026-06-15T23:49:26Z"
         },
         "ip2location": {
-          "country": "IL",
-          "city": "Petah Tikva",
-          "changed_at": "2026-06-15T23:49:26Z"
+          "country": "IN",
+          "city": "Delhi",
+          "changed_at": "2026-08-01T02:10:38Z"
         },
         "dbip": {
           "country": "IN",
