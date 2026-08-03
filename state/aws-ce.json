@@ -1875,7 +1875,7 @@
         "83.118.240.0/21",
         "83.118.240.0/22"
       ],
-      "country_pct": 97.77777777777777,
+      "country_pct": 98.27160493827161,
       "city_pct": 60.97560975609756
     },
     "Boardman, US": {
@@ -90581,9 +90581,9 @@
           "changed_at": "2026-06-15T23:49:38Z"
         },
         "iplocate": {
-          "country": "US",
+          "country": "DE",
           "city": "",
-          "changed_at": "2026-08-02T02:07:02Z"
+          "changed_at": "2026-08-03T02:09:55Z"
         }
       }
     },
@@ -90721,9 +90721,9 @@
           "changed_at": "2026-06-15T23:49:38Z"
         },
         "iplocate": {
-          "country": "US",
+          "country": "DE",
           "city": "",
-          "changed_at": "2026-08-02T02:07:02Z"
+          "changed_at": "2026-08-03T02:09:55Z"
         }
       }
     },
