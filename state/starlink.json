@@ -1717,8 +1717,6 @@
         "9.161.175.0/24",
         "98.97.152.0/24",
         "98.97.153.0/24",
-        "98.97.190.0/25",
-        "98.97.190.128/25",
         "98.97.20.0/24",
         "98.97.21.0/24",
         "98.97.22.0/24",
@@ -1740,8 +1738,8 @@
         "98.97.94.0/24",
         "98.97.95.0/24"
       ],
-      "country_pct": 96.88311688311688,
-      "city_pct": 94.27917620137299
+      "country_pct": 96.84210526315789,
+      "city_pct": 94.19953596287704
     },
     "Damascus, SY": {
       "country": "SY",
@@ -2647,11 +2645,13 @@
         "74.244.189.0/24",
         "98.97.172.0/24",
         "98.97.173.0/24",
+        "98.97.190.0/24",
+        "98.97.191.0/24",
         "98.97.72.0/24",
         "98.97.73.0/24"
       ],
-      "country_pct": 97.03703703703704,
-      "city_pct": 100.0
+      "country_pct": 91.0344827586207,
+      "city_pct": 94.18604651162791
     },
     "Kigali, RW": {
       "country": "RW",
@@ -2717,7 +2717,7 @@
         "98.97.170.0/24",
         "98.97.171.0/24"
       ],
-      "country_pct": 95.0,
+      "country_pct": 90.0,
       "city_pct": 100.0
     },
     "Kolkata, IN": {
@@ -2942,7 +2942,7 @@
         "9.246.98.0/24",
         "9.246.99.0/24"
       ],
-      "country_pct": 99.15966386554622,
+      "country_pct": 98.99159663865547,
       "city_pct": 100.0
     },
     "Lagos, NG": {
@@ -3820,7 +3820,7 @@
         "98.97.6.0/24",
         "98.97.7.0/24"
       ],
-      "country_pct": 98.04195804195804,
+      "country_pct": 98.18181818181819,
       "city_pct": 99.05882352941177
     },
     "Miami, US": {
@@ -5631,7 +5631,7 @@
         "9.246.48.0/24",
         "9.246.49.0/24"
       ],
-      "country_pct": 94.28571428571428,
+      "country_pct": 96.19047619047619,
       "city_pct": 96.72131147540983
     },
     "St Helier, JE": {
@@ -10361,8 +10361,8 @@
     "98.97.188.0/24",
     "98.97.189.0/24",
     "98.97.19.0/24",
-    "98.97.190.0/25",
-    "98.97.190.128/25",
+    "98.97.190.0/24",
+    "98.97.191.0/24",
     "98.97.2.0/24",
     "98.97.20.0/24",
     "98.97.21.0/24",
@@ -12055,6 +12055,8 @@
     "98.97.73.0/24": true,
     "98.97.172.0/24": true,
     "98.97.173.0/24": true,
+    "98.97.190.0/24": true,
+    "98.97.191.0/24": false,
     "129.222.68.0/24": true,
     "129.222.69.0/24": true,
     "143.105.4.0/24": true,
@@ -36673,9 +36675,9 @@
           "changed_at": "2026-06-15T23:49:41Z"
         },
         "iplocate": {
-          "country": "US",
+          "country": "MX",
           "city": "",
-          "changed_at": "2026-07-28T01:56:04Z"
+          "changed_at": "2026-08-04T01:52:43Z"
         }
       }
     },
@@ -42343,9 +42345,9 @@
           "changed_at": "2026-08-02T02:07:06Z"
         },
         "iplocate": {
-          "country": "CD",
+          "country": "US",
           "city": "",
-          "changed_at": "2026-08-03T02:09:59Z"
+          "changed_at": "2026-08-04T01:52:43Z"
         }
       }
     },
@@ -42378,9 +42380,9 @@
           "changed_at": "2026-08-02T02:07:06Z"
         },
         "iplocate": {
-          "country": "CD",
+          "country": "US",
           "city": "",
-          "changed_at": "2026-08-03T02:09:59Z"
+          "changed_at": "2026-08-04T01:52:43Z"
         }
       }
     },
@@ -42871,6 +42873,76 @@
           "country": "US",
           "city": "",
           "changed_at": "2026-06-15T23:49:41Z"
+        }
+      }
+    },
+    "98.97.190.0/24": {
+      "geofeed_values": {
+        "country": "SD",
+        "subdivision": "SD-KH",
+        "city": "Khartoum"
+      },
+      "geofeed_changed_at": null,
+      "providers": {
+        "maxmind": {
+          "country": "US",
+          "city": "Dallas",
+          "changed_at": "2026-08-04T01:52:43Z"
+        },
+        "ipinfo": {
+          "country": "US",
+          "city": "",
+          "changed_at": "2026-08-04T01:52:43Z"
+        },
+        "ip2location": {
+          "country": "US",
+          "city": "Dallas",
+          "changed_at": "2026-08-04T01:52:43Z"
+        },
+        "dbip": {
+          "country": "US",
+          "city": "Dallas",
+          "changed_at": "2026-08-04T01:52:43Z"
+        },
+        "iplocate": {
+          "country": "US",
+          "city": "",
+          "changed_at": "2026-08-04T01:52:43Z"
+        }
+      }
+    },
+    "98.97.191.0/24": {
+      "geofeed_values": {
+        "country": "SD",
+        "subdivision": "SD-KH",
+        "city": "Khartoum"
+      },
+      "geofeed_changed_at": null,
+      "providers": {
+        "maxmind": {
+          "country": "US",
+          "city": "",
+          "changed_at": "2026-08-04T01:52:43Z"
+        },
+        "ipinfo": {
+          "country": "US",
+          "city": "",
+          "changed_at": "2026-08-04T01:52:43Z"
+        },
+        "ip2location": {
+          "country": "US",
+          "city": "Eastport",
+          "changed_at": "2026-08-04T01:52:43Z"
+        },
+        "dbip": {
+          "country": "US",
+          "city": "Hawthorne",
+          "changed_at": "2026-08-04T01:52:43Z"
+        },
+        "iplocate": {
+          "country": "SD",
+          "city": "",
+          "changed_at": "2026-08-04T01:52:43Z"
         }
       }
     },
@@ -44443,9 +44515,9 @@
           "changed_at": "2026-08-02T02:07:06Z"
         },
         "iplocate": {
-          "country": "US",
+          "country": "UA",
           "city": "",
-          "changed_at": "2026-08-03T02:09:59Z"
+          "changed_at": "2026-08-04T01:52:43Z"
         }
       }
     },
@@ -44478,9 +44550,9 @@
           "changed_at": "2026-08-02T02:07:06Z"
         },
         "iplocate": {
-          "country": "US",
+          "country": "UA",
           "city": "",
-          "changed_at": "2026-08-03T02:09:59Z"
+          "changed_at": "2026-08-04T01:52:43Z"
         }
       }
     },
@@ -44933,9 +45005,9 @@
           "changed_at": "2026-06-15T23:49:41Z"
         },
         "iplocate": {
-          "country": "UA",
+          "country": "US",
           "city": "",
-          "changed_at": "2026-08-03T02:09:59Z"
+          "changed_at": "2026-08-04T01:52:43Z"
         }
       }
     },
@@ -45003,9 +45075,9 @@
           "changed_at": "2026-06-15T23:49:41Z"
         },
         "iplocate": {
-          "country": "UA",
+          "country": "US",
           "city": "",
-          "changed_at": "2026-07-31T02:08:56Z"
+          "changed_at": "2026-08-04T01:52:43Z"
         }
       }
     },
@@ -45038,9 +45110,9 @@
           "changed_at": "2026-06-15T23:49:41Z"
         },
         "iplocate": {
-          "country": "UA",
+          "country": "US",
           "city": "",
-          "changed_at": "2026-07-31T02:08:56Z"
+          "changed_at": "2026-08-04T01:52:43Z"
         }
       }
     },
@@ -120434,76 +120506,6 @@
         }
       }
     },
-    "98.97.190.0/25": {
-      "geofeed_values": {
-        "country": "US",
-        "subdivision": "US-TX",
-        "city": "Dallas"
-      },
-      "geofeed_changed_at": "2026-06-15T23:49:41Z",
-      "providers": {
-        "maxmind": {
-          "country": "US",
-          "city": "Dallas",
-          "changed_at": "2026-06-15T23:49:41Z"
-        },
-        "ipinfo": {
-          "country": "US",
-          "city": "",
-          "changed_at": "2026-06-15T23:49:41Z"
-        },
-        "ip2location": {
-          "country": "US",
-          "city": "Dallas",
-          "changed_at": "2026-06-15T23:49:41Z"
-        },
-        "dbip": {
-          "country": "US",
-          "city": "Dallas",
-          "changed_at": "2026-06-15T23:49:41Z"
-        },
-        "iplocate": {
-          "country": "US",
-          "city": "",
-          "changed_at": "2026-06-15T23:49:41Z"
-        }
-      }
-    },
-    "98.97.190.128/25": {
-      "geofeed_values": {
-        "country": "US",
-        "subdivision": "US-TX",
-        "city": "Dallas"
-      },
-      "geofeed_changed_at": "2026-06-15T23:49:41Z",
-      "providers": {
-        "maxmind": {
-          "country": "US",
-          "city": "Dallas",
-          "changed_at": "2026-06-15T23:49:41Z"
-        },
-        "ipinfo": {
-          "country": "US",
-          "city": "",
-          "changed_at": "2026-06-15T23:49:41Z"
-        },
-        "ip2location": {
-          "country": "US",
-          "city": "Dallas",
-          "changed_at": "2026-06-15T23:49:41Z"
-        },
-        "dbip": {
-          "country": "US",
-          "city": "Dallas",
-          "changed_at": "2026-06-15T23:49:41Z"
-        },
-        "iplocate": {
-          "country": "US",
-          "city": "",
-          "changed_at": "2026-06-15T23:49:41Z"
-        }
-      }
-    },
     "103.114.116.0/25": {
       "geofeed_values": {
         "country": "ID",
@@ -122213,9 +122215,9 @@
           "changed_at": "2026-06-15T23:49:41Z"
         },
         "iplocate": {
-          "country": "CZ",
+          "country": "BG",
           "city": "",
-          "changed_at": "2026-08-02T02:07:06Z"
+          "changed_at": "2026-08-04T01:52:43Z"
         }
       }
     },
@@ -122248,9 +122250,9 @@
           "changed_at": "2026-06-15T23:49:41Z"
         },
         "iplocate": {
-          "country": "CZ",
+          "country": "BG",
           "city": "",
-          "changed_at": "2026-08-02T02:07:06Z"
+          "changed_at": "2026-08-04T01:52:43Z"
         }
       }
     },
@@ -149968,9 +149970,9 @@
           "changed_at": "2026-08-02T02:07:06Z"
         },
         "iplocate": {
-          "country": "FI",
+          "country": "US",
           "city": "",
-          "changed_at": "2026-07-31T02:08:56Z"
+          "changed_at": "2026-08-04T01:52:43Z"
         }
       }
     },
