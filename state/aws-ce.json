@@ -705,7 +705,6 @@
         "2600:f0f3:f010:3400::/56",
         "2600:f0f3:f010:3800::/56",
         "2600:f0f3:f010::/56",
-        "2600:f0fb:c001::/56",
         "2600:f0fb:c002::/56",
         "2600:f0fb:c800::/56",
         "2600:f0fb:c900::/52",
@@ -1428,8 +1427,8 @@
         "99.83.101.0/24",
         "99.83.106.0/24"
       ],
-      "country_pct": 99.06072874493927,
-      "city_pct": 86.08745031232255
+      "country_pct": 99.05996758508914,
+      "city_pct": 86.07558965615232
     },
     "Athens, GR": {
       "country": "GR",
@@ -16605,7 +16604,6 @@
     "2600:f0f3:f010:3800::/56",
     "2600:f0f3:f010::/56",
     "2600:f0fb:8000::/40",
-    "2600:f0fb:c001::/56",
     "2600:f0fb:c002::/56",
     "2600:f0fb:c800::/56",
     "2600:f0fb:c900::/52",
@@ -389797,41 +389795,6 @@
           "country": "US",
           "city": "",
           "changed_at": "2026-06-15T23:49:38Z"
-        }
-      }
-    },
-    "2600:f0fb:c001::/56": {
-      "geofeed_values": {
-        "country": "US",
-        "subdivision": "US-VA",
-        "city": "Ashburn"
-      },
-      "geofeed_changed_at": null,
-      "providers": {
-        "maxmind": {
-          "country": "US",
-          "city": "Ashburn",
-          "changed_at": "2026-07-18T01:51:50Z"
-        },
-        "ipinfo": {
-          "country": "US",
-          "city": "",
-          "changed_at": "2026-07-18T01:51:50Z"
-        },
-        "ip2location": {
-          "country": "US",
-          "city": "Ashburn",
-          "changed_at": "2026-08-01T02:10:48Z"
-        },
-        "dbip": {
-          "country": "US",
-          "city": "Ashburn",
-          "changed_at": "2026-08-02T02:07:02Z"
-        },
-        "iplocate": {
-          "country": "US",
-          "city": "",
-          "changed_at": "2026-07-18T01:51:50Z"
         }
       }
     },

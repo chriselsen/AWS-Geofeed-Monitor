@@ -1043,7 +1043,7 @@
         "35.242.40.0/24",
         "35.247.192.0/18"
       ],
-      "country_pct": 92.22222222222223,
+      "country_pct": 93.33333333333333,
       "city_pct": 94.33962264150944
     },
     "Seoul, KR": {
@@ -41071,9 +41071,9 @@
           "changed_at": "2026-06-24T00:33:42Z"
         },
         "ipinfo": {
-          "country": "US",
+          "country": "BR",
           "city": "",
-          "changed_at": "2026-06-24T00:33:42Z"
+          "changed_at": "2026-08-06T01:54:39Z"
         },
         "ip2location": {
           "country": "BR",
