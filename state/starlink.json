@@ -2790,7 +2790,7 @@
         "65.181.24.0/24",
         "65.181.25.0/24"
       ],
-      "country_pct": 78.125,
+      "country_pct": 82.5,
       "city_pct": 84.26966292134831
     },
     "Kukes, AL": {
@@ -5101,7 +5101,7 @@
         "2620:134:b054:100::96/128",
         "2620:134:b054:100::97/128"
       ],
-      "country_pct": 63.63636363636363,
+      "country_pct": 67.27272727272727,
       "city_pct": 62.96296296296296
     },
     "Saint George's, GD": {
@@ -106011,9 +106011,9 @@
           "changed_at": "2026-08-08T01:05:07Z"
         },
         "ipinfo": {
-          "country": "US",
+          "country": "MY",
           "city": "",
-          "changed_at": "2026-08-08T01:05:07Z"
+          "changed_at": "2026-08-09T01:09:13Z"
         },
         "ip2location": {
           "country": "US",
@@ -106046,9 +106046,9 @@
           "changed_at": "2026-08-08T01:05:07Z"
         },
         "ipinfo": {
-          "country": "US",
+          "country": "MY",
           "city": "",
-          "changed_at": "2026-08-08T01:05:07Z"
+          "changed_at": "2026-08-09T01:09:13Z"
         },
         "ip2location": {
           "country": "US",
@@ -106081,9 +106081,9 @@
           "changed_at": "2026-08-08T01:05:07Z"
         },
         "ipinfo": {
-          "country": "US",
+          "country": "MY",
           "city": "",
-          "changed_at": "2026-08-08T01:05:07Z"
+          "changed_at": "2026-08-09T01:09:13Z"
         },
         "ip2location": {
           "country": "US",
@@ -106116,9 +106116,9 @@
           "changed_at": "2026-08-08T01:05:07Z"
         },
         "ipinfo": {
-          "country": "US",
+          "country": "MY",
           "city": "",
-          "changed_at": "2026-08-08T01:05:07Z"
+          "changed_at": "2026-08-09T01:09:13Z"
         },
         "ip2location": {
           "country": "US",
@@ -106151,9 +106151,9 @@
           "changed_at": "2026-08-08T01:05:07Z"
         },
         "ipinfo": {
-          "country": "US",
+          "country": "MY",
           "city": "",
-          "changed_at": "2026-08-08T01:05:07Z"
+          "changed_at": "2026-08-09T01:09:13Z"
         },
         "ip2location": {
           "country": "US",
@@ -106186,9 +106186,9 @@
           "changed_at": "2026-08-08T01:05:07Z"
         },
         "ipinfo": {
-          "country": "US",
+          "country": "MY",
           "city": "",
-          "changed_at": "2026-08-08T01:05:07Z"
+          "changed_at": "2026-08-09T01:09:13Z"
         },
         "ip2location": {
           "country": "US",
@@ -106221,9 +106221,9 @@
           "changed_at": "2026-08-08T01:05:07Z"
         },
         "ipinfo": {
-          "country": "US",
+          "country": "VN",
           "city": "",
-          "changed_at": "2026-08-08T01:05:07Z"
+          "changed_at": "2026-08-09T01:09:13Z"
         },
         "ip2location": {
           "country": "US",
@@ -106256,9 +106256,9 @@
           "changed_at": "2026-08-08T01:05:07Z"
         },
         "ipinfo": {
-          "country": "US",
+          "country": "VN",
           "city": "",
-          "changed_at": "2026-08-08T01:05:07Z"
+          "changed_at": "2026-08-09T01:09:13Z"
         },
         "ip2location": {
           "country": "US",
@@ -129811,9 +129811,9 @@
           "changed_at": "2026-08-08T01:05:07Z"
         },
         "ipinfo": {
-          "country": "US",
+          "country": "MY",
           "city": "",
-          "changed_at": "2026-08-08T01:05:07Z"
+          "changed_at": "2026-08-09T01:09:13Z"
         },
         "ip2location": {
           "country": "US",
