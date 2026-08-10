@@ -575,7 +575,7 @@
         "35.228.0.0/16",
         "35.242.26.0/24"
       ],
-      "country_pct": 81.42857142857143,
+      "country_pct": 84.28571428571429,
       "city_pct": 60.0
     },
     "Las Vegas, US": {
@@ -1138,7 +1138,7 @@
         "35.242.24.0/23",
         "35.247.128.0/18"
       ],
-      "country_pct": 96.73469387755102,
+      "country_pct": 97.14285714285714,
       "city_pct": 96.57534246575342
     },
     "Stockholm, SE": {
@@ -43530,9 +43530,9 @@
           "changed_at": "2026-08-09T01:08:59Z"
         },
         "ipinfo": {
-          "country": "US",
+          "country": "SG",
           "city": "",
-          "changed_at": "2026-08-09T01:08:59Z"
+          "changed_at": "2026-08-10T01:10:31Z"
         },
         "ip2location": {
           "country": "US",
@@ -43565,9 +43565,9 @@
           "changed_at": "2026-08-09T01:08:59Z"
         },
         "ipinfo": {
-          "country": "US",
+          "country": "FI",
           "city": "",
-          "changed_at": "2026-08-09T01:08:59Z"
+          "changed_at": "2026-08-10T01:10:31Z"
         },
         "ip2location": {
           "country": "US",
@@ -43600,9 +43600,9 @@
           "changed_at": "2026-08-09T01:08:59Z"
         },
         "ipinfo": {
-          "country": "US",
+          "country": "FI",
           "city": "",
-          "changed_at": "2026-08-09T01:08:59Z"
+          "changed_at": "2026-08-10T01:10:31Z"
         },
         "ip2location": {
           "country": "US",
