@@ -285,7 +285,6 @@
         "136.18.32.0/24",
         "136.18.33.0/24",
         "136.18.4.0/22",
-        "136.18.50.0/23",
         "142.4.178.0/24",
         "15.129.32.0/23",
         "15.129.52.0/22",
@@ -1431,8 +1430,8 @@
         "99.83.101.0/24",
         "99.83.106.0/24"
       ],
-      "country_pct": 99.04684975767367,
-      "city_pct": 85.94104308390023
+      "country_pct": 99.04607922392886,
+      "city_pct": 85.9090909090909
     },
     "Athens, GR": {
       "country": "GR",
@@ -5161,8 +5160,8 @@
         "99.83.103.0/24",
         "99.83.99.0/24"
       ],
-      "country_pct": 87.72881355932203,
-      "city_pct": 89.85969387755102
+      "country_pct": 87.5593220338983,
+      "city_pct": 89.83375959079284
     },
     "Hamburg, DE": {
       "country": "DE",
@@ -5680,7 +5679,7 @@
         "99.78.238.255/32",
         "99.78.240.0/20"
       ],
-      "country_pct": 89.48905109489051,
+      "country_pct": 89.63503649635037,
       "city_pct": 88.05194805194805
     },
     "Kansas City, US": {
@@ -7516,8 +7515,6 @@
         "150.222.39.128/26",
         "150.222.39.192/26",
         "150.222.40.0/26",
-        "150.247.38.0/27",
-        "150.247.38.112/28",
         "16.12.18.0/23",
         "16.12.20.0/24",
         "173.83.215.0/24",
@@ -7685,8 +7682,8 @@
         "99.77.248.0/24",
         "99.82.161.0/24"
       ],
-      "country_pct": 90.65502183406113,
-      "city_pct": 86.6965620328849
+      "country_pct": 90.7488986784141,
+      "city_pct": 86.87782805429865
     },
     "Perth, AU": {
       "country": "AU",
@@ -11954,7 +11951,6 @@
     "136.18.33.0/24",
     "136.18.34.0/24",
     "136.18.4.0/22",
-    "136.18.50.0/23",
     "136.18.56.0/21",
     "136.8.0.0/15",
     "139.56.16.0/23",
@@ -13552,8 +13548,6 @@
     "150.247.35.0/24",
     "150.247.36.0/24",
     "150.247.37.0/24",
-    "150.247.38.0/27",
-    "150.247.38.112/28",
     "150.247.39.0/24",
     "150.247.40.0/24",
     "150.247.41.0/24",
@@ -22081,7 +22075,6 @@
     "15.230.214.0/24": false,
     "34.224.0.0/12": true,
     "35.50.141.0/24": true,
-    "136.18.50.0/23": true,
     "13.130.0.0/16": true,
     "52.93.50.0/24": true,
     "54.25.14.0/24": false,
@@ -22659,7 +22652,7 @@
     "2406:da00:2800::/40": true,
     "2600:f0f0:c106::/48": true,
     "2406:da36:2800::/40": true,
-    "65.178.0.0/15": false,
+    "65.178.0.0/15": true,
     "3.5.60.0/22": true,
     "64.73.207.0/24": false,
     "13.248.77.0/24": true,
@@ -24628,7 +24621,7 @@
     "3.5.214.0/23": true,
     "18.163.0.0/16": true,
     "52.95.162.0/24": true,
-    "16.106.0.0/16": false,
+    "16.106.0.0/16": true,
     "64.66.156.0/24": true,
     "99.77.142.0/24": true,
     "99.77.241.0/24": true,
@@ -98986,9 +98979,9 @@
           "changed_at": "2026-08-02T02:07:02Z"
         },
         "iplocate": {
-          "country": "DE",
+          "country": "US",
           "city": "",
-          "changed_at": "2026-08-11T01:09:50Z"
+          "changed_at": "2026-08-12T01:17:53Z"
         }
       }
     },
@@ -111671,9 +111664,9 @@
       "geofeed_changed_at": "2026-06-15T23:49:38Z",
       "providers": {
         "maxmind": {
-          "country": "DE",
-          "city": "Frankfurt am Main",
-          "changed_at": "2026-06-15T23:49:38Z"
+          "country": "US",
+          "city": "",
+          "changed_at": "2026-08-12T01:17:53Z"
         },
         "ipinfo": {
           "country": "DE",
@@ -111881,9 +111874,9 @@
       "geofeed_changed_at": "2026-06-15T23:49:38Z",
       "providers": {
         "maxmind": {
-          "country": "DE",
-          "city": "Frankfurt am Main",
-          "changed_at": "2026-06-15T23:49:38Z"
+          "country": "US",
+          "city": "",
+          "changed_at": "2026-08-12T01:17:53Z"
         },
         "ipinfo": {
           "country": "DE",
@@ -112441,9 +112434,9 @@
       "geofeed_changed_at": "2026-06-15T23:49:38Z",
       "providers": {
         "maxmind": {
-          "country": "DE",
-          "city": "Frankfurt am Main",
-          "changed_at": "2026-06-15T23:49:38Z"
+          "country": "US",
+          "city": "",
+          "changed_at": "2026-08-12T01:17:53Z"
         },
         "ipinfo": {
           "country": "DE",
@@ -113736,9 +113729,9 @@
       "geofeed_changed_at": "2026-06-15T23:49:38Z",
       "providers": {
         "maxmind": {
-          "country": "DE",
-          "city": "Frankfurt am Main",
-          "changed_at": "2026-06-15T23:49:38Z"
+          "country": "US",
+          "city": "",
+          "changed_at": "2026-08-12T01:17:53Z"
         },
         "ipinfo": {
           "country": "DE",
@@ -121357,41 +121350,6 @@
         }
       }
     },
-    "150.247.38.0/27": {
-      "geofeed_values": {
-        "country": "FR",
-        "subdivision": "FR-75C",
-        "city": "Paris"
-      },
-      "geofeed_changed_at": null,
-      "providers": {
-        "maxmind": {
-          "country": "FR",
-          "city": "Paris",
-          "changed_at": "2026-07-18T01:51:50Z"
-        },
-        "ipinfo": {
-          "country": "FR",
-          "city": "",
-          "changed_at": "2026-07-18T01:51:50Z"
-        },
-        "ip2location": {
-          "country": "US",
-          "city": "Seattle",
-          "changed_at": "2026-08-01T02:10:48Z"
-        },
-        "dbip": {
-          "country": "FR",
-          "city": "Paris",
-          "changed_at": "2026-07-18T01:51:50Z"
-        },
-        "iplocate": {
-          "country": "FR",
-          "city": "",
-          "changed_at": "2026-07-18T01:51:50Z"
-        }
-      }
-    },
     "52.93.127.17/32": {
       "geofeed_values": {
         "country": "FR",
@@ -122124,41 +122082,6 @@
           "country": "FR",
           "city": "",
           "changed_at": "2026-06-15T23:49:38Z"
-        }
-      }
-    },
-    "150.247.38.112/28": {
-      "geofeed_values": {
-        "country": "FR",
-        "subdivision": "FR-75C",
-        "city": "Paris"
-      },
-      "geofeed_changed_at": null,
-      "providers": {
-        "maxmind": {
-          "country": "FR",
-          "city": "Paris",
-          "changed_at": "2026-07-18T01:51:50Z"
-        },
-        "ipinfo": {
-          "country": "FR",
-          "city": "",
-          "changed_at": "2026-07-18T01:51:50Z"
-        },
-        "ip2location": {
-          "country": "US",
-          "city": "Seattle",
-          "changed_at": "2026-08-01T02:10:48Z"
-        },
-        "dbip": {
-          "country": "FR",
-          "city": "Paris",
-          "changed_at": "2026-07-18T01:51:50Z"
-        },
-        "iplocate": {
-          "country": "FR",
-          "city": "",
-          "changed_at": "2026-07-18T01:51:50Z"
         }
       }
     },
@@ -150156,9 +150079,9 @@
           "changed_at": "2026-08-11T01:09:50Z"
         },
         "iplocate": {
-          "country": "US",
+          "country": "ID",
           "city": "",
-          "changed_at": "2026-08-11T01:09:50Z"
+          "changed_at": "2026-08-12T01:17:53Z"
         }
       }
     },
@@ -360127,41 +360050,6 @@
         }
       }
     },
-    "136.18.50.0/23": {
-      "geofeed_values": {
-        "country": "US",
-        "subdivision": "US-VA",
-        "city": "Ashburn"
-      },
-      "geofeed_changed_at": "2026-06-15T23:49:38Z",
-      "providers": {
-        "maxmind": {
-          "country": "US",
-          "city": "Ashburn",
-          "changed_at": "2026-06-15T23:49:38Z"
-        },
-        "ipinfo": {
-          "country": "US",
-          "city": "",
-          "changed_at": "2026-06-15T23:49:38Z"
-        },
-        "ip2location": {
-          "country": "US",
-          "city": "Ashburn",
-          "changed_at": "2026-06-15T23:49:38Z"
-        },
-        "dbip": {
-          "country": "US",
-          "city": "Ashburn",
-          "changed_at": "2026-06-15T23:49:38Z"
-        },
-        "iplocate": {
-          "country": "US",
-          "city": "",
-          "changed_at": "2026-06-15T23:49:38Z"
-        }
-      }
-    },
     "13.130.0.0/16": {
       "geofeed_values": {
         "country": "US",
@@ -385302,8 +385190,8 @@
       "providers": {
         "maxmind": {
           "country": "US",
-          "city": "",
-          "changed_at": "2026-08-08T01:05:05Z"
+          "city": "Ashburn",
+          "changed_at": "2026-08-12T01:17:53Z"
         },
         "ipinfo": {
           "country": "US",
@@ -385407,8 +385295,8 @@
       "providers": {
         "maxmind": {
           "country": "US",
-          "city": "Ashburn",
-          "changed_at": "2026-06-15T23:49:38Z"
+          "city": "",
+          "changed_at": "2026-08-12T01:17:53Z"
         },
         "ipinfo": {
           "country": "US",
@@ -385652,8 +385540,8 @@
       "providers": {
         "maxmind": {
           "country": "US",
-          "city": "",
-          "changed_at": "2026-08-07T02:21:46Z"
+          "city": "Ashburn",
+          "changed_at": "2026-08-12T01:17:53Z"
         },
         "ipinfo": {
           "country": "US",
@@ -386632,8 +386520,8 @@
       "providers": {
         "maxmind": {
           "country": "US",
-          "city": "Ashburn",
-          "changed_at": "2026-06-15T23:49:38Z"
+          "city": "",
+          "changed_at": "2026-08-12T01:17:53Z"
         },
         "ipinfo": {
           "country": "US",
@@ -386667,8 +386555,8 @@
       "providers": {
         "maxmind": {
           "country": "US",
-          "city": "Ashburn",
-          "changed_at": "2026-06-15T23:49:38Z"
+          "city": "",
+          "changed_at": "2026-08-12T01:17:53Z"
         },
         "ipinfo": {
           "country": "US",
@@ -387402,8 +387290,8 @@
       "providers": {
         "maxmind": {
           "country": "US",
-          "city": "Ashburn",
-          "changed_at": "2026-06-15T23:49:38Z"
+          "city": "",
+          "changed_at": "2026-08-12T01:17:53Z"
         },
         "ipinfo": {
           "country": "US",
@@ -388207,8 +388095,8 @@
       "providers": {
         "maxmind": {
           "country": "US",
-          "city": "Ashburn",
-          "changed_at": "2026-06-15T23:49:38Z"
+          "city": "",
+          "changed_at": "2026-08-12T01:17:53Z"
         },
         "ipinfo": {
           "country": "US",
@@ -389362,8 +389250,8 @@
       "providers": {
         "maxmind": {
           "country": "US",
-          "city": "",
-          "changed_at": "2026-08-08T01:05:05Z"
+          "city": "Ashburn",
+          "changed_at": "2026-08-12T01:17:53Z"
         },
         "ipinfo": {
           "country": "US",
@@ -390692,8 +390580,8 @@
       "providers": {
         "maxmind": {
           "country": "US",
-          "city": "Ashburn",
-          "changed_at": "2026-06-15T23:49:38Z"
+          "city": "",
+          "changed_at": "2026-08-12T01:17:53Z"
         },
         "ipinfo": {
           "country": "US",
@@ -391987,8 +391875,8 @@
       "providers": {
         "maxmind": {
           "country": "US",
-          "city": "Ashburn",
-          "changed_at": "2026-06-15T23:49:38Z"
+          "city": "",
+          "changed_at": "2026-08-12T01:17:53Z"
         },
         "ipinfo": {
           "country": "US",
@@ -392092,8 +391980,8 @@
       "providers": {
         "maxmind": {
           "country": "US",
-          "city": "Ashburn",
-          "changed_at": "2026-06-15T23:49:38Z"
+          "city": "",
+          "changed_at": "2026-08-12T01:17:53Z"
         },
         "ipinfo": {
           "country": "US",
@@ -392722,8 +392610,8 @@
       "providers": {
         "maxmind": {
           "country": "US",
-          "city": "",
-          "changed_at": "2026-08-08T01:05:05Z"
+          "city": "Ashburn",
+          "changed_at": "2026-08-12T01:17:53Z"
         },
         "ipinfo": {
           "country": "US",
@@ -393317,8 +393205,8 @@
       "providers": {
         "maxmind": {
           "country": "US",
-          "city": "Ashburn",
-          "changed_at": "2026-06-15T23:49:38Z"
+          "city": "",
+          "changed_at": "2026-08-12T01:17:53Z"
         },
         "ipinfo": {
           "country": "US",

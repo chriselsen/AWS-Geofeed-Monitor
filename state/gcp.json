@@ -575,8 +575,8 @@
         "35.228.0.0/16",
         "35.242.26.0/24"
       ],
-      "country_pct": 84.28571428571429,
-      "city_pct": 60.0
+      "country_pct": 90.0,
+      "city_pct": 61.904761904761905
     },
     "Las Vegas, US": {
       "country": "US",
@@ -1138,8 +1138,8 @@
         "35.242.24.0/23",
         "35.247.128.0/18"
       ],
-      "country_pct": 97.14285714285714,
-      "city_pct": 96.57534246575342
+      "country_pct": 97.95918367346938,
+      "city_pct": 96.5986394557823
     },
     "Stockholm, SE": {
       "country": "SE",
@@ -43525,9 +43525,9 @@
       "geofeed_changed_at": null,
       "providers": {
         "maxmind": {
-          "country": "US",
-          "city": "",
-          "changed_at": "2026-08-09T01:08:59Z"
+          "country": "SG",
+          "city": "Singapore",
+          "changed_at": "2026-08-12T01:17:42Z"
         },
         "ipinfo": {
           "country": "SG",
@@ -43545,9 +43545,9 @@
           "changed_at": "2026-08-09T01:08:59Z"
         },
         "iplocate": {
-          "country": "US",
+          "country": "SG",
           "city": "",
-          "changed_at": "2026-08-09T01:08:59Z"
+          "changed_at": "2026-08-12T01:17:42Z"
         }
       }
     },
@@ -43560,9 +43560,9 @@
       "geofeed_changed_at": null,
       "providers": {
         "maxmind": {
-          "country": "US",
-          "city": "",
-          "changed_at": "2026-08-09T01:08:59Z"
+          "country": "FI",
+          "city": "Lappeenranta",
+          "changed_at": "2026-08-12T01:17:42Z"
         },
         "ipinfo": {
           "country": "FI",
@@ -43580,9 +43580,9 @@
           "changed_at": "2026-08-09T01:08:59Z"
         },
         "iplocate": {
-          "country": "US",
+          "country": "FI",
           "city": "",
-          "changed_at": "2026-08-09T01:08:59Z"
+          "changed_at": "2026-08-12T01:17:42Z"
         }
       }
     },
@@ -43595,9 +43595,9 @@
       "geofeed_changed_at": null,
       "providers": {
         "maxmind": {
-          "country": "US",
-          "city": "",
-          "changed_at": "2026-08-09T01:08:59Z"
+          "country": "FI",
+          "city": "Lappeenranta",
+          "changed_at": "2026-08-12T01:17:42Z"
         },
         "ipinfo": {
           "country": "FI",
@@ -43615,9 +43615,9 @@
           "changed_at": "2026-08-09T01:08:59Z"
         },
         "iplocate": {
-          "country": "US",
+          "country": "FI",
           "city": "",
-          "changed_at": "2026-08-09T01:08:59Z"
+          "changed_at": "2026-08-12T01:17:42Z"
         }
       }
     },
