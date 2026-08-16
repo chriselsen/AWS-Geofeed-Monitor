@@ -1851,6 +1851,7 @@
         "2001:3fc7:e800::/40",
         "2001:3fc7:f400::/40",
         "2001:3fc7:f800::/40",
+        "2600:f0f3:f010:2c00::/56",
         "35.71.94.0/24",
         "51.0.0.0/20",
         "51.0.128.0/21",
@@ -1889,8 +1890,8 @@
         "83.118.240.0/21",
         "83.118.240.0/22"
       ],
-      "country_pct": 97.53086419753086,
-      "city_pct": 60.97560975609756
+      "country_pct": 96.34146341463415,
+      "city_pct": 60.38647342995169
     },
     "Boardman, US": {
       "country": "US",
@@ -5552,7 +5553,6 @@
       "country": "ID",
       "prefixes": [
         "1.178.19.0/24",
-        "1.178.86.0/24",
         "104.255.59.101/32",
         "104.255.59.102/32",
         "104.255.59.103/32",
@@ -5690,8 +5690,8 @@
         "99.78.238.255/32",
         "99.78.240.0/20"
       ],
-      "country_pct": 89.92700729927007,
-      "city_pct": 88.31168831168831
+      "country_pct": 90.0,
+      "city_pct": 88.25065274151436
     },
     "Kansas City, US": {
       "country": "US",
@@ -6836,6 +6836,7 @@
         "2600:f0f0:1:1600::/56",
         "2600:f0f0:4107::/48",
         "2600:f0f0:6110::/48",
+        "2600:f0f0:702::/48",
         "2600:f0f0:8160::/48",
         "2600:f0f0:c042::/48",
         "2600:f0f0:c126::/48",
@@ -6949,8 +6950,8 @@
         "99.79.34.0/23",
         "99.82.174.0/24"
       ],
-      "country_pct": 93.90134529147983,
-      "city_pct": 79.59501557632399
+      "country_pct": 93.48214285714286,
+      "city_pct": 79.2248062015504
     },
     "Mumbai, IN": {
       "country": "IN",
@@ -9569,7 +9570,7 @@
         "99.83.104.0/24",
         "99.87.0.0/22"
       ],
-      "country_pct": 91.357421875,
+      "country_pct": 91.552734375,
       "city_pct": 89.56743002544529
     },
     "Stockholm, SE": {
@@ -9788,7 +9789,7 @@
         "99.77.137.0/24",
         "99.77.246.0/24"
       ],
-      "country_pct": 91.79245283018868,
+      "country_pct": 91.88679245283019,
       "city_pct": 90.18003273322422
     },
     "Sydney, AU": {
@@ -11250,7 +11251,6 @@
     "1.178.65.0/24",
     "1.178.7.0/24",
     "1.178.8.0/24",
-    "1.178.86.0/24",
     "1.178.88.0/24",
     "1.178.89.0/24",
     "1.178.9.0/24",
@@ -16337,6 +16337,7 @@
     "2600:f0f0:6126::/48",
     "2600:f0f0:700::/48",
     "2600:f0f0:701::/48",
+    "2600:f0f0:702::/48",
     "2600:f0f0:70::/45",
     "2600:f0f0:720::/48",
     "2600:f0f0:721::/48",
@@ -16622,6 +16623,7 @@
     "2600:f0f3:f000::/44",
     "2600:f0f3:f010:200::/56",
     "2600:f0f3:f010:2a00::/56",
+    "2600:f0f3:f010:2c00::/56",
     "2600:f0f3:f010:300::/56",
     "2600:f0f3:f010:3400::/56",
     "2600:f0f3:f010:3800::/56",
@@ -24891,7 +24893,6 @@
     "64.66.153.0/24": true,
     "65.4.0.0/16": true,
     "63.249.143.0/24": true,
-    "1.178.86.0/24": true,
     "15.232.0.0/16": true,
     "63.249.141.0/24": true,
     "16.79.0.0/16": true,
@@ -25569,6 +25570,7 @@
     "2600:1ffd:81a7::/48": true,
     "2600:1ff6:1000::/40": true,
     "2600:1f32:1000::/40": true,
+    "2600:f0f0:702::/48": true,
     "2600:1fa0:1000::/40": true,
     "2600:1f21::/36": true,
     "2600:f0f0:c126::/48": true,
@@ -74865,6 +74867,41 @@
         }
       }
     },
+    "2600:f0f0:702::/48": {
+      "geofeed_values": {
+        "country": "CA",
+        "subdivision": "CA-QC",
+        "city": "Montreal"
+      },
+      "geofeed_changed_at": null,
+      "providers": {
+        "maxmind": {
+          "country": "US",
+          "city": "Ashburn",
+          "changed_at": "2026-08-16T00:53:27Z"
+        },
+        "ipinfo": {
+          "country": "US",
+          "city": "",
+          "changed_at": "2026-08-16T00:53:27Z"
+        },
+        "ip2location": {
+          "country": "US",
+          "city": "Ashburn",
+          "changed_at": "2026-08-16T00:53:27Z"
+        },
+        "dbip": {
+          "country": "US",
+          "city": "Ashburn",
+          "changed_at": "2026-08-16T00:53:27Z"
+        },
+        "iplocate": {
+          "country": "US",
+          "city": "",
+          "changed_at": "2026-08-16T00:53:27Z"
+        }
+      }
+    },
     "2600:1fa0:1000::/40": {
       "geofeed_values": {
         "country": "CA",
@@ -93412,6 +93449,41 @@
           "country": "DE",
           "city": "",
           "changed_at": "2026-06-15T23:49:38Z"
+        }
+      }
+    },
+    "2600:f0f3:f010:2c00::/56": {
+      "geofeed_values": {
+        "country": "DE",
+        "subdivision": "DE-BE",
+        "city": "Berlin"
+      },
+      "geofeed_changed_at": null,
+      "providers": {
+        "maxmind": {
+          "country": "US",
+          "city": "",
+          "changed_at": "2026-08-16T00:53:27Z"
+        },
+        "ipinfo": {
+          "country": "US",
+          "city": "",
+          "changed_at": "2026-08-16T00:53:27Z"
+        },
+        "ip2location": {
+          "country": "US",
+          "city": "Seattle",
+          "changed_at": "2026-08-16T00:53:27Z"
+        },
+        "dbip": {
+          "country": "US",
+          "city": "Ashburn",
+          "changed_at": "2026-08-16T00:53:27Z"
+        },
+        "iplocate": {
+          "country": "US",
+          "city": "",
+          "changed_at": "2026-08-16T00:53:27Z"
         }
       }
     },
@@ -150287,41 +150359,6 @@
           "country": "ID",
           "city": "",
           "changed_at": "2026-06-29T00:40:03Z"
-        }
-      }
-    },
-    "1.178.86.0/24": {
-      "geofeed_values": {
-        "country": "ID",
-        "subdivision": "ID-JK",
-        "city": "Jakarta"
-      },
-      "geofeed_changed_at": null,
-      "providers": {
-        "maxmind": {
-          "country": "US",
-          "city": "",
-          "changed_at": "2026-08-11T01:09:50Z"
-        },
-        "ipinfo": {
-          "country": "ID",
-          "city": "",
-          "changed_at": "2026-08-14T01:18:44Z"
-        },
-        "ip2location": {
-          "country": "ID",
-          "city": "Jakarta",
-          "changed_at": "2026-08-11T01:09:50Z"
-        },
-        "dbip": {
-          "country": "ID",
-          "city": "Jakarta",
-          "changed_at": "2026-08-11T01:09:50Z"
-        },
-        "iplocate": {
-          "country": "ID",
-          "city": "",
-          "changed_at": "2026-08-12T01:17:53Z"
         }
       }
     },
@@ -239884,9 +239921,9 @@
           "changed_at": "2026-08-13T01:19:44Z"
         },
         "iplocate": {
-          "country": "SE",
+          "country": "US",
           "city": "",
-          "changed_at": "2026-08-15T00:50:34Z"
+          "changed_at": "2026-08-16T00:53:27Z"
         }
       }
     },
@@ -246099,9 +246136,9 @@
           "changed_at": "2026-08-14T01:18:44Z"
         },
         "ipinfo": {
-          "country": "US",
+          "country": "SE",
           "city": "",
-          "changed_at": "2026-08-14T01:18:44Z"
+          "changed_at": "2026-08-16T00:53:27Z"
         },
         "ip2location": {
           "country": "SE",
@@ -246114,9 +246151,9 @@
           "changed_at": "2026-08-14T01:18:44Z"
         },
         "iplocate": {
-          "country": "US",
+          "country": "SE",
           "city": "",
-          "changed_at": "2026-08-14T01:18:44Z"
+          "changed_at": "2026-08-16T00:53:27Z"
         }
       }
     },
@@ -257159,9 +257196,9 @@
           "changed_at": "2026-08-15T00:50:34Z"
         },
         "ipinfo": {
-          "country": "US",
+          "country": "SG",
           "city": "",
-          "changed_at": "2026-08-14T01:18:44Z"
+          "changed_at": "2026-08-16T00:53:27Z"
         },
         "ip2location": {
           "country": "SG",
@@ -257174,9 +257211,9 @@
           "changed_at": "2026-08-14T01:18:44Z"
         },
         "iplocate": {
-          "country": "US",
+          "country": "SG",
           "city": "",
-          "changed_at": "2026-08-14T01:18:44Z"
+          "changed_at": "2026-08-16T00:53:27Z"
         }
       }
     },
@@ -259749,9 +259786,9 @@
           "changed_at": "2026-08-15T00:50:34Z"
         },
         "ipinfo": {
-          "country": "US",
+          "country": "SG",
           "city": "",
-          "changed_at": "2026-08-14T01:18:44Z"
+          "changed_at": "2026-08-16T00:53:27Z"
         },
         "ip2location": {
           "country": "SG",
@@ -259764,9 +259801,9 @@
           "changed_at": "2026-08-14T01:18:44Z"
         },
         "iplocate": {
-          "country": "US",
+          "country": "SG",
           "city": "",
-          "changed_at": "2026-08-14T01:18:44Z"
+          "changed_at": "2026-08-16T00:53:27Z"
         }
       }
     },

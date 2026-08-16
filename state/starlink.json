@@ -2363,7 +2363,7 @@
         "2a0d:3341:a800::/40",
         "2a0d:3341:e700::/40"
       ],
-      "country_pct": 100.0,
+      "country_pct": 96.66666666666667,
       "city_pct": 100.0
     },
     "Hobart, AU": {
@@ -2439,7 +2439,7 @@
         "9.170.35.0/24"
       ],
       "country_pct": 100.0,
-      "city_pct": 100.0
+      "city_pct": 66.66666666666666
     },
     "Iqaluit, CA": {
       "country": "CA",
@@ -2751,7 +2751,7 @@
         "98.97.170.0/24",
         "98.97.171.0/24"
       ],
-      "country_pct": 95.0,
+      "country_pct": 92.5,
       "city_pct": 100.0
     },
     "Kolkata, IN": {
@@ -4991,7 +4991,7 @@
         "2605:59c0:8100::/40",
         "2a0d:3341:fc00::/40"
       ],
-      "country_pct": 96.66666666666667,
+      "country_pct": 100.0,
       "city_pct": 100.0
     },
     "Providence, US": {
@@ -43478,9 +43478,9 @@
           "changed_at": "2026-08-02T02:07:06Z"
         },
         "iplocate": {
-          "country": "CD",
+          "country": "US",
           "city": "",
-          "changed_at": "2026-08-14T01:18:48Z"
+          "changed_at": "2026-08-16T00:53:30Z"
         }
       }
     },
@@ -43513,9 +43513,9 @@
           "changed_at": "2026-08-02T02:07:06Z"
         },
         "iplocate": {
-          "country": "CD",
+          "country": "US",
           "city": "",
-          "changed_at": "2026-08-14T01:18:48Z"
+          "changed_at": "2026-08-16T00:53:30Z"
         }
       }
     },
@@ -75153,9 +75153,9 @@
           "changed_at": "2026-06-15T23:49:41Z"
         },
         "iplocate": {
-          "country": "FI",
+          "country": "US",
           "city": "",
-          "changed_at": "2026-08-14T01:18:48Z"
+          "changed_at": "2026-08-16T00:53:30Z"
         }
       }
     },
@@ -93283,9 +93283,9 @@
           "changed_at": "2026-06-15T23:49:41Z"
         },
         "iplocate": {
-          "country": "US",
+          "country": "CD",
           "city": "",
-          "changed_at": "2026-07-24T02:05:52Z"
+          "changed_at": "2026-08-16T00:53:30Z"
         }
       }
     },
@@ -101403,9 +101403,9 @@
           "changed_at": "2026-06-15T23:49:41Z"
         },
         "iplocate": {
-          "country": "US",
+          "country": "CV",
           "city": "",
-          "changed_at": "2026-08-12T01:17:58Z"
+          "changed_at": "2026-08-16T00:53:30Z"
         }
       }
     },
