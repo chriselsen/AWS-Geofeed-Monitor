@@ -2751,7 +2751,7 @@
         "98.97.170.0/24",
         "98.97.171.0/24"
       ],
-      "country_pct": 92.5,
+      "country_pct": 97.5,
       "city_pct": 100.0
     },
     "Kolkata, IN": {
@@ -43478,9 +43478,9 @@
           "changed_at": "2026-08-02T02:07:06Z"
         },
         "iplocate": {
-          "country": "US",
+          "country": "CD",
           "city": "",
-          "changed_at": "2026-08-16T00:53:30Z"
+          "changed_at": "2026-08-17T00:56:12Z"
         }
       }
     },
@@ -43513,9 +43513,9 @@
           "changed_at": "2026-08-02T02:07:06Z"
         },
         "iplocate": {
-          "country": "US",
+          "country": "CD",
           "city": "",
-          "changed_at": "2026-08-16T00:53:30Z"
+          "changed_at": "2026-08-17T00:56:12Z"
         }
       }
     },
