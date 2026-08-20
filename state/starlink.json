@@ -314,7 +314,7 @@
         "98.97.158.0/24",
         "98.97.159.0/24"
       ],
-      "country_pct": 86.66666666666667,
+      "country_pct": 93.33333333333333,
       "city_pct": 100.0
     },
     "Asuncion, PY": {
@@ -337,7 +337,7 @@
         "2803:9810:4f00::/40",
         "2803:9810:c400::/40"
       ],
-      "country_pct": 80.0,
+      "country_pct": 82.5,
       "city_pct": 79.54545454545455
     },
     "Atafu, TK": {
@@ -1963,7 +1963,7 @@
         "2605:59c0:7700::/40",
         "2605:59c0:7800::/40"
       ],
-      "country_pct": 100.0,
+      "country_pct": 96.66666666666667,
       "city_pct": 100.0
     },
     "Doha, QA": {
@@ -2981,7 +2981,7 @@
         "9.246.98.0/24",
         "9.246.99.0/24"
       ],
-      "country_pct": 97.79527559055119,
+      "country_pct": 98.11023622047243,
       "city_pct": 97.9002624671916
     },
     "Lagos, NG": {
@@ -3264,7 +3264,7 @@
         "9.246.86.0/24",
         "9.246.87.0/24"
       ],
-      "country_pct": 95.94594594594594,
+      "country_pct": 96.75675675675676,
       "city_pct": 95.94594594594594
     },
     "Longyearben, SJ": {
@@ -4984,7 +4984,7 @@
         "2605:59c0:8100::/40",
         "2a0d:3341:fc00::/40"
       ],
-      "country_pct": 100.0,
+      "country_pct": 96.66666666666667,
       "city_pct": 100.0
     },
     "Providence, US": {
@@ -5699,7 +5699,7 @@
         "9.246.48.0/24",
         "9.246.49.0/24"
       ],
-      "country_pct": 98.09523809523809,
+      "country_pct": 97.14285714285714,
       "city_pct": 96.82539682539682
     },
     "St Helier, JE": {
@@ -22841,9 +22841,9 @@
           "changed_at": "2026-06-15T23:49:41Z"
         },
         "ipinfo": {
-          "country": "IM",
+          "country": "GB",
           "city": "",
-          "changed_at": "2026-06-15T23:49:41Z"
+          "changed_at": "2026-08-20T00:49:36Z"
         },
         "ip2location": {
           "country": "IM",
@@ -22876,9 +22876,9 @@
           "changed_at": "2026-06-15T23:49:41Z"
         },
         "ipinfo": {
-          "country": "IM",
+          "country": "GB",
           "city": "",
-          "changed_at": "2026-06-15T23:49:41Z"
+          "changed_at": "2026-08-20T00:49:36Z"
         },
         "ip2location": {
           "country": "IM",
@@ -43086,9 +43086,9 @@
           "changed_at": "2026-06-15T23:49:41Z"
         },
         "iplocate": {
-          "country": "US",
+          "country": "ER",
           "city": "",
-          "changed_at": "2026-08-14T01:18:48Z"
+          "changed_at": "2026-08-20T00:49:36Z"
         }
       }
     },
@@ -61706,9 +61706,9 @@
           "changed_at": "2026-06-15T23:49:41Z"
         },
         "iplocate": {
-          "country": "KZ",
+          "country": "UA",
           "city": "",
-          "changed_at": "2026-08-19T00:50:25Z"
+          "changed_at": "2026-08-20T00:49:36Z"
         }
       }
     },
@@ -61741,9 +61741,9 @@
           "changed_at": "2026-06-15T23:49:41Z"
         },
         "iplocate": {
-          "country": "KZ",
+          "country": "UA",
           "city": "",
-          "changed_at": "2026-08-19T00:50:25Z"
+          "changed_at": "2026-08-20T00:49:36Z"
         }
       }
     },
@@ -69546,9 +69546,9 @@
           "changed_at": "2026-06-15T23:49:41Z"
         },
         "iplocate": {
-          "country": "CL",
+          "country": "PY",
           "city": "",
-          "changed_at": "2026-08-19T00:50:25Z"
+          "changed_at": "2026-08-20T00:49:36Z"
         }
       }
     },
@@ -69581,9 +69581,9 @@
           "changed_at": "2026-06-15T23:49:41Z"
         },
         "iplocate": {
-          "country": "CL",
+          "country": "PY",
           "city": "",
-          "changed_at": "2026-08-19T00:50:25Z"
+          "changed_at": "2026-08-20T00:49:36Z"
         }
       }
     },
@@ -94431,9 +94431,9 @@
           "changed_at": "2026-06-15T23:49:41Z"
         },
         "iplocate": {
-          "country": "TZ",
+          "country": "US",
           "city": "",
-          "changed_at": "2026-08-18T00:49:36Z"
+          "changed_at": "2026-08-20T00:49:36Z"
         }
       }
     },
@@ -101396,9 +101396,9 @@
           "changed_at": "2026-06-15T23:49:41Z"
         },
         "iplocate": {
-          "country": "CV",
+          "country": "US",
           "city": "",
-          "changed_at": "2026-08-16T00:53:30Z"
+          "changed_at": "2026-08-20T00:49:36Z"
         }
       }
     },
@@ -119036,9 +119036,9 @@
           "changed_at": "2026-06-15T23:49:41Z"
         },
         "iplocate": {
-          "country": "BG",
+          "country": "DE",
           "city": "",
-          "changed_at": "2026-06-15T23:49:41Z"
+          "changed_at": "2026-08-20T00:49:36Z"
         }
       }
     },
@@ -120261,9 +120261,9 @@
           "changed_at": "2026-06-15T23:49:41Z"
         },
         "iplocate": {
-          "country": "US",
+          "country": "BG",
           "city": "",
-          "changed_at": "2026-08-05T01:53:34Z"
+          "changed_at": "2026-08-20T00:49:36Z"
         }
       }
     },
@@ -151921,9 +151921,9 @@
           "changed_at": "2026-06-15T23:49:41Z"
         },
         "ipinfo": {
-          "country": "IM",
+          "country": "GB",
           "city": "",
-          "changed_at": "2026-06-15T23:49:41Z"
+          "changed_at": "2026-08-20T00:49:36Z"
         },
         "ip2location": {
           "country": "IM",
