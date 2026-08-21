@@ -2981,7 +2981,7 @@
         "9.246.98.0/24",
         "9.246.99.0/24"
       ],
-      "country_pct": 98.11023622047243,
+      "country_pct": 97.48031496062993,
       "city_pct": 97.9002624671916
     },
     "Lagos, NG": {
@@ -3264,7 +3264,7 @@
         "9.246.86.0/24",
         "9.246.87.0/24"
       ],
-      "country_pct": 96.75675675675676,
+      "country_pct": 97.56756756756756,
       "city_pct": 95.94594594594594
     },
     "Longyearben, SJ": {
@@ -22856,9 +22856,9 @@
           "changed_at": "2026-07-02T00:39:39Z"
         },
         "iplocate": {
-          "country": "IM",
+          "country": "GB",
           "city": "",
-          "changed_at": "2026-06-15T23:49:41Z"
+          "changed_at": "2026-08-21T00:54:22Z"
         }
       }
     },
@@ -22891,9 +22891,9 @@
           "changed_at": "2026-07-02T00:39:39Z"
         },
         "iplocate": {
-          "country": "IM",
+          "country": "GB",
           "city": "",
-          "changed_at": "2026-06-15T23:49:41Z"
+          "changed_at": "2026-08-21T00:54:22Z"
         }
       }
     },
@@ -28911,9 +28911,9 @@
           "changed_at": "2026-08-02T02:07:06Z"
         },
         "iplocate": {
-          "country": "UA",
+          "country": "US",
           "city": "",
-          "changed_at": "2026-08-11T01:09:53Z"
+          "changed_at": "2026-08-21T00:54:22Z"
         }
       }
     },
@@ -28946,9 +28946,9 @@
           "changed_at": "2026-08-02T02:07:06Z"
         },
         "iplocate": {
-          "country": "UA",
+          "country": "US",
           "city": "",
-          "changed_at": "2026-08-11T01:09:53Z"
+          "changed_at": "2026-08-21T00:54:22Z"
         }
       }
     },
@@ -28981,9 +28981,9 @@
           "changed_at": "2026-08-02T02:07:06Z"
         },
         "iplocate": {
-          "country": "UA",
+          "country": "US",
           "city": "",
-          "changed_at": "2026-08-11T01:09:53Z"
+          "changed_at": "2026-08-21T00:54:22Z"
         }
       }
     },
@@ -29016,9 +29016,9 @@
           "changed_at": "2026-08-02T02:07:06Z"
         },
         "iplocate": {
-          "country": "UA",
+          "country": "US",
           "city": "",
-          "changed_at": "2026-08-11T01:09:53Z"
+          "changed_at": "2026-08-21T00:54:22Z"
         }
       }
     },
@@ -151936,9 +151936,9 @@
           "changed_at": "2026-07-02T00:39:39Z"
         },
         "iplocate": {
-          "country": "IM",
+          "country": "GB",
           "city": "",
-          "changed_at": "2026-06-15T23:49:41Z"
+          "changed_at": "2026-08-21T00:54:22Z"
         }
       }
     },
