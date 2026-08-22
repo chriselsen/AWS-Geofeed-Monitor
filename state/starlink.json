@@ -1995,6 +1995,16 @@
       "country_pct": 98.18181818181819,
       "city_pct": 100.0
     },
+    "Douglas, IM": {
+      "country": "IM",
+      "prefixes": [
+        "2a0d:3341:ac00::/40",
+        "9.246.86.0/24",
+        "9.246.87.0/24"
+      ],
+      "country_pct": 40.0,
+      "city_pct": 66.66666666666666
+    },
     "Dubai, AE": {
       "country": "AE",
       "prefixes": [
@@ -2981,7 +2991,7 @@
         "9.246.98.0/24",
         "9.246.99.0/24"
       ],
-      "country_pct": 97.48031496062993,
+      "country_pct": 98.11023622047243,
       "city_pct": 97.9002624671916
     },
     "Lagos, NG": {
@@ -3239,7 +3249,6 @@
         "217.142.21.0/24",
         "2605:59ca:805a::/47",
         "2605:59ca:8060::/47",
-        "2a0d:3341:ac00::/40",
         "2a0d:3341:b700::/40",
         "2a0d:3344:100::/40",
         "2a0d:3344:200::/40",
@@ -3260,12 +3269,10 @@
         "9.246.32.0/24",
         "9.246.33.0/24",
         "9.246.34.0/24",
-        "9.246.35.0/24",
-        "9.246.86.0/24",
-        "9.246.87.0/24"
+        "9.246.35.0/24"
       ],
-      "country_pct": 97.56756756756756,
-      "city_pct": 95.94594594594594
+      "country_pct": 100.0,
+      "city_pct": 100.0
     },
     "Longyearben, SJ": {
       "country": "SJ",
@@ -4385,7 +4392,7 @@
         "9.170.56.0/24",
         "9.170.57.0/24"
       ],
-      "country_pct": 83.75,
+      "country_pct": 85.0,
       "city_pct": 86.36363636363636
     },
     "Nicosia, CY": {
@@ -4984,7 +4991,7 @@
         "2605:59c0:8100::/40",
         "2a0d:3341:fc00::/40"
       ],
-      "country_pct": 96.66666666666667,
+      "country_pct": 100.0,
       "city_pct": 100.0
     },
     "Providence, US": {
@@ -5699,7 +5706,7 @@
         "9.246.48.0/24",
         "9.246.49.0/24"
       ],
-      "country_pct": 97.14285714285714,
+      "country_pct": 98.09523809523809,
       "city_pct": 96.82539682539682
     },
     "St Helier, JE": {
@@ -11880,6 +11887,9 @@
     "2605:59c0:700c::/48": true,
     "2605:59c0:700e::/48": true,
     "2605:59c0:700f::/48": true,
+    "9.246.86.0/24": true,
+    "9.246.87.0/24": true,
+    "2a0d:3341:ac00::/40": true,
     "74.244.226.0/24": true,
     "74.244.227.0/24": true,
     "150.228.88.0/24": true,
@@ -12577,8 +12587,6 @@
     "9.246.33.0/24": true,
     "9.246.34.0/24": true,
     "9.246.35.0/24": true,
-    "9.246.86.0/24": true,
-    "9.246.87.0/24": true,
     "9.246.110.0/24": true,
     "9.246.111.0/24": true,
     "9.246.112.0/24": true,
@@ -12632,7 +12640,6 @@
     "217.142.20.0/24": true,
     "217.142.21.0/24": true,
     "2a0d:3344:5800::/38": true,
-    "2a0d:3341:ac00::/40": true,
     "2a0d:3341:b700::/40": true,
     "2a0d:3344:100::/40": true,
     "2a0d:3344:200::/40": true,
@@ -22829,16 +22836,16 @@
     },
     "9.246.86.0/24": {
       "geofeed_values": {
-        "country": "GB",
-        "subdivision": "GB-LND",
-        "city": "London"
+        "country": "IM",
+        "subdivision": "",
+        "city": "Douglas"
       },
-      "geofeed_changed_at": "2026-08-19T00:50:25Z",
+      "geofeed_changed_at": "2026-08-22T00:50:23Z",
       "providers": {
         "maxmind": {
-          "country": "IM",
-          "city": "Douglas",
-          "changed_at": "2026-06-15T23:49:41Z"
+          "country": "GB",
+          "city": "City of London",
+          "changed_at": "2026-08-22T00:50:23Z"
         },
         "ipinfo": {
           "country": "GB",
@@ -22864,16 +22871,16 @@
     },
     "9.246.87.0/24": {
       "geofeed_values": {
-        "country": "GB",
-        "subdivision": "GB-LND",
-        "city": "London"
+        "country": "IM",
+        "subdivision": "",
+        "city": "Douglas"
       },
-      "geofeed_changed_at": "2026-08-19T00:50:25Z",
+      "geofeed_changed_at": "2026-08-22T00:50:23Z",
       "providers": {
         "maxmind": {
-          "country": "IM",
-          "city": "Douglas",
-          "changed_at": "2026-06-15T23:49:41Z"
+          "country": "GB",
+          "city": "City of London",
+          "changed_at": "2026-08-22T00:50:23Z"
         },
         "ipinfo": {
           "country": "GB",
@@ -28911,9 +28918,9 @@
           "changed_at": "2026-08-02T02:07:06Z"
         },
         "iplocate": {
-          "country": "US",
+          "country": "UA",
           "city": "",
-          "changed_at": "2026-08-21T00:54:22Z"
+          "changed_at": "2026-08-22T00:50:23Z"
         }
       }
     },
@@ -28946,9 +28953,9 @@
           "changed_at": "2026-08-02T02:07:06Z"
         },
         "iplocate": {
-          "country": "US",
+          "country": "UA",
           "city": "",
-          "changed_at": "2026-08-21T00:54:22Z"
+          "changed_at": "2026-08-22T00:50:23Z"
         }
       }
     },
@@ -28981,9 +28988,9 @@
           "changed_at": "2026-08-02T02:07:06Z"
         },
         "iplocate": {
-          "country": "US",
+          "country": "UA",
           "city": "",
-          "changed_at": "2026-08-21T00:54:22Z"
+          "changed_at": "2026-08-22T00:50:23Z"
         }
       }
     },
@@ -29016,9 +29023,9 @@
           "changed_at": "2026-08-02T02:07:06Z"
         },
         "iplocate": {
-          "country": "US",
+          "country": "UA",
           "city": "",
-          "changed_at": "2026-08-21T00:54:22Z"
+          "changed_at": "2026-08-22T00:50:23Z"
         }
       }
     },
@@ -58591,9 +58598,9 @@
           "changed_at": "2026-06-15T23:49:41Z"
         },
         "iplocate": {
-          "country": "PA",
+          "country": "NE",
           "city": "",
-          "changed_at": "2026-08-01T02:10:58Z"
+          "changed_at": "2026-08-22T00:50:23Z"
         }
       }
     },
@@ -101396,9 +101403,9 @@
           "changed_at": "2026-06-15T23:49:41Z"
         },
         "iplocate": {
-          "country": "US",
+          "country": "CV",
           "city": "",
-          "changed_at": "2026-08-20T00:49:36Z"
+          "changed_at": "2026-08-22T00:50:23Z"
         }
       }
     },
@@ -119036,9 +119043,9 @@
           "changed_at": "2026-06-15T23:49:41Z"
         },
         "iplocate": {
-          "country": "DE",
+          "country": "BG",
           "city": "",
-          "changed_at": "2026-08-20T00:49:36Z"
+          "changed_at": "2026-08-22T00:50:23Z"
         }
       }
     },
@@ -151909,16 +151916,16 @@
     },
     "2a0d:3341:ac00::/40": {
       "geofeed_values": {
-        "country": "GB",
-        "subdivision": "GB-LND",
-        "city": "London"
+        "country": "IM",
+        "subdivision": "",
+        "city": "Douglas"
       },
-      "geofeed_changed_at": "2026-08-19T00:50:25Z",
+      "geofeed_changed_at": "2026-08-22T00:50:23Z",
       "providers": {
         "maxmind": {
-          "country": "IM",
-          "city": "Douglas",
-          "changed_at": "2026-06-15T23:49:41Z"
+          "country": "GB",
+          "city": "City of London",
+          "changed_at": "2026-08-22T00:50:23Z"
         },
         "ipinfo": {
           "country": "GB",
