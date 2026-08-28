@@ -5549,7 +5549,6 @@
       "country": "ID",
       "prefixes": [
         "1.178.19.0/24",
-        "1.178.86.0/24",
         "104.255.59.101/32",
         "104.255.59.102/32",
         "104.255.59.103/32",
@@ -5684,8 +5683,8 @@
         "99.78.238.255/32",
         "99.78.240.0/20"
       ],
-      "country_pct": 89.55223880597015,
-      "city_pct": 88.03191489361703
+      "country_pct": 89.77443609022556,
+      "city_pct": 87.96791443850267
     },
     "Kansas City, US": {
       "country": "US",
@@ -6933,7 +6932,7 @@
         "99.79.34.0/23",
         "99.82.174.0/24"
       ],
-      "country_pct": 92.94642857142857,
+      "country_pct": 93.03571428571429,
       "city_pct": 78.72670807453416
     },
     "Mumbai, IN": {
@@ -7254,6 +7253,14 @@
       ],
       "country_pct": 100.0,
       "city_pct": 100.0
+    },
+    "New Carlisle, US": {
+      "country": "US",
+      "prefixes": [
+        "2600:1f6a:4c00::/46"
+      ],
+      "country_pct": 100.0,
+      "city_pct": 0.0
     },
     "New York, US": {
       "country": "US",
@@ -11200,7 +11207,6 @@
     "1.178.65.0/24",
     "1.178.7.0/24",
     "1.178.8.0/24",
-    "1.178.86.0/24",
     "1.178.88.0/24",
     "1.178.89.0/24",
     "1.178.9.0/24",
@@ -15710,6 +15716,7 @@
     "2600:1f61:c000::/40",
     "2600:1f61:e000::/40",
     "2600:1f61:ec00::/40",
+    "2600:1f6a:4c00::/46",
     "2600:1f70:1000:100::/56",
     "2600:1f70:1000:200::/56",
     "2600:1f70:1000:300::/56",
@@ -24772,7 +24779,6 @@
     "99.78.228.0/22": true,
     "64.66.153.0/24": true,
     "65.4.0.0/16": true,
-    "1.178.86.0/24": true,
     "15.232.0.0/16": true,
     "16.79.0.0/16": true,
     "15.233.0.0/16": true,
@@ -25637,6 +25643,7 @@
     "15.220.160.0/21": true,
     "139.56.28.0/23": false,
     "161.188.0.0/20": true,
+    "2600:1f6a:4c00::/46": true,
     "155.146.64.0/20": true,
     "2600:1f17:8000::/36": true,
     "2600:1f27:8000::/36": true,
@@ -72559,9 +72566,9 @@
           "changed_at": "2026-08-27T06:32:43Z"
         },
         "iplocate": {
-          "country": "US",
+          "country": "CA",
           "city": "",
-          "changed_at": "2026-08-27T06:32:43Z"
+          "changed_at": "2026-08-28T08:23:01Z"
         }
       }
     },
@@ -149387,41 +149394,6 @@
           "country": "ID",
           "city": "",
           "changed_at": "2026-06-15T23:49:38Z"
-        }
-      }
-    },
-    "1.178.86.0/24": {
-      "geofeed_values": {
-        "country": "ID",
-        "subdivision": "ID-JK",
-        "city": "Jakarta"
-      },
-      "geofeed_changed_at": null,
-      "providers": {
-        "maxmind": {
-          "country": "US",
-          "city": "",
-          "changed_at": "2026-08-25T00:52:20Z"
-        },
-        "ipinfo": {
-          "country": "US",
-          "city": "",
-          "changed_at": "2026-08-26T00:53:37Z"
-        },
-        "ip2location": {
-          "country": "ID",
-          "city": "Jakarta",
-          "changed_at": "2026-08-25T00:52:20Z"
-        },
-        "dbip": {
-          "country": "ID",
-          "city": "Jakarta",
-          "changed_at": "2026-08-25T00:52:20Z"
-        },
-        "iplocate": {
-          "country": "ID",
-          "city": "",
-          "changed_at": "2026-08-25T00:52:20Z"
         }
       }
     },
@@ -288687,6 +288659,41 @@
           "country": "US",
           "city": "",
           "changed_at": "2026-06-15T23:49:38Z"
+        }
+      }
+    },
+    "2600:1f6a:4c00::/46": {
+      "geofeed_values": {
+        "country": "US",
+        "subdivision": "US-IN",
+        "city": "New Carlisle"
+      },
+      "geofeed_changed_at": null,
+      "providers": {
+        "maxmind": {
+          "country": "US",
+          "city": "",
+          "changed_at": "2026-08-28T08:23:01Z"
+        },
+        "ipinfo": {
+          "country": "US",
+          "city": "",
+          "changed_at": "2026-08-28T08:23:01Z"
+        },
+        "ip2location": {
+          "country": "US",
+          "city": "Seattle",
+          "changed_at": "2026-08-28T08:23:01Z"
+        },
+        "dbip": {
+          "country": "US",
+          "city": "Seattle",
+          "changed_at": "2026-08-28T08:23:01Z"
+        },
+        "iplocate": {
+          "country": "US",
+          "city": "",
+          "changed_at": "2026-08-28T08:23:01Z"
         }
       }
     },
