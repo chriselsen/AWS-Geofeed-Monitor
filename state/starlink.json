@@ -311,7 +311,7 @@
         "98.97.158.0/24",
         "98.97.159.0/24"
       ],
-      "country_pct": 93.33333333333333,
+      "country_pct": 86.66666666666667,
       "city_pct": 100.0
     },
     "Asuncion, PY": {
@@ -821,7 +821,7 @@
         "74.244.168.0/24",
         "74.244.169.0/24"
       ],
-      "country_pct": 96.45161290322581,
+      "country_pct": 96.12903225806451,
       "city_pct": 96.66666666666667
     },
     "Boise, US": {
@@ -1781,7 +1781,7 @@
         "168.140.241.0/24",
         "2406:2d40:b000::/38"
       ],
-      "country_pct": 97.14285714285714,
+      "country_pct": 100.0,
       "city_pct": 100.0
     },
     "Delhi, IN": {
@@ -2989,7 +2989,7 @@
         "9.246.98.0/24",
         "9.246.99.0/24"
       ],
-      "country_pct": 95.41984732824427,
+      "country_pct": 96.6412213740458,
       "city_pct": 95.92875318066157
     },
     "Lagos, NG": {
@@ -4386,7 +4386,7 @@
         "9.170.56.0/24",
         "9.170.57.0/24"
       ],
-      "country_pct": 83.75,
+      "country_pct": 85.0,
       "city_pct": 86.36363636363636
     },
     "Nicosia, CY": {
@@ -4985,7 +4985,7 @@
         "2605:59c0:8100::/40",
         "2a0d:3341:fc00::/40"
       ],
-      "country_pct": 100.0,
+      "country_pct": 96.66666666666667,
       "city_pct": 100.0
     },
     "Providence, US": {
@@ -5538,7 +5538,7 @@
         "98.97.156.0/24",
         "98.97.157.0/24"
       ],
-      "country_pct": 97.5609756097561,
+      "country_pct": 97.07317073170731,
       "city_pct": 95.0413223140496
     },
     "Sao Tome, ST": {
@@ -6072,7 +6072,7 @@
         "98.97.74.0/24",
         "98.97.75.0/24"
       ],
-      "country_pct": 90.0,
+      "country_pct": 93.33333333333333,
       "city_pct": 50.0
     },
     "T\u00f3rshavn, FO": {
@@ -11651,8 +11651,8 @@
     "129.222.77.0/24": true,
     "129.222.78.0/24": true,
     "129.222.79.0/24": true,
-    "129.222.80.0/24": true,
-    "129.222.81.0/24": true,
+    "129.222.80.0/24": false,
+    "129.222.81.0/24": false,
     "129.222.82.0/24": true,
     "129.222.83.0/24": true,
     "129.222.84.0/24": true,
@@ -43077,9 +43077,9 @@
           "changed_at": "2026-06-15T23:49:41Z"
         },
         "iplocate": {
-          "country": "ER",
+          "country": "US",
           "city": "",
-          "changed_at": "2026-08-27T06:32:47Z"
+          "changed_at": "2026-08-29T05:04:06Z"
         }
       }
     },
@@ -45142,9 +45142,9 @@
           "changed_at": "2026-08-02T02:07:06Z"
         },
         "iplocate": {
-          "country": "US",
+          "country": "UA",
           "city": "",
-          "changed_at": "2026-08-28T08:23:05Z"
+          "changed_at": "2026-08-29T05:04:06Z"
         }
       }
     },
@@ -45177,9 +45177,9 @@
           "changed_at": "2026-08-02T02:07:06Z"
         },
         "iplocate": {
-          "country": "US",
+          "country": "UA",
           "city": "",
-          "changed_at": "2026-08-28T08:23:05Z"
+          "changed_at": "2026-08-29T05:04:06Z"
         }
       }
     },
@@ -45212,9 +45212,9 @@
           "changed_at": "2026-08-02T02:07:06Z"
         },
         "iplocate": {
-          "country": "US",
+          "country": "UA",
           "city": "",
-          "changed_at": "2026-08-28T08:23:05Z"
+          "changed_at": "2026-08-29T05:04:06Z"
         }
       }
     },
@@ -45247,9 +45247,9 @@
           "changed_at": "2026-08-02T02:07:06Z"
         },
         "iplocate": {
-          "country": "US",
+          "country": "UA",
           "city": "",
-          "changed_at": "2026-08-28T08:23:05Z"
+          "changed_at": "2026-08-29T05:04:06Z"
         }
       }
     },
@@ -45282,9 +45282,9 @@
           "changed_at": "2026-08-02T02:07:06Z"
         },
         "iplocate": {
-          "country": "US",
+          "country": "UA",
           "city": "",
-          "changed_at": "2026-08-28T08:23:05Z"
+          "changed_at": "2026-08-29T05:04:06Z"
         }
       }
     },
@@ -45317,9 +45317,9 @@
           "changed_at": "2026-08-02T02:07:06Z"
         },
         "iplocate": {
-          "country": "US",
+          "country": "UA",
           "city": "",
-          "changed_at": "2026-08-28T08:23:05Z"
+          "changed_at": "2026-08-29T05:04:06Z"
         }
       }
     },
@@ -45352,9 +45352,9 @@
           "changed_at": "2026-08-02T02:07:06Z"
         },
         "iplocate": {
-          "country": "US",
+          "country": "UA",
           "city": "",
-          "changed_at": "2026-08-28T08:23:05Z"
+          "changed_at": "2026-08-29T05:04:06Z"
         }
       }
     },
@@ -45387,9 +45387,9 @@
           "changed_at": "2026-08-02T02:07:06Z"
         },
         "iplocate": {
-          "country": "US",
+          "country": "UA",
           "city": "",
-          "changed_at": "2026-08-28T08:23:05Z"
+          "changed_at": "2026-08-29T05:04:06Z"
         }
       }
     },
@@ -55257,9 +55257,9 @@
           "changed_at": "2026-08-02T02:07:06Z"
         },
         "iplocate": {
-          "country": "BR",
+          "country": "BO",
           "city": "",
-          "changed_at": "2026-08-24T00:53:07Z"
+          "changed_at": "2026-08-29T05:04:06Z"
         }
       }
     },
@@ -55292,9 +55292,9 @@
           "changed_at": "2026-08-02T02:07:06Z"
         },
         "iplocate": {
-          "country": "BR",
+          "country": "BO",
           "city": "",
-          "changed_at": "2026-08-24T00:53:07Z"
+          "changed_at": "2026-08-29T05:04:06Z"
         }
       }
     },
@@ -58442,9 +58442,9 @@
           "changed_at": "2026-06-15T23:49:41Z"
         },
         "iplocate": {
-          "country": "PA",
+          "country": "NE",
           "city": "",
-          "changed_at": "2026-08-24T00:53:07Z"
+          "changed_at": "2026-08-29T05:04:06Z"
         }
       }
     },
@@ -74437,9 +74437,9 @@
           "changed_at": "2026-06-15T23:49:41Z"
         },
         "iplocate": {
-          "country": "US",
+          "country": "LY",
           "city": "",
-          "changed_at": "2026-07-17T02:02:04Z"
+          "changed_at": "2026-08-29T05:04:06Z"
         }
       }
     },
@@ -92392,9 +92392,9 @@
           "changed_at": "2026-06-15T23:49:41Z"
         },
         "iplocate": {
-          "country": "CO",
+          "country": "US",
           "city": "",
-          "changed_at": "2026-08-27T06:32:47Z"
+          "changed_at": "2026-08-29T05:04:06Z"
         }
       }
     },
@@ -97432,9 +97432,9 @@
           "changed_at": "2026-06-15T23:49:41Z"
         },
         "iplocate": {
-          "country": "US",
+          "country": "AU",
           "city": "",
-          "changed_at": "2026-08-27T06:32:47Z"
+          "changed_at": "2026-08-29T05:04:06Z"
         }
       }
     },
@@ -101317,9 +101317,9 @@
           "changed_at": "2026-06-15T23:49:41Z"
         },
         "iplocate": {
-          "country": "CV",
+          "country": "US",
           "city": "",
-          "changed_at": "2026-08-26T00:53:41Z"
+          "changed_at": "2026-08-29T05:04:06Z"
         }
       }
     },
