@@ -297,8 +297,8 @@
         "8.228.192.0/19",
         "8.230.64.0/19"
       ],
-      "country_pct": 93.6842105263158,
-      "city_pct": 89.47368421052632
+      "country_pct": 95.78947368421052,
+      "city_pct": 92.98245614035088
     },
     "Doha, QA": {
       "country": "QA",
@@ -598,7 +598,7 @@
         "8.234.17.0/24"
       ],
       "country_pct": 98.82352941176471,
-      "city_pct": 88.23529411764706
+      "city_pct": 92.15686274509804
     },
     "London, GB": {
       "country": "GB",
@@ -677,7 +677,7 @@
         "35.243.0.0/21"
       ],
       "country_pct": 99.2,
-      "city_pct": 93.33333333333333
+      "city_pct": 96.0
     },
     "Madrid, ES": {
       "country": "ES",
@@ -741,8 +741,8 @@
         "34.96.32.0/24",
         "35.219.224.0/19"
       ],
-      "country_pct": 97.89473684210527,
-      "city_pct": 96.49122807017544
+      "country_pct": 98.94736842105263,
+      "city_pct": 98.24561403508771
     },
     "Montreal, CA": {
       "country": "CA",
@@ -844,8 +844,8 @@
         "34.4.24.0/22",
         "34.96.33.0/24"
       ],
-      "country_pct": 92.22222222222223,
-      "city_pct": 85.18518518518519
+      "country_pct": 94.44444444444444,
+      "city_pct": 88.88888888888889
     },
     "North Charleston, US": {
       "country": "US",
@@ -926,8 +926,8 @@
         "35.242.45.0/24",
         "35.243.56.0/21"
       ],
-      "country_pct": 88.0,
-      "city_pct": 88.88888888888889
+      "country_pct": 93.33333333333333,
+      "city_pct": 93.33333333333333
     },
     "Paris, FR": {
       "country": "FR",
@@ -1024,8 +1024,8 @@
         "34.184.109.0/24",
         "34.34.252.0/24"
       ],
-      "country_pct": 97.77777777777777,
-      "city_pct": 96.29629629629629
+      "country_pct": 93.33333333333333,
+      "city_pct": 88.88888888888889
     },
     "Sao Paulo, BR": {
       "country": "BR",
@@ -1387,8 +1387,8 @@
         "34.184.30.0/24",
         "34.34.232.0/24"
       ],
-      "country_pct": 97.33333333333334,
-      "city_pct": 93.33333333333333
+      "country_pct": 94.66666666666667,
+      "city_pct": 88.88888888888889
     },
     "Tulsa, US": {
       "country": "US",
@@ -1432,8 +1432,8 @@
         "34.184.113.0/24",
         "34.34.238.0/24"
       ],
-      "country_pct": 93.33333333333333,
-      "city_pct": 86.66666666666667
+      "country_pct": 96.0,
+      "city_pct": 91.11111111111111
     },
     "Warsaw, PL": {
       "country": "PL",
@@ -1516,7 +1516,7 @@
         "8.234.2.0/24"
       ],
       "country_pct": 99.64912280701755,
-      "city_pct": 35.08771929824561
+      "city_pct": 35.67251461988304
     },
     "Zurich, CH": {
       "country": "CH",
@@ -12926,8 +12926,8 @@
         },
         "ip2location": {
           "country": "US",
-          "city": "Mountain View",
-          "changed_at": "2026-08-19T00:50:09Z"
+          "city": "Washington",
+          "changed_at": "2026-09-01T02:57:50Z"
         },
         "dbip": {
           "country": "US",
@@ -18525,9 +18525,9 @@
           "changed_at": "2026-06-15T23:49:26Z"
         },
         "ip2location": {
-          "country": "CA",
-          "city": "Toronto",
-          "changed_at": "2026-08-15T00:50:25Z"
+          "country": "IT",
+          "city": "Torino",
+          "changed_at": "2026-09-01T02:57:50Z"
         },
         "dbip": {
           "country": "IT",
@@ -18560,9 +18560,9 @@
           "changed_at": "2026-06-15T23:49:26Z"
         },
         "ip2location": {
-          "country": "CA",
-          "city": "Toronto",
-          "changed_at": "2026-08-15T00:50:25Z"
+          "country": "IT",
+          "city": "Torino",
+          "changed_at": "2026-09-01T02:57:50Z"
         },
         "dbip": {
           "country": "IT",
@@ -18595,9 +18595,9 @@
           "changed_at": "2026-06-15T23:49:26Z"
         },
         "ip2location": {
-          "country": "CL",
-          "city": "Santiago",
-          "changed_at": "2026-08-15T00:50:25Z"
+          "country": "IN",
+          "city": "Delhi",
+          "changed_at": "2026-09-01T02:57:50Z"
         },
         "dbip": {
           "country": "CL",
@@ -18630,9 +18630,9 @@
           "changed_at": "2026-06-15T23:49:26Z"
         },
         "ip2location": {
-          "country": "CL",
-          "city": "Santiago",
-          "changed_at": "2026-08-15T00:50:25Z"
+          "country": "IN",
+          "city": "Delhi",
+          "changed_at": "2026-09-01T02:57:50Z"
         },
         "dbip": {
           "country": "CL",
@@ -20975,9 +20975,9 @@
           "changed_at": "2026-06-15T23:49:26Z"
         },
         "ip2location": {
-          "country": "CL",
-          "city": "Santiago",
-          "changed_at": "2026-08-01T02:10:38Z"
+          "country": "SA",
+          "city": "Dammam",
+          "changed_at": "2026-09-01T02:57:50Z"
         },
         "dbip": {
           "country": "CL",
@@ -21010,9 +21010,9 @@
           "changed_at": "2026-06-15T23:49:26Z"
         },
         "ip2location": {
-          "country": "CL",
-          "city": "Santiago",
-          "changed_at": "2026-08-01T02:10:38Z"
+          "country": "SA",
+          "city": "Dammam",
+          "changed_at": "2026-09-01T02:57:50Z"
         },
         "dbip": {
           "country": "CL",
@@ -21045,9 +21045,9 @@
           "changed_at": "2026-06-15T23:49:26Z"
         },
         "ip2location": {
-          "country": "US",
-          "city": "Mountain View",
-          "changed_at": "2026-08-01T02:10:38Z"
+          "country": "IT",
+          "city": "Milan",
+          "changed_at": "2026-09-01T02:57:50Z"
         },
         "dbip": {
           "country": "IT",
@@ -21710,9 +21710,9 @@
           "changed_at": "2026-06-15T23:49:26Z"
         },
         "ip2location": {
-          "country": "CL",
-          "city": "Santiago",
-          "changed_at": "2026-08-01T02:10:38Z"
+          "country": "SA",
+          "city": "Dammam",
+          "changed_at": "2026-09-01T02:57:50Z"
         },
         "dbip": {
           "country": "CL",
@@ -21745,9 +21745,9 @@
           "changed_at": "2026-06-15T23:49:26Z"
         },
         "ip2location": {
-          "country": "CL",
-          "city": "Santiago",
-          "changed_at": "2026-08-01T02:10:38Z"
+          "country": "SA",
+          "city": "Dammam",
+          "changed_at": "2026-09-01T02:57:50Z"
         },
         "dbip": {
           "country": "CL",
@@ -23180,9 +23180,9 @@
           "changed_at": "2026-06-15T23:49:26Z"
         },
         "ip2location": {
-          "country": "CA",
-          "city": "Toronto",
-          "changed_at": "2026-08-15T00:50:25Z"
+          "country": "IT",
+          "city": "Torino",
+          "changed_at": "2026-09-01T02:57:50Z"
         },
         "dbip": {
           "country": "IT",
@@ -23215,9 +23215,9 @@
           "changed_at": "2026-06-15T23:49:26Z"
         },
         "ip2location": {
-          "country": "CA",
-          "city": "Toronto",
-          "changed_at": "2026-08-15T00:50:25Z"
+          "country": "IT",
+          "city": "Torino",
+          "changed_at": "2026-09-01T02:57:50Z"
         },
         "dbip": {
           "country": "IT",
@@ -23250,9 +23250,9 @@
           "changed_at": "2026-06-15T23:49:26Z"
         },
         "ip2location": {
-          "country": "CL",
-          "city": "Santiago",
-          "changed_at": "2026-08-15T00:50:25Z"
+          "country": "IN",
+          "city": "Delhi",
+          "changed_at": "2026-09-01T02:57:50Z"
         },
         "dbip": {
           "country": "CL",
@@ -23285,9 +23285,9 @@
           "changed_at": "2026-06-15T23:49:26Z"
         },
         "ip2location": {
-          "country": "CL",
-          "city": "Santiago",
-          "changed_at": "2026-08-15T00:50:25Z"
+          "country": "IN",
+          "city": "Delhi",
+          "changed_at": "2026-09-01T02:57:50Z"
         },
         "dbip": {
           "country": "CL",
@@ -26296,8 +26296,8 @@
         },
         "ip2location": {
           "country": "US",
-          "city": "Mountain View",
-          "changed_at": "2026-08-29T05:03:53Z"
+          "city": "Los Angeles",
+          "changed_at": "2026-09-01T02:57:50Z"
         },
         "dbip": {
           "country": "US",
@@ -26331,8 +26331,8 @@
         },
         "ip2location": {
           "country": "US",
-          "city": "Mountain View",
-          "changed_at": "2026-08-29T05:03:53Z"
+          "city": "Las Vegas",
+          "changed_at": "2026-09-01T02:57:50Z"
         },
         "dbip": {
           "country": "US",
@@ -26365,9 +26365,9 @@
           "changed_at": "2026-08-29T05:03:53Z"
         },
         "ip2location": {
-          "country": "US",
-          "city": "Mountain View",
-          "changed_at": "2026-08-29T05:03:53Z"
+          "country": "JP",
+          "city": "Osaka",
+          "changed_at": "2026-09-01T02:57:50Z"
         },
         "dbip": {
           "country": "US",
@@ -26375,9 +26375,9 @@
           "changed_at": "2026-08-29T05:03:53Z"
         },
         "iplocate": {
-          "country": "US",
+          "country": "JP",
           "city": "",
-          "changed_at": "2026-08-29T05:03:53Z"
+          "changed_at": "2026-09-01T02:57:50Z"
         }
       }
     },
@@ -28606,8 +28606,8 @@
         },
         "ip2location": {
           "country": "US",
-          "city": "Mountain View",
-          "changed_at": "2026-08-29T05:03:53Z"
+          "city": "Los Angeles",
+          "changed_at": "2026-09-01T02:57:50Z"
         },
         "dbip": {
           "country": "US",
@@ -28641,8 +28641,8 @@
         },
         "ip2location": {
           "country": "US",
-          "city": "Mountain View",
-          "changed_at": "2026-08-29T05:03:53Z"
+          "city": "Las Vegas",
+          "changed_at": "2026-09-01T02:57:50Z"
         },
         "dbip": {
           "country": "US",
@@ -28675,9 +28675,9 @@
           "changed_at": "2026-08-29T05:03:53Z"
         },
         "ip2location": {
-          "country": "US",
-          "city": "Mountain View",
-          "changed_at": "2026-08-29T05:03:53Z"
+          "country": "JP",
+          "city": "Osaka",
+          "changed_at": "2026-09-01T02:57:50Z"
         },
         "dbip": {
           "country": "US",
@@ -28685,9 +28685,9 @@
           "changed_at": "2026-08-29T05:03:53Z"
         },
         "iplocate": {
-          "country": "US",
+          "country": "JP",
           "city": "",
-          "changed_at": "2026-08-29T05:03:53Z"
+          "changed_at": "2026-09-01T02:57:50Z"
         }
       }
     },
