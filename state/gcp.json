@@ -12,8 +12,8 @@
         "34.3.32.0/20",
         "34.96.53.0/24"
       ],
-      "country_pct": 95.0,
-      "city_pct": 91.66666666666666
+      "country_pct": 97.5,
+      "city_pct": 95.83333333333334
     },
     "Berlin, DE": {
       "country": "DE",
@@ -28,7 +28,7 @@
         "34.34.237.0/24"
       ],
       "country_pct": 97.5,
-      "city_pct": 91.66666666666666
+      "city_pct": 95.83333333333334
     },
     "Brussels, BE": {
       "country": "BE",
@@ -94,8 +94,8 @@
         "8.34.211.0/24",
         "8.34.220.0/22"
       ],
-      "country_pct": 98.66666666666667,
-      "city_pct": 98.88268156424581
+      "country_pct": 99.0,
+      "city_pct": 99.4413407821229
     },
     "Columbus, US": {
       "country": "US",
@@ -123,7 +123,7 @@
         "8.234.4.0/22"
       ],
       "country_pct": 99.04761904761905,
-      "city_pct": 96.82539682539682
+      "city_pct": 98.4126984126984
     },
     "Council Bluffs, US": {
       "country": "US",
@@ -245,7 +245,7 @@
         "8.35.192.0/21"
       ],
       "country_pct": 99.82608695652175,
-      "city_pct": 99.42028985507247
+      "city_pct": 99.71014492753623
     },
     "Dallas, US": {
       "country": "US",
@@ -297,8 +297,8 @@
         "8.228.192.0/19",
         "8.230.64.0/19"
       ],
-      "country_pct": 95.78947368421052,
-      "city_pct": 92.98245614035088
+      "country_pct": 96.84210526315789,
+      "city_pct": 94.73684210526315
     },
     "Doha, QA": {
       "country": "QA",
@@ -314,8 +314,8 @@
         "34.184.66.0/24",
         "34.34.230.0/24"
       ],
-      "country_pct": 96.0,
-      "city_pct": 93.33333333333333
+      "country_pct": 98.0,
+      "city_pct": 96.66666666666667
     },
     "Frankfurt, DE": {
       "country": "DE",
@@ -404,7 +404,7 @@
         "35.242.16.0/23"
       ],
       "country_pct": 99.5,
-      "city_pct": 66.66666666666666
+      "city_pct": 67.5
     },
     "Heringsdorf, DE": {
       "country": "DE",
@@ -439,8 +439,8 @@
         "35.242.27.0/24",
         "35.243.8.0/21"
       ],
-      "country_pct": 97.33333333333334,
-      "city_pct": 95.55555555555556
+      "country_pct": 98.66666666666667,
+      "city_pct": 97.77777777777777
     },
     "Huntsville, US": {
       "country": "US",
@@ -459,7 +459,7 @@
         "35.206.10.0/23"
       ],
       "country_pct": 91.66666666666666,
-      "city_pct": 61.111111111111114
+      "city_pct": 63.888888888888886
     },
     "Jakarta, ID": {
       "country": "ID",
@@ -486,8 +486,8 @@
         "34.96.57.0/24",
         "35.219.0.0/17"
       ],
-      "country_pct": 98.09523809523809,
-      "city_pct": 96.82539682539682
+      "country_pct": 99.04761904761905,
+      "city_pct": 98.4126984126984
     },
     "Johannesburg, ZA": {
       "country": "ZA",
@@ -503,8 +503,8 @@
         "34.34.251.0/24",
         "34.35.0.0/16"
       ],
-      "country_pct": 96.0,
-      "city_pct": 93.33333333333333
+      "country_pct": 98.0,
+      "city_pct": 96.66666666666667
     },
     "Kansas City, US": {
       "country": "US",
@@ -573,8 +573,8 @@
         "35.228.0.0/16",
         "35.242.26.0/24"
       ],
-      "country_pct": 96.66666666666667,
-      "city_pct": 66.66666666666666
+      "country_pct": 98.33333333333333,
+      "city_pct": 69.44444444444444
     },
     "Las Vegas, US": {
       "country": "US",
@@ -598,7 +598,7 @@
         "8.234.17.0/24"
       ],
       "country_pct": 98.82352941176471,
-      "city_pct": 92.15686274509804
+      "city_pct": 94.11764705882352
     },
     "London, GB": {
       "country": "GB",
@@ -716,7 +716,7 @@
         "34.34.239.0/24"
       ],
       "country_pct": 98.33333333333333,
-      "city_pct": 94.44444444444444
+      "city_pct": 97.22222222222221
     },
     "Milan, IT": {
       "country": "IT",
@@ -820,7 +820,7 @@
         "8.234.64.0/18"
       ],
       "country_pct": 99.44444444444444,
-      "city_pct": 98.14814814814815
+      "city_pct": 99.07407407407408
     },
     "New Delhi, IN": {
       "country": "IN",
@@ -845,7 +845,7 @@
         "34.96.33.0/24"
       ],
       "country_pct": 94.44444444444444,
-      "city_pct": 88.88888888888889
+      "city_pct": 90.74074074074075
     },
     "North Charleston, US": {
       "country": "US",
@@ -905,7 +905,7 @@
         "35.243.128.0/17"
       ],
       "country_pct": 99.62264150943396,
-      "city_pct": 67.29559748427673
+      "city_pct": 67.9245283018868
     },
     "Osaka, JP": {
       "country": "JP",
@@ -1000,7 +1000,7 @@
         "8.234.8.0/21"
       ],
       "country_pct": 98.88888888888889,
-      "city_pct": 96.29629629629629
+      "city_pct": 98.14814814814815
     },
     "Santiago, CL": {
       "country": "CL",
@@ -1024,8 +1024,8 @@
         "34.184.109.0/24",
         "34.34.252.0/24"
       ],
-      "country_pct": 93.33333333333333,
-      "city_pct": 88.88888888888889
+      "country_pct": 94.44444444444444,
+      "city_pct": 90.74074074074075
     },
     "Sao Paulo, BR": {
       "country": "BR",
@@ -1049,8 +1049,8 @@
         "35.242.40.0/24",
         "35.247.192.0/18"
       ],
-      "country_pct": 97.77777777777777,
-      "city_pct": 96.29629629629629
+      "country_pct": 98.88888888888889,
+      "city_pct": 98.14814814814815
     },
     "Seoul, KR": {
       "country": "KR",
@@ -1086,7 +1086,7 @@
         "8.228.128.0/18",
         "8.230.0.0/19"
       ],
-      "country_pct": 98.66666666666667,
+      "country_pct": 99.33333333333333,
       "city_pct": 66.66666666666666
     },
     "Singapore, SG": {
@@ -1142,8 +1142,8 @@
         "35.242.24.0/23",
         "35.247.128.0/18"
       ],
-      "country_pct": 98.77551020408163,
-      "city_pct": 97.95918367346938
+      "country_pct": 99.59183673469387,
+      "city_pct": 99.31972789115646
     },
     "Stockholm, SE": {
       "country": "SE",
@@ -1235,7 +1235,7 @@
         "35.242.32.0/21"
       ],
       "country_pct": 99.41176470588235,
-      "city_pct": 67.64705882352942
+      "city_pct": 66.66666666666666
     },
     "Tel Aviv, IL": {
       "country": "IL",
@@ -1257,8 +1257,8 @@
         "35.252.0.0/19",
         "8.230.32.0/19"
       ],
-      "country_pct": 92.5,
-      "city_pct": 58.333333333333336
+      "country_pct": 93.75,
+      "city_pct": 60.416666666666664
     },
     "The Dalles, US": {
       "country": "US",
@@ -1330,7 +1330,7 @@
         "8.235.0.0/17"
       ],
       "country_pct": 99.6923076923077,
-      "city_pct": 98.97435897435898
+      "city_pct": 99.48717948717949
     },
     "Tokyo, JP": {
       "country": "JP",
@@ -1411,7 +1411,7 @@
         "35.242.46.0/24"
       ],
       "country_pct": 98.75,
-      "city_pct": 66.66666666666666
+      "city_pct": 68.75
     },
     "Turin, IT": {
       "country": "IT",
@@ -1433,7 +1433,7 @@
         "34.34.238.0/24"
       ],
       "country_pct": 96.0,
-      "city_pct": 91.11111111111111
+      "city_pct": 93.33333333333333
     },
     "Warsaw, PL": {
       "country": "PL",
@@ -12931,8 +12931,8 @@
         },
         "dbip": {
           "country": "US",
-          "city": "Mountain View",
-          "changed_at": "2026-08-19T00:50:09Z"
+          "city": "Washington D.C.",
+          "changed_at": "2026-09-02T02:18:16Z"
         },
         "iplocate": {
           "country": "US",
@@ -43800,9 +43800,9 @@
           "changed_at": "2026-08-15T00:50:25Z"
         },
         "dbip": {
-          "country": "CA",
-          "city": "Montreal",
-          "changed_at": "2026-08-09T01:08:59Z"
+          "country": "SG",
+          "city": "Singapore",
+          "changed_at": "2026-09-02T02:18:16Z"
         },
         "iplocate": {
           "country": "SG",
@@ -44396,8 +44396,8 @@
         },
         "dbip": {
           "country": "US",
-          "city": "Cleveland",
-          "changed_at": "2026-08-05T01:53:18Z"
+          "city": "Council Bluffs",
+          "changed_at": "2026-09-02T02:18:16Z"
         },
         "iplocate": {
           "country": "US",
@@ -44430,9 +44430,9 @@
           "changed_at": "2026-08-15T00:50:25Z"
         },
         "dbip": {
-          "country": "GB",
-          "city": "London",
-          "changed_at": "2026-08-05T01:53:18Z"
+          "country": "ZA",
+          "city": "Johannesburg",
+          "changed_at": "2026-09-02T02:18:16Z"
         },
         "iplocate": {
           "country": "ZA",
@@ -44466,8 +44466,8 @@
         },
         "dbip": {
           "country": "TW",
-          "city": "Taipei",
-          "changed_at": "2026-08-05T01:53:18Z"
+          "city": "Taoyuan",
+          "changed_at": "2026-09-02T02:18:16Z"
         },
         "iplocate": {
           "country": "TW",
@@ -44500,9 +44500,9 @@
           "changed_at": "2026-08-15T00:50:25Z"
         },
         "dbip": {
-          "country": "CA",
-          "city": "Montreal",
-          "changed_at": "2026-08-05T01:53:18Z"
+          "country": "HK",
+          "city": "Hong Kong",
+          "changed_at": "2026-09-02T02:18:16Z"
         },
         "iplocate": {
           "country": "HK",
@@ -44536,8 +44536,8 @@
         },
         "dbip": {
           "country": "JP",
-          "city": "Chiyoda City",
-          "changed_at": "2026-08-05T01:53:18Z"
+          "city": "Shibuya City",
+          "changed_at": "2026-09-02T02:18:16Z"
         },
         "iplocate": {
           "country": "JP",
@@ -44605,9 +44605,9 @@
           "changed_at": "2026-08-15T00:50:25Z"
         },
         "dbip": {
-          "country": "JP",
-          "city": "Chiyoda City",
-          "changed_at": "2026-08-05T01:53:18Z"
+          "country": "KR",
+          "city": "Yongsan-dong",
+          "changed_at": "2026-09-02T02:18:16Z"
         },
         "iplocate": {
           "country": "KR",
@@ -44641,8 +44641,8 @@
         },
         "dbip": {
           "country": "IN",
-          "city": "Bengaluru",
-          "changed_at": "2026-08-05T01:53:18Z"
+          "city": "Mumbai",
+          "changed_at": "2026-09-02T02:18:16Z"
         },
         "iplocate": {
           "country": "IN",
@@ -44676,8 +44676,8 @@
         },
         "dbip": {
           "country": "IN",
-          "city": "Kolkata",
-          "changed_at": "2026-08-05T01:53:18Z"
+          "city": "New Delhi",
+          "changed_at": "2026-09-02T02:18:16Z"
         },
         "iplocate": {
           "country": "IN",
@@ -44710,9 +44710,9 @@
           "changed_at": "2026-08-15T00:50:25Z"
         },
         "dbip": {
-          "country": "US",
-          "city": "New York",
-          "changed_at": "2026-08-05T01:53:18Z"
+          "country": "SG",
+          "city": "Singapore",
+          "changed_at": "2026-09-02T02:18:16Z"
         },
         "iplocate": {
           "country": "SG",
@@ -44745,9 +44745,9 @@
           "changed_at": "2026-08-15T00:50:25Z"
         },
         "dbip": {
-          "country": "US",
-          "city": "New York",
-          "changed_at": "2026-08-05T01:53:18Z"
+          "country": "ID",
+          "city": "Jakarta",
+          "changed_at": "2026-09-02T02:18:16Z"
         },
         "iplocate": {
           "country": "ID",
@@ -44816,8 +44816,8 @@
         },
         "dbip": {
           "country": "AU",
-          "city": "Sydney",
-          "changed_at": "2026-08-05T01:53:18Z"
+          "city": "Melbourne",
+          "changed_at": "2026-09-02T02:18:16Z"
         },
         "iplocate": {
           "country": "AU",
@@ -44885,9 +44885,9 @@
           "changed_at": "2026-08-15T00:50:25Z"
         },
         "dbip": {
-          "country": "SE",
-          "city": "Stockholm",
-          "changed_at": "2026-08-05T01:53:18Z"
+          "country": "FI",
+          "city": "Lappeenranta",
+          "changed_at": "2026-09-02T02:18:16Z"
         },
         "iplocate": {
           "country": "FI",
@@ -44990,9 +44990,9 @@
           "changed_at": "2026-08-15T00:50:25Z"
         },
         "dbip": {
-          "country": "DE",
-          "city": "Frankfurt am Main",
-          "changed_at": "2026-08-05T01:53:18Z"
+          "country": "BE",
+          "city": "Brussels",
+          "changed_at": "2026-09-02T02:18:16Z"
         },
         "iplocate": {
           "country": "BE",
@@ -45061,8 +45061,8 @@
         },
         "dbip": {
           "country": "DE",
-          "city": "Frankfurt am Main (Innenstadt I)",
-          "changed_at": "2026-08-05T01:53:18Z"
+          "city": "Berlin",
+          "changed_at": "2026-09-02T02:18:16Z"
         },
         "iplocate": {
           "country": "DE",
@@ -45096,8 +45096,8 @@
         },
         "dbip": {
           "country": "IT",
-          "city": "Milan",
-          "changed_at": "2026-08-05T01:53:18Z"
+          "city": "Turin",
+          "changed_at": "2026-09-02T02:18:16Z"
         },
         "iplocate": {
           "country": "IT",
@@ -45131,8 +45131,8 @@
         },
         "dbip": {
           "country": "DE",
-          "city": "Frankfurt am Main (Innenstadt I)",
-          "changed_at": "2026-08-05T01:53:18Z"
+          "city": "Frankfurt am Main",
+          "changed_at": "2026-09-02T02:18:16Z"
         },
         "iplocate": {
           "country": "DE",
@@ -45166,8 +45166,8 @@
         },
         "dbip": {
           "country": "NL",
-          "city": "Amsterdam (Amsterdam-Zuidoost)",
-          "changed_at": "2026-08-05T01:53:18Z"
+          "city": "Groningen",
+          "changed_at": "2026-09-02T02:18:16Z"
         },
         "iplocate": {
           "country": "NL",
@@ -45305,9 +45305,9 @@
           "changed_at": "2026-08-15T00:50:25Z"
         },
         "dbip": {
-          "country": "NL",
-          "city": "Amsterdam",
-          "changed_at": "2026-08-05T01:53:18Z"
+          "country": "QA",
+          "city": "Doha",
+          "changed_at": "2026-09-02T02:18:16Z"
         },
         "iplocate": {
           "country": "QA",
@@ -45340,9 +45340,9 @@
           "changed_at": "2026-08-15T00:50:25Z"
         },
         "dbip": {
-          "country": "FR",
-          "city": "Paris",
-          "changed_at": "2026-08-05T01:53:18Z"
+          "country": "SA",
+          "city": "Dammam",
+          "changed_at": "2026-09-02T02:18:16Z"
         },
         "iplocate": {
           "country": "SA",
@@ -45375,9 +45375,9 @@
           "changed_at": "2026-08-15T00:50:25Z"
         },
         "dbip": {
-          "country": "FR",
-          "city": "Paris",
-          "changed_at": "2026-08-05T01:53:18Z"
+          "country": "IL",
+          "city": "Tel Aviv",
+          "changed_at": "2026-09-02T02:18:16Z"
         },
         "iplocate": {
           "country": "IL",
@@ -45515,9 +45515,9 @@
           "changed_at": "2026-08-15T00:50:25Z"
         },
         "dbip": {
-          "country": "US",
-          "city": "Sterling",
-          "changed_at": "2026-08-05T01:53:18Z"
+          "country": "BR",
+          "city": "S\u00e3o Paulo",
+          "changed_at": "2026-09-02T02:18:16Z"
         },
         "iplocate": {
           "country": "BR",
@@ -45550,9 +45550,9 @@
           "changed_at": "2026-08-15T00:50:25Z"
         },
         "dbip": {
-          "country": "US",
-          "city": "Los Angeles",
-          "changed_at": "2026-08-05T01:53:18Z"
+          "country": "CL",
+          "city": "Santiago",
+          "changed_at": "2026-09-02T02:18:16Z"
         },
         "iplocate": {
           "country": "CL",
@@ -45586,8 +45586,8 @@
         },
         "dbip": {
           "country": "US",
-          "city": "Dallas",
-          "changed_at": "2026-08-05T01:53:18Z"
+          "city": "Tulsa",
+          "changed_at": "2026-09-02T02:18:16Z"
         },
         "iplocate": {
           "country": "US",
@@ -45621,8 +45621,8 @@
         },
         "dbip": {
           "country": "US",
-          "city": "Sterling",
-          "changed_at": "2026-08-05T01:53:18Z"
+          "city": "North Charleston",
+          "changed_at": "2026-09-02T02:18:16Z"
         },
         "iplocate": {
           "country": "US",
@@ -45656,8 +45656,8 @@
         },
         "dbip": {
           "country": "US",
-          "city": "Sterling",
-          "changed_at": "2026-08-05T01:53:18Z"
+          "city": "Washington D.C.",
+          "changed_at": "2026-09-02T02:18:16Z"
         },
         "iplocate": {
           "country": "US",
@@ -45691,8 +45691,8 @@
         },
         "dbip": {
           "country": "US",
-          "city": "Sterling",
-          "changed_at": "2026-08-05T01:53:18Z"
+          "city": "Columbus",
+          "changed_at": "2026-09-02T02:18:16Z"
         },
         "iplocate": {
           "country": "US",
@@ -45726,8 +45726,8 @@
         },
         "dbip": {
           "country": "US",
-          "city": "Atlanta",
-          "changed_at": "2026-08-05T01:53:18Z"
+          "city": "Huntsville",
+          "changed_at": "2026-09-02T02:18:16Z"
         },
         "iplocate": {
           "country": "US",
@@ -45796,8 +45796,8 @@
         },
         "dbip": {
           "country": "US",
-          "city": "Portland",
-          "changed_at": "2026-08-05T01:53:18Z"
+          "city": "The Dalles",
+          "changed_at": "2026-09-02T02:18:16Z"
         },
         "iplocate": {
           "country": "US",
@@ -45866,8 +45866,8 @@
         },
         "dbip": {
           "country": "US",
-          "city": "Los Angeles",
-          "changed_at": "2026-08-05T01:53:18Z"
+          "city": "Salt Lake City",
+          "changed_at": "2026-09-02T02:18:16Z"
         },
         "iplocate": {
           "country": "US",
@@ -45901,8 +45901,8 @@
         },
         "dbip": {
           "country": "US",
-          "city": "Los Angeles",
-          "changed_at": "2026-08-05T01:53:18Z"
+          "city": "Las Vegas",
+          "changed_at": "2026-09-02T02:18:16Z"
         },
         "iplocate": {
           "country": "US",
@@ -45970,9 +45970,9 @@
           "changed_at": "2026-08-15T00:50:25Z"
         },
         "dbip": {
-          "country": "US",
-          "city": "Palo Alto",
-          "changed_at": "2026-08-05T01:53:18Z"
+          "country": "TH",
+          "city": "Bangkok",
+          "changed_at": "2026-09-02T02:18:16Z"
         },
         "iplocate": {
           "country": "TH",
