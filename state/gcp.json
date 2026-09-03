@@ -926,7 +926,7 @@
         "35.242.45.0/24",
         "35.243.56.0/21"
       ],
-      "country_pct": 93.33333333333333,
+      "country_pct": 96.0,
       "city_pct": 93.33333333333333
     },
     "Paris, FR": {
@@ -26360,9 +26360,9 @@
           "changed_at": "2026-08-29T05:03:53Z"
         },
         "ipinfo": {
-          "country": "US",
+          "country": "JP",
           "city": "",
-          "changed_at": "2026-08-29T05:03:53Z"
+          "changed_at": "2026-09-03T02:25:23Z"
         },
         "ip2location": {
           "country": "JP",
@@ -28670,9 +28670,9 @@
           "changed_at": "2026-08-29T05:03:53Z"
         },
         "ipinfo": {
-          "country": "US",
+          "country": "JP",
           "city": "",
-          "changed_at": "2026-08-29T05:03:53Z"
+          "changed_at": "2026-09-03T02:25:23Z"
         },
         "ip2location": {
           "country": "JP",
