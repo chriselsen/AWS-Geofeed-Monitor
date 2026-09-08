@@ -405,7 +405,7 @@
         "35.242.16.0/23",
         "8.236.144.0/20"
       ],
-      "country_pct": 97.07317073170731,
+      "country_pct": 97.5609756097561,
       "city_pct": 66.39344262295081
     },
     "Heringsdorf, DE": {
@@ -1369,7 +1369,7 @@
         "35.243.64.0/18",
         "8.237.0.0/18"
       ],
-      "country_pct": 96.0,
+      "country_pct": 96.66666666666667,
       "city_pct": 65.1685393258427
     },
     "Toronto, CA": {
@@ -5232,9 +5232,9 @@
           "changed_at": "2026-09-07T02:14:13Z"
         },
         "ipinfo": {
-          "country": "US",
+          "country": "NL",
           "city": "",
-          "changed_at": "2026-09-07T02:14:13Z"
+          "changed_at": "2026-09-08T02:26:33Z"
         },
         "ip2location": {
           "country": "US",
@@ -5302,9 +5302,9 @@
           "changed_at": "2026-09-07T02:14:13Z"
         },
         "ipinfo": {
-          "country": "US",
+          "country": "JP",
           "city": "",
-          "changed_at": "2026-09-07T02:14:13Z"
+          "changed_at": "2026-09-08T02:26:33Z"
         },
         "ip2location": {
           "country": "US",
